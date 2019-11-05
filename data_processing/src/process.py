@@ -129,7 +129,12 @@ def process_dict_to_tensor(d):
     for e in d:
         line = []
         for k in e.keys():
-            line.append(e[k])
+            if 'country' in k:
+                country_vec = np.zeros(len(countries)).tolist()
+                country_vec[e[k]] = 1
+                line = country_vec
+            else:
+                line.append(e[k])
         data_arr.append(line)
 
     return (np.array(data_arr), country_map)
@@ -169,6 +174,8 @@ if __name__ == '__main__':
         file.write(''.join([str(e) + ',' for e in events[0].keys()]))
 
     (data_arr, country_map) = process_dict_to_tensor(events)
+
+    print(data_arr.shape)
 
     np.save(os.path.join(processed_dir, 'data_arr'), data_arr)
 
