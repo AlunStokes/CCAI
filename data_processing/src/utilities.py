@@ -62,41 +62,29 @@ def has_hole(l, null_char=0):
 
 def fill_left_end(l, null_char=0):
     l = l.copy()
-    num_1 = null_char
-    num_1_index = 0
-    num_2 = null_char
-    i = 0
-    while i < len(l):
-        if l[i] != null_char:
-            num_1 = l[i]
-            num_1_index = i
-            num_2 = l[i + 1]
+    index = 0
+    while index < len(l):
+        if l[index] != null_char:
+            max_index = index
             break
+        index += 1
+    i = 0
+    while i < max_index:
+        l[i] = l[max_index]
         i += 1
-    slope = num_2 - num_1
-    i = num_1_index - 1
-    while i >= 0:
-        l[i] = num_1 + slope * (i - num_1_index)
-        i -= 1
     return l
 
 def fill_right_end(l, null_char=0):
     l = l.copy()
-    num_1 = null_char
-    num_1_index = 0
-    num_2 = null_char
-    i = 0
-    while i < len(l):
-        if l[i] != null_char:
-            num_1 = l[i]
-            num_1_index = i
-            num_2 = l[i + 1]
+    index = len(l) - 1
+    while index > 0:
+        if l[index] != null_char:
+            min_index = index + 1
             break
-        i += 1
-    slope = num_2 - num_1
-    i = num_1_index - 1
+        index -= 1
+    i = min_index
     while i < len(l):
-        l[i] = num_1 + slope * (i - num_1_index)
+        l[i] = l[min_index - 1]
         i += 1
     return l
 
