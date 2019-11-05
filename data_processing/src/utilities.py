@@ -1,8 +1,3 @@
-import csv
-import matplotlib.pyplot as plt
-import json
-import os
-
 def fill_hole(l, null_char=0):
     l = l.copy()
     num_1 = null_char
@@ -135,28 +130,3 @@ def lin_interp(l, null_char=0):
             l = fill_right_end(l)
 
     return l
-
-
-if __name__ == '__main__':
-
-    if not os.path.exists('processed'):
-        os.makedirs('processed')
-
-    with open('raw/gini.csv', 'r') as csv_file:
-        csv_reader = csv.reader(csv_file, delimiter=',')
-        line_count = 0
-        countries = {}
-        for row in csv_reader:
-            if line_count == 0:
-                pass
-            else:
-                countries[row[0]] = {'gini': lin_interp([float(n) / 100 if n != '' else 0 for n in row[1:-1]] if len(row[1:-1]) == 12 else [float(n) / 100 if n != '' else 0 for n in row[1:-1]] + [0])}
-            line_count += 1
-
-    lines = [['Country', '2008', '2009', '2010', '2011', '2012', '2013', '2014', '2015', '2016', '2017', '2018', '2019', ]]
-    for c, k in zip(countries, countries.keys()):
-        lines.append([c] + countries[k]['gini'])
-    with open('processed/gini.csv', 'w') as f:
-        writer = csv.writer(f)
-        writer.writerows(lines)
-    f.close()
