@@ -1,0 +1,192 @@
+Country,long,lat
+Afghanistan,33.0,65.0
+Angola,-12.3,18.3
+Albania,41.0,20.0
+United Arab Emirates,24.0,54.0
+Argentina,-34.0,-64.0
+Australia,-27.0,133.0
+Austria,47.2,13.2
+Azerbaijan,40.3,47.3
+Burundi,-3.3,30.0
+Belgium,50.5,4.0
+Benin,9.3,2.15
+Burkina Faso,13.0,-2.0
+Bangladesh,24.0,90.0
+Bulgaria,43.0,25.0
+Bahamas,25.0343,-77.3963
+Bosnia and Herzegovina,44.0,18.0
+Belize,17.15,-88.45
+Bolivia,-17.0,-65.0
+Brazil,-10.0,-55.0
+Barbados,13.1939,-59.5432
+Brunei Darussalam,4.5353,114.7277
+Bhutan,27.3,90.3
+Botswana,-24.45,25.57
+Central African Republic,4.23,18.35
+Canada,45.27,-75.42
+Switzerland,46.57,7.28
+Chile,-33.24,-70.4
+China,39.55,116.2
+Côte d'Ivoire,6.49,-5.17
+Cameroon,3.5,11.35
+"Congo, Dem. Rep.",-4.09,15.12
+Dem. Rep. Congo,-4.2,15.15
+Ukraine,50.3,30.28
+Colombia,4.34,-74.0
+Comoros,-11.6455,43.3333
+Cabo Verde,16.5388,-23.0418
+Costa Rica,9.55,-84.02
+Cuba,23.08,-82.22
+Cayman Islands,19.3133,-81.2546
+Cyprus,35.1,33.25
+Czech Republic,50.05,14.22
+Germany,53.2,13.25
+Djibouti,11.08,42.2
+Dominica,15.2,-61.24
+Dominican Republic,18.3,-69.59
+Algeria,36.42,3.08
+Ecuador,-0.15,-78.35
+Egypt,30.01,31.14
+Eritrea,15.19,38.55
+Spain,40.25,-3.45
+Ethiopia,9.02,38.42
+Finland,60.15,25.03
+Fiji,-18.06,178.3
+France,48.5,2.2
+"Micronesia, Fed. Sts.",6.55,158.09
+Gabon,0.25,9.26
+United Kingdom,51.36,-0.05
+Georgia,41.31,44.5
+Ghana,5.35,-0.06
+Guinea,9.29,-13.49
+Gambia,13.28,-16.4
+Guinea-Bissau,11.45,-15.45
+Greece,37.58,23.46
+Grenada,12.1165,-61.679
+Greenland,64.1,-51.35
+Guatemala,14.4,-90.22
+Guam,13.4443,144.7937
+Guyana,6.5,-58.12
+"Hong Kong, China",22.3193,114.1694
+Honduras,14.05,-87.14
+Croatia,45.5,15.58
+Haiti,18.4,-72.2
+Hungary,47.29,19.05
+Indonesia,-6.09,106.49
+India,28.37,77.13
+Ireland,53.21,-6.15
+Iran,32.4279,53.688
+Iraq,33.2,44.3
+Iceland,64.1,-21.57
+Israel,31.47,35.12
+Italy,41.54,12.29
+Jamaica,18.0,-76.5
+Jordan,31.57,35.52
+Japan,36.2048,138.2529
+Kazakhstan,51.1,71.3
+Kenya,-1.17,36.48
+Kyrgyz Republic,41.2044,74.7661
+Cambodia,11.33,104.55
+Kiribati,1.3,173.0
+St. Kitts and Nevis,17.17,-62.43
+Korea,37.31,126.58
+Lao PDR,17.58,102.36
+Lebanon,33.53,35.31
+Liberia,6.18,-10.47
+Libya,32.49,13.07
+St. Lucia,14.02,-60.58
+Sri Lanka,7.7831,80.7718
+Lesotho,-29.18,27.3
+Lithuania,54.38,25.19
+Latvia,56.53,24.08
+"Macao, China",22.12,113.33
+St. Martin (French part),18.0708,-63.0501
+Morocco,31.7917,-7.0926
+Moldova,47.02,28.5
+Madagascar,-18.7669,46.8691
+Maldives,4.0,73.28
+Mexico,19.2,-99.1
+Marshall Islands,7.1315,171.1845
+Macedonia,42.01,21.26
+Mali,12.34,-7.55
+Myanmar,16.45,96.2
+Montenegro,42.7087,19.3744
+Mongolia,26.8625,103.8467
+Northern Mariana Islands,15.12,145.45
+Mozambique,-25.58,32.32
+Mauritania,-20.1,57.3
+Mauritius,-20.3484,57.5522
+Malawi,-14.0,33.48
+Malaysia,3.09,101.41
+Namibia,-22.35,17.04
+New Caledonia,-22.17,166.3
+Niger,13.27,2.06
+Nigeria,9.05,7.32
+Nicaragua,12.06,-86.2
+Norway,59.55,10.45
+Nepal,27.45,85.2
+New Zealand,-41.19,174.46
+Oman,22.37,58.36
+Pakistan,33.4,73.1
+Panama,9.0,-79.25
+Peru,-12.0,-77.0
+Philippines,14.4,121.03
+Palau,7.2,134.28
+Papua New Guinea,-9.24,147.08
+Poland,52.13,21.0
+Puerto Rico,18.28,-66.07
+Dem. People's Rep. Korea,39.09,125.3
+Portugal,38.24,-9.1
+Paraguay,-25.1,-57.3
+West Bank and Gaza,31.4167,34.3333
+Palestine,31.9522,35.2332
+French Polynesia,-17.32,-149.34
+Romania,44.27,26.1
+Russia,55.45,26.1
+Rwanda,-1.59,30.04
+Saudi Arabia,24.41,46.42
+Sudan,15.31,32.35
+Senegal,14.34,-17.29
+Solomon Islands,-9.27,159.57
+Sierra Leone,8.3,13.17
+El Salvador,13.4,-89.1
+Somalia,2.02,45.25
+Serbia,44.0165,21.0059
+South Sudan,6.877,31.307
+Suriname,5.5,-55.1
+Slovakia,48.1,17.07
+Slovenia,46.04,14.33
+Sweden,59.2,18.03
+Eswatini,-26.5225,31.4659
+Sint Maarten (Dutch part),18.0425,-63.0548
+Seychelles,-2.6796,55.492
+Syria,33.3,36.18
+Turks and Caicos Islands,21.694,-71.7979
+Chad,12.1,14.59
+Togo,6.09,1.2
+Thailand,13.45,100.35
+Tajikistan,38.33,68.48
+Timor-Leste,-8.8742,125.7275
+Tonga,-21.1,-174.0
+Trinidad and Tobago,10.6918,61.2225
+Tunisia,36.5,10.11
+Turkey,39.57,32.54
+Tuvalu,-8.31,179.13
+"Taiwan, China",23.6978,120.9605
+Tanzania,-6.08,35.45
+Uganda,0.2,32.3
+Uruguay,-34.5,56.11
+United States,39.91,-77.02
+Uzbekistan,41.2,69.1
+St. Vincent and the Grenadines,13.1,61.1
+Venezuela,10.3,-66.55
+British Virgin Islands,18.27,-64.37
+Virgin Islands,18.21,-64.56
+Vietnam,21.05,105.55
+Vanuatu,-17.45,168.18
+Samoa,-13.5,-171.5
+Kosovo,42.6026,20.903
+Yemen,15.5527,48.5164
+South Africa,-25.44,28.12
+Zambia,-15.28,28.16
+Zimbabwe,-17.43,21.02

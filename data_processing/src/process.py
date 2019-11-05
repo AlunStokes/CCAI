@@ -3,6 +3,7 @@ import matplotlib.pyplot as plt
 import json
 import os
 from utilities import lin_interp
+import json
 
 def combine_dict(base_dict, new_prop, prop_name):
     countries = base_dict.keys()
@@ -43,7 +44,6 @@ def read_csv_longlat(input_path, output_dir):
                 pass
             else:
                 countries[row[0]] = {name: [float(n) for n in row[1:3]]}
-                print(row)
             line_count += 1
 
     lines = [['Country', 'long', 'lat',]]
@@ -54,6 +54,42 @@ def read_csv_longlat(input_path, output_dir):
         writer.writerows(lines)
     f.close()
     return countries
+
+def read_csv_events(input_path):
+    name = input_path.split('/')[-1].split('.')[0]
+    with open(os.path.join(input_path), 'r') as csv_file:
+        csv_reader = csv.reader(csv_file, delimiter=',')
+        line_count = 0
+        events = []
+        for row in csv_reader:
+            if line_count < 2:
+                pass
+            else:
+                data = {}
+                data['country'] = row[1]
+                data['year'] = int(row[2])
+                data['displaced'] = int(row[7]) if row[7] != '' else 0
+                data['displaced'] = data['displaced'] + (int(row[8]) if row[8] != '' else 0)
+                events.append(data)
+            line_count += 1
+    return events
+
+def add_country_data_to_events(events, countries):
+    i = 0
+    while i < len(events):
+        try:
+            countries[events[i]['country']]
+        except KeyError:
+            i += 1
+            continue
+        for key in countries[events[i]['country']].keys():
+            if 'longlat' in key:
+                events[i]['longitude'] = countries[events[i]['country']][key][1]
+                events[i]['latitude'] = countries[events[i]['country']][key][0]
+            else:
+                events[i][key] = countries[events[i]['country']][key][events[i]['year'] - 2008]
+        i += 1
+    return events
 
 if __name__ == '__main__':
 
@@ -68,7 +104,7 @@ if __name__ == '__main__':
     raw_file_names = os.listdir(raw_dir)
     for raw_file_name in raw_file_names:
         if 'events' in raw_file_name:
-            pass
+            events = read_csv_events(os.path.join(raw_dir, raw_file_name))
         elif 'longlat' in raw_file_name:
             name = raw_file_name.split('.')[0]
             if countries == 0:
@@ -81,5 +117,7 @@ if __name__ == '__main__':
                 countries = read_csv_12_year(os.path.join(raw_dir, raw_file_name), processed_dir)
             else:
                 countries = combine_dict(countries, read_csv_12_year(os.path.join(raw_dir, raw_file_name), processed_dir), name)
-    for key in countries['Canada'].keys():
-        print(f"{key}: {countries['Canada'][key]}")
+    events = add_country_data_to_events(events, countries)
+
+    with open(os.path.join(processed_dir, 'dataframe.json'), 'w') as json_file:
+        json.dump(events, json_file)
