@@ -1,4 +1,6 @@
 def fill_hole(l, null_char=0):
+    if not has_hole(l):
+        return l
     l = l.copy()
     num_1 = null_char
     num_1_index = 0
@@ -33,6 +35,7 @@ def fill_hole(l, null_char=0):
     return l
 
 def has_hole(l, null_char=0):
+    l = l.copy()
     i = 0
     new_start = 0
     new_end = 0

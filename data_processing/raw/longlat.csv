@@ -1,4 +1,4 @@
-,Logitude (N),Latitude (E)
+Country,Logitude (N),Latitude (E)
 Afghanistan,33,65
 Angola,-12.3,18.3
 Albania,41,20
@@ -18,6 +18,7 @@ Bosnia and Herzegovina,44,18
 Belize,17.15,-88.45
 Bolivia,-17,-65
 Brazil,-10,-55
+Barbados,13.1939,-59.5432
 Brunei Darussalam,4.5353,114.7277
 Bhutan,27.3,90.3
 Botswana,-24.45,25.57
