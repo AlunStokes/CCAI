@@ -1,13 +1,25 @@
 import csv
 import matplotlib.pyplot as plt
+import numpy as np
 import json
 import os
 from utilities import lin_interp
 import json
 
+def has_non_empty(l, empty_char=''):
+    for i in l:
+        if i != empty_char:
+            return True
+    return False
+
 def combine_dict(base_dict, new_prop, prop_name):
     countries = base_dict.keys()
     for country in countries:
+        try:
+            base_dict[country]
+            new_prop[country]
+        except KeyError:
+            continue
         base_dict[country][prop_name] = new_prop[country][prop_name]
     return base_dict
 
@@ -21,6 +33,8 @@ def read_csv_12_year(input_path, output_dir):
             if line_count == 0:
                 pass
             else:
+                if not has_non_empty(row[1:]):
+                    continue
                 countries[row[0]] = {name: lin_interp([float(n.replace(',', '')) if n != '' else 0 for n in row[1:-1]] if len(row[1:-1]) == 12 else [float(n.replace(',', '')) if n != '' else 0 for n in row[1:-1]] + [0])}
             line_count += 1
 
@@ -75,21 +89,50 @@ def read_csv_events(input_path):
     return events
 
 def add_country_data_to_events(events, countries):
+    new_events = []
     i = 0
+    j = 0
     while i < len(events):
         try:
             countries[events[i]['country']]
         except KeyError:
             i += 1
             continue
-        for key in countries[events[i]['country']].keys():
-            if 'longlat' in key:
-                events[i]['longitude'] = countries[events[i]['country']][key][1]
-                events[i]['latitude'] = countries[events[i]['country']][key][0]
-            else:
-                events[i][key] = countries[events[i]['country']][key][events[i]['year'] - 2008]
+        if not len(countries[events[i]['country']].keys()) < 6:
+            new_events.append(events[i])
+            for key in countries[events[i]['country']].keys():
+                if 'longlat' in key:
+                    new_events[j]['longitude'] = countries[events[i]['country']][key][1]
+                    new_events[j]['latitude'] = countries[events[i]['country']][key][0]
+                else:
+                    new_events[j][key] = countries[events[i]['country']][key][events[i]['year'] - 2008]
+            j += 1
         i += 1
-    return events
+    return new_events
+
+def process_dict_to_tensor(d):
+    countries = []
+    for e in d:
+        if e['country'] not in countries:
+            countries.append(e['country'])
+
+    country_map = {}
+    for c in countries:
+        country_map[c] = countries.index(c)
+
+    i = 0
+    while i < len(d):
+        d[i]['country'] = countries.index(d[i]['country'])
+        i += 1
+
+    data_arr = []
+    for e in d:
+        line = []
+        for k in e.keys():
+            line.append(e[k])
+        data_arr.append(line)
+
+    return (np.array(data_arr), country_map)
 
 if __name__ == '__main__':
 
@@ -121,3 +164,13 @@ if __name__ == '__main__':
 
     with open(os.path.join(processed_dir, 'dataframe.json'), 'w') as json_file:
         json.dump(events, json_file)
+
+    with open(os.path.join(processed_dir, 'dataframe_key.txt'), 'w') as file:
+        file.write(''.join([str(e) + ',' for e in events[0].keys()]))
+
+    (data_arr, country_map) = process_dict_to_tensor(events)
+
+    np.save(os.path.join(processed_dir, 'data_arr'), data_arr)
+
+    with open(os.path.join(processed_dir, 'country_map.json'), 'w') as json_file:
+        json.dump(country_map, json_file)
