@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import json
 import os
-from utilities import lin_interp
+from utilities import lin_interp, process_metrics
 import json
 
 def has_non_empty(l, empty_char=''):
@@ -38,7 +38,7 @@ def read_csv_12_year(input_path, output_dir):
                 countries[row[0]] = {name: lin_interp([float(n.replace(',', '')) if n != '' else 0 for n in row[1:-1]] if len(row[1:-1]) == 12 else [float(n.replace(',', '')) if n != '' else 0 for n in row[1:-1]] + [0])}
             line_count += 1
 
-    lines = [['Country', '2008', '2009', '2010', '2011', '2012', '2013', '2014', '2015', '2016', '2017', '2018', '2019', ]]
+    lines = [['country', '2008', '2009', '2010', '2011', '2012', '2013', '2014', '2015', '2016', '2017', '2018', '2019', ]]
     for c, k in zip(countries, countries.keys()):
         lines.append([c] + countries[k][name])
     with open(os.path.join(output_dir, name + ".csv"), 'w') as f:
@@ -60,7 +60,7 @@ def read_csv_longlat(input_path, output_dir):
                 countries[row[0]] = {name: [float(n) for n in row[1:3]]}
             line_count += 1
 
-    lines = [['Country', 'long', 'lat',]]
+    lines = [['country', 'long', 'lat',]]
     for c, k in zip(countries, countries.keys()):
         lines.append([c] + countries[k][name])
     with open(os.path.join(output_dir, name + ".csv"), 'w') as f:
@@ -69,8 +69,9 @@ def read_csv_longlat(input_path, output_dir):
     f.close()
     return countries
 
-def read_csv_events(input_path):
+def read_csv_events(input_path, output_dir):
     name = input_path.split('/')[-1].split('.')[0]
+    scales = []
     with open(os.path.join(input_path), 'r') as csv_file:
         csv_reader = csv.reader(csv_file, delimiter=',')
         line_count = 0
@@ -79,14 +80,54 @@ def read_csv_events(input_path):
             if line_count < 2:
                 pass
             else:
-                data = {}
-                data['country'] = row[1]
-                data['year'] = int(row[2])
-                data['displaced'] = int(row[7]) if row[7] != '' else 0
-                data['displaced'] = data['displaced'] + (int(row[8]) if row[8] != '' else 0)
-                events.append(data)
+                if row[8] == '' or row[9] == '':
+                    continue
+                if '/' in row[8]:
+                    data1 = {}
+                    data1['country'] = row[1]
+                    data1['year'] = int(row[2])
+                    data1['displaced'] = int(row[7]) if row[7] != '' else 0
+                    data1['metric'] = row[8].replace(' ', '').split('/')[1]
+                    data1['value'] = float(row[9].replace(',', '').split('/')[0])
+
+                    data2 = {}
+                    data2['country'] = row[1]
+                    data2['year'] = int(row[2])
+                    data2['displaced'] = int(row[7]) if row[7] != '' else 0
+                    data2['metric'] = row[8].replace(' ', '').split('/')[1]
+                    data2['value'] = float(row[9].replace(',', '').split('/')[1])
+
+                    events.append(data1)
+                    events.append(data2)
+
+
+                    if not row[8] in scales:
+                        scales.append(row[8])
+                else:
+                    data = {}
+                    data['country'] = row[1]
+                    data['year'] = int(row[2])
+                    data['displaced'] = int(row[7]) if row[7] != '' else 0
+                    data['metric'] = row[8].replace(' ', '')
+                    data['value'] = float(row[9].replace(',', ''))
+
+                    events.append(data)
+
+                    if not row[8] in scales:
+                        scales.append(row[8])
             line_count += 1
-    return events
+
+
+    lines = [['country', 'year', 'displaced','metric','value',]]
+    for c in events:
+        lines.append([c[k] for k in c.keys()])
+    with open(os.path.join(output_dir, name + ".csv"), 'w') as f:
+        writer = csv.writer(f)
+        writer.writerows(lines)
+    f.close()
+
+    metrics = process_metrics(scales)
+    return (events, metrics)
 
 def add_country_data_to_events(events, countries):
     new_events = []
@@ -110,7 +151,7 @@ def add_country_data_to_events(events, countries):
         i += 1
     return new_events
 
-def process_dict_to_tensor(d):
+def process_dict_to_tensor(d, metrics):
     countries = []
     for e in d:
         if e['country'] not in countries:
@@ -120,9 +161,14 @@ def process_dict_to_tensor(d):
     for c in countries:
         country_map[c] = countries.index(c)
 
+    metric_map = {}
+    for c in d:
+        metric_map[c['metric']] = metrics.index(c['metric'])
+
     i = 0
     while i < len(d):
-        d[i]['country'] = countries.index(d[i]['country'])
+        d[i]['country'] = country_map[d[i]['country']]
+        d[i]['metric'] = metric_map[d[i]['metric']]
         i += 1
 
     data_arr = []
@@ -137,7 +183,7 @@ def process_dict_to_tensor(d):
                 line.append(e[k])
         data_arr.append(line)
 
-    return (np.array(data_arr), country_map)
+    return (np.array(data_arr), country_map, metric_map)
 
 if __name__ == '__main__':
 
@@ -151,8 +197,10 @@ if __name__ == '__main__':
 
     raw_file_names = os.listdir(raw_dir)
     for raw_file_name in raw_file_names:
+        if raw_file_name[0] == '.':
+            continue
         if 'events' in raw_file_name:
-            events = read_csv_events(os.path.join(raw_dir, raw_file_name))
+            events, metrics = read_csv_events(os.path.join(raw_dir, raw_file_name), processed_dir)
         elif 'longlat' in raw_file_name:
             name = raw_file_name.split('.')[0]
             if countries == 0:
@@ -173,11 +221,12 @@ if __name__ == '__main__':
     with open(os.path.join(processed_dir, 'dataframe_key.txt'), 'w') as file:
         file.write(''.join([str(e) + ',' for e in events[0].keys()]))
 
-    (data_arr, country_map) = process_dict_to_tensor(events)
-
-    print(data_arr.shape)
+    (data_arr, country_map, metric_map) = process_dict_to_tensor(events, metrics)
 
     np.save(os.path.join(processed_dir, 'data_arr'), data_arr)
 
     with open(os.path.join(processed_dir, 'country_map.json'), 'w') as json_file:
         json.dump(country_map, json_file)
+
+    with open(os.path.join(processed_dir, 'metric_map.json'), 'w') as json_file:
+        json.dump(metric_map, json_file)

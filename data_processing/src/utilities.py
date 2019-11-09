@@ -121,3 +121,28 @@ def lin_interp(l, null_char=0):
             l = fill_right_end(l)
 
     return l
+
+
+def process_metrics(metrics):
+
+    p_metrics = []
+
+    for m in metrics:
+        o_m = m
+        m = m.lower()
+        m = m.replace(' ', '')
+        p_metrics.append(m)
+
+
+    metrics = []
+    for m in p_metrics:
+        if '/' in m:
+            a = m.split('/')
+            for i in a:
+                if i not in metrics:
+                    metrics.append(i)
+        else:
+            if m not in metrics:
+                metrics.append(m)
+
+    return metrics

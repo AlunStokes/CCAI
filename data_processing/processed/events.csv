@@ -1,0 +1,669 @@
+country,year,displaced,metric,value
+Afghanistan,2014,6366,depth_of_mud,20.0
+Afghanistan,2014,5775,mm_of_rain,74.0
+Afghanistan,2014,740,mm_of_rain,42.51
+Afghanistan,2015,44,moment_magnitude,7.5
+Afghanistan,2015,54642,moment_magnitude,7.5
+Afghanistan,2016,1946,moment_magnitude,6.1
+Afghanistan,2017,141,mm_of_rain,115.0
+Afghanistan,2017,59,mm_of_rain,30.0
+Afghanistan,2018,7588,moment_magnitude,6.2
+Angola,2017,3430,mm_of_rain,80.0
+Anguilla,2017,500,max_wind_speed,285.0
+Albania,2013,132,mm_of_rain,130.0
+Albania,2014,24,mm_of_rain,70.0
+Argentina,2011,0,vei,5.0
+Argentina,2013,600,vei,2.0
+Argentina,2014,6300,mm_of_rain,400.0
+Argentina,2015,48,moment_magnitude,6.0
+Argentina,2015,400,mm_of_rain,320.0
+Argentina,2016,10677,mm_of_rain,70.0
+Antigua and Barbuda,2010,0,max_wind_speed,132.0
+Antigua and Barbuda,2010,0,max_wind_speed,85.0
+Antigua and Barbuda,2017,0,max_wind_speed,64.0
+Antigua and Barbuda,2017,0,max_wind_speed,74.0
+Antigua and Barbuda,2017,1423,max_wind_speed,285.0
+Australia,2010,0,minutes_sustained,215.0
+Australia,2010,0,minutes_sustained,10.0
+Australia,2011,10000,max_wind_speed,205.0
+Australia,2013,62,max_wind_speed,275.0
+Australia,2013,9000,max_wind_speed,85.0
+Australia,2014,1000,max_wind_speed,260.0
+Australia,2015,180,minutes_sustained,140.0
+Australia,2015,180,minutes_sustained,10.0
+Australia,2015,800,max_wind_speed,230.0
+Australia,2015,400,minutes_sustained,165.0
+Australia,2015,400,minutes_sustained,10.0
+Australia,2018,40,max_wind_speed,185.0
+Belgium,2010,0,max_wind_speed,228.0
+Bangladesh,2009,842000,max_wind_speed,120.0
+Bangladesh,2009,0,max_wind_speed,95.0
+Bangladesh,2013,1100000,minutes_sustained,85.0
+Bangladesh,2013,1100000,minutes_sustained,3.0
+Bangladesh,2015,331000,mm_of_rain,85.0
+Bangladesh,2015,331000,mm_of_rain,800.0
+Bangladesh,2015,100,moment_magnitude,7.8
+Bangladesh,2016,496260,mm_of_rain,110.0
+Bangladesh,2016,496260,mm_of_rain,28.0
+Bangladesh,2017,477669,max_wind_speed,150.0
+"Bahamas, The",2011,0,max_wind_speed,195.0
+"Bahamas, The",2015,2842,max_wind_speed,250.0
+"Bahamas, The",2016,3500,max_wind_speed,270.0
+Bahamas,2017,1565,max_wind_speed,285.0
+Belize,2013,126,max_wind_speed,75.0
+Belize,2016,3500,max_wind_speed,140.0
+Brazil,2008,14293,area,23020.0
+Brazil,2008,1435,area,290.0
+Brazil,2008,190000,area,1120000.0
+Brazil,2014,19413,area,450353.0
+Brazil,2015,1000,max_wind_speed,320.0
+Brazil,2017,60347,area,266010.35
+Barbados,2010,0,max_wind_speed,155.0
+Barbados,2016,90,max_wind_speed,270.0
+Brunei,2017,94,minutes_sustained,75.0
+Brunei,2017,94,minutes_sustained,10.0
+Bhutan,2009,0,moment_magnitude,6.1
+Bhutan,2011,20000,moment_magnitude,6.9
+Botswana,2017,1950,max_wind_speed,155.0
+Canada,2008,200,area,22900.0
+Canada,2008,1830,area,3180.0
+Canada,2009,0,max_wind_speed,58.42
+Canada,2009,0,max_wind_speed,80.47
+Canada,2011,0,max_wind_speed,80.0
+Canada,2011,0,max_wind_speed,93.0
+Canada,2013,240,num_wild_fires,1851.0
+Canada,2013,120000,area,307926.0
+Canada,2014,2500,area,2.8
+Canada,2014,300,max_wind_speed,180.0
+Canada,2016,28,mm_of_rain,129.6
+Canada,2017,433,area,2750.0
+Canada,2018,1158,mm_of_rain,80.0
+Canada,2018,450,max_wind_speed,265.0
+Canada,2018,35,area,12503.83
+Canada,2018,1700,max_wind_speed,265.0
+Canada,2018,2,mm_of_rain,40.0
+Canada,2018,340,mm_of_rain,96.0
+Switzerland,2011,0,max_wind_speed,120.0
+Switzerland,2015,360,mm_of_rain,104.2
+Chile,2008,12000,area,110500.0
+Chile,2010,2000000,moment_magnitude,8.8
+Chile,2011,0,temperature,-22.0
+Chile,2011,4000,vei,5.0
+Chile,2012,300,area,88870.6
+Chile,2012,7000,moment_magnitude,7.1
+Chile,2013,2440,vei,2.0
+Chile,2014,972457,moment_magnitude,8.2
+Chile,2015,3385,vei,2.0
+Chile,2015,1000000,moment_magnitude,8.3
+Chile,2015,6600,vei,4.0
+Chile,2016,15374,moment_magnitude,7.6
+Chile,2017,1916,area,157698.57
+Chile,2017,5339,area,4670.0
+China,2008,650000,moment_magnitude,6.0
+China,2008,120000,max_wind_speed,175.0
+China,2008,16000,moment_magnitude,6.0
+China,2008,274300,max_wind_speed,155.0
+China,2008,1900,area,43960.0
+China,2008,855,moment_magnitude,6.3
+China,2008,4600,area,10600.0
+China,2008,1660000,area,366860.0
+China,2008,42100,area,24610.0
+China,2008,15000000,moment_magnitude,7.9
+China,2009,92000,minutes_sustained,185.0
+China,2009,92000,minutes_sustained,10.0
+China,2009,162757,mm_of_rain,110.0
+China,2009,162757,mm_of_rain,150.0
+China,2009,115000,minutes_sustained,185.0
+China,2009,115000,minutes_sustained,10.0
+China,2009,1620000,minutes_sustained,140.0
+China,2009,1620000,minutes_sustained,10.0
+China,2010,128000,minutes_sustained,175.0
+China,2010,128000,minutes_sustained,10.0
+China,2010,186000,minutes_sustained,220.0
+China,2010,186000,minutes_sustained,10.0
+China,2010,0,minutes_sustained,130.0
+China,2010,0,minutes_sustained,10.0
+China,2011,5000,moment_magnitude,6.9
+China,2011,300000,minutes_sustained,150.0
+China,2011,300000,minutes_sustained,10.0
+China,2011,360000,minutes_sustained,175.0
+China,2011,360000,minutes_sustained,10.0
+China,2011,0,minutes_sustained,75.0
+China,2011,0,minutes_sustained,10.0
+China,2011,0,minutes_sustained,75.0
+China,2011,0,minutes_sustained,10.0
+China,2013,694800,moment_magnitude,7.0
+China,2013,11300,moment_magnitude,5.2
+China,2013,21000,moment_magnitude,5.2
+China,2013,45000,moment_magnitude,5.3
+China,2013,17200,mm_of_rain,779.0
+China,2013,189800,minutes_sustained,195.0
+China,2013,189800,minutes_sustained,10.0
+China,2013,500000,max_wind_speed,120.0
+China,2013,513000,max_wind_speed,195.0
+China,2013,181000,max_wind_speed,118.0
+China,2013,586743,max_wind_speed,250.0
+China,2013,9000,moment_magnitue,5.6
+China,2013,226700,moment_magnitue,5.9
+China,2013,2000,moment_magnitue,5.0
+China,2014,252000,minutes_sustained,140.0
+China,2014,252000,minutes_sustained,10.0
+China,2014,289000,max_wind_speed,120.0
+China,2014,628000,max_wind_speed,200.0
+China,2014,92600,area,387775.13
+China,2014,158000,minutes_sustained,85.0
+China,2014,158000,minutes_sustained,10.0
+China,2014,21000,moment_magnitude,5.4
+China,2014,56000,moment_magnitude,5.8
+China,2014,58980,moment_magnitude,6.0
+China,2014,8200,moment_magnitude,5.9
+China,2014,13000,max_wind_speed,80.0
+China,2014,85000,moment_magnitude,6.9
+China,2014,236900,moment_magnitude,6.5
+China,2015,12000,moment_magnitude,5.2
+China,2015,1251,minutes_sustained,155.0
+China,2015,1251,minutes_sustained,10.0
+China,2015,40000,minutes_sustained,85.0
+China,2015,40000,minutes_sustained,10.0
+China,2015,562000,max_wind_speed,230.0
+China,2015,559200,mm_of_rain,240.0
+China,2015,559200,mm_of_rain,90.0
+China,2015,1100000,max_wind_speed,220.0
+China,2015,56000,minutes_sustained,95.0
+China,2015,56000,minutes_sustained,10.0
+China,2015,9000,moment_magnitude,6.4
+China,2015,2536,moment_magnitude,5.5
+China,2015,6000,moment_magnitude,4.6
+China,2016,658306,minutes_sustained,155.0
+China,2016,658306,minutes_sustained,10.0
+China,2016,30000,moment_magnitude,6.4
+China,2016,78000,temperature,-41.0
+China,2016,5100,moment_magnitude,6.0
+China,2016,1990000,mm_of_rain,570.0
+China,2016,6800,moment_magnitude,4.8
+China,2016,90,moment_magnitude,6.4
+China,2016,477000,area,197079.53
+China,2017,60300,area,283444.21
+China,2017,410841,minutes_sustained,140.0
+China,2017,410841,minutes_sustained,10.0
+China,2017,11000,moment_magnitude,6.4
+China,2017,10000,moment_magnitude,5.0
+China,2017,14600,max_wind_speed,110.0
+China,2017,23477,moment_magnitude,6.5
+China,2017,33000,max_wind_speed,95.0
+China,2017,191000,max_wind_speed,150.0
+China,2017,44917,max_wind_speed,185.0
+China,2018,141800,minutes_sustained,75.0
+China,2018,141800,minutes_sustained,10.0
+China,2018,1,minutes_sustained,75.0
+China,2018,1,minutes_sustained,10.0
+China,2018,1000,area,109610.1
+China,2018,152600,max_wind_speed,165.0
+China,2018,517800,max_wind_speed,250.0
+China,2018,5000,temperature,-40.0
+China,2018,6600,temperature,-40.0
+China,2018,1300,temperature,-40.0
+China,2018,5000,moment_magnitude,5.9
+China,2018,12000,minutes_sustained,75.0
+China,2018,12000,minutes_sustained,10.0
+China,2018,290000,max_wind_speed,95.0
+China,2018,2100,moment_magnitude,5.8
+China,2018,33000,moment_magnitude,5.0
+Côte d'Ivoire,2013,78,mm_of_rain,98.0
+Côte d'Ivoire,2018,2017,mm_of_rain,140.0
+Cameroon,2013,10000,mm_of_rain,100.0
+Cameroon,2014,3500,mm_of_rain,180.0
+Cameroon,2015,2450,area,4726.19
+"Congo, Dem. Rep.",2008,4575,moment_magnitude,5.8
+"Congo, Dem. Rep.",2013,1000,mm_of_rain,222.0
+"Congo, Dem. Rep.",2014,3975,mm_of_rain,648.0
+"Congo, Dem. Rep.",2014,10600,mm_of_rain,938.0
+"Congo, Dem. Rep.",2015,2080,mm_of_rain,136.9
+Dem. Rep. Congo,2018,15743,area,5597.13
+Colombia,2008,10100,area,195400.0
+Colombia,2009,8500,vei,1.0
+Colombia,2014,12750,vei,4.0
+Colombia,2014,3,area,406009.0
+Colombia,2015,74,moment_magnitude,6.6
+Colombia,2016,210,minutes_sustained,270.0
+Colombia,2016,210,minutes_sustained,1.0
+Colombia,2018,370,vei,3.0
+Comoros,2014,3030,moment_magnitude,4.8
+Cabo Verde,2014,2500,vei,3.0
+Cabo Verde,2015,190,max_wind_speed,140.0
+Costa Rica,2009,2358,moment_magnitude,6.1
+Costa Rica,2013,45,mm_of_rain,175.0
+Costa Rica,2016,5500,max_wind_speed,175.0
+Cuba,2008,20000,max_wind_speed,230.0
+Cuba,2008,13000,max_wind_speed,85.0
+Cuba,2008,20000,area,35290.0
+Cuba,2008,61000,max_wind_speed,240.0
+Cuba,2016,1079214,max_wind_speed,270.0
+Cuba,2017,1738000,max_wind_speed,285.0
+Germany,2010,0,max_wind_speed,130.0
+Germany,2013,52549,area,241203.7
+Germany,2016,2000,mm_of_rain,177.8
+Djibouti,2018,9365,minutes_sustained,85.0
+Djibouti,2018,9365,minutes_sustained,3.0
+Dominica,2011,96,minutes_sustained,220.0
+Dominica,2011,96,minutes_sustained,1.0
+Dominica,2015,709,minutes_sustained,85.0
+Dominica,2015,709,minutes_sustained,1.0
+Dominica,2017,34798,max_wind_speed,260.0
+Dominican Republic,2008,0,max_wind_speed,110.0
+Dominican Republic,2010,0,minutes_sustained,155.0
+Dominican Republic,2010,0,minutes_sustained,1.0
+Dominican Republic,2011,7000,minutes_sustained,85.0
+Dominican Republic,2011,7000,minutes_sustained,1.0
+Dominican Republic,2011,5900,minutes_sustained,195.0
+Dominican Republic,2011,5900,minutes_sustained,1.0
+Dominican Republic,2016,41524,max_wind_speed,270.0
+Dominican Republic,2017,24116,max_wind_speed,285.0
+Algeria,2014,4492,moment_magnitude,5.3
+Ecuador,2008,13871,area,75830.0
+Ecuador,2010,0,vei,2.0
+Ecuador,2012,4796,area,39793.0
+Ecuador,2013,200,vei,3.0
+Ecuador,2014,18,moment_magnitude,5.1
+Ecuador,2016,10000,moment_magnitude,6.8
+Ecuador,2016,259000,moment_magnitude,7.8
+Ecuador,2018,250,vei,3.0
+Spain,2010,0,area,22049.0
+Spain,2010,0,max_wind_speed,160.0
+Spain,2011,15000,moment_magnitude,5.1
+Spain,2018,24,area,2882.25
+Ethiopia,2008,20000,area,69940.0
+Ethiopia,2013,1200,max_wind_speed,121.0
+Ethiopia,2015,3900,vei,2.0
+Ethiopia,2016,298382,mm_of_rain,640.0
+Fiji,2009,3845,minutes_sustained,110.0
+Fiji,2009,3845,minutes_sustained,10.0
+Fiji,2010,18000,minutes_sustained,185.0
+Fiji,2010,18000,minutes_sustained,10.0
+Fiji,2011,0,minutes_sustained,185.0
+Fiji,2011,0,minutes_sustained,10.0
+Fiji,2014,800,lowest_pressure,900.0
+Fiji,2016,12000,minutes_sustained,130.0
+Fiji,2016,12000,minutes_sustained,10.0
+Fiji,2016,62000,minutes_sustained,280.0
+Fiji,2016,62000,minutes_sustained,10.0
+Fiji,2017,30,moment_magnitude,6.9
+Fiji,2017,155,max_wind_speed,83.0
+Fiji,2018,2313,max_wind_speed,75.0
+Fiji,2018,10000,max_wind_speed,140.0
+France,2010,4500,max_wind_speed,228.0
+France,2011,0,max_wind_speed,212.0
+France,2014,300,minutes_sustained,75.0
+France,2014,300,minutes_sustained,10.0
+France,2017,1456,max_wind_speed,285.0
+France,2017,1500,max_wind_speed,285.0
+France,2018,208,minutes_sustained,165.0
+France,2018,208,minutes_sustained,10.0
+United Kingdom,2013,12,max_wind_speed,40.0
+United Kingdom,2013,12,max_wind_speed,140.3
+United Kingdom,2015,1000,max_wind_speed,180.0
+United Kingdom,2016,220,max_wind_speed,171.0
+Ghana,2017,700,mm_of_rain,113.0
+Greece,2014,3120,moment_magnitude,5.9
+Greece,2018,1300,max_wind_speed,105.0
+Guatemala,2010,0,minutes_sustained,175.0
+Guatemala,2010,0,minutes_sustained,1.0
+Guatemala,2010,0,vei,3.0
+Guatemala,2010,112000,minutes_sustained,75.0
+Guatemala,2010,112000,minutes_sustained,1.0
+Guam,2018,290,max_wind_speed,280.0
+Guam,2018,2143,max_wind_speed,285.0
+"Hong Kong SAR, China",2009,100000,max_wind_speed,240.0
+"Hong Kong SAR, China",2010,0,max_wind_speed,150.0
+Honduras,2009,2250,moment_magnitude,7.1
+Honduras,2010,7998,max_wind_speed,75.0
+Honduras,2016,11,max_wind_speed,140.0
+Haiti,2010,1500000,moment_magnitude,7.0
+Haiti,2010,0,max_wind_speed,155.0
+Haiti,2010,72710,max_wind_speed,130.0
+Haiti,2011,500,max_wind_speed,195.0
+Haiti,2015,1488,area,3672.0
+Haiti,2016,175509,max_wind_speed,270.0
+Haiti,2017,12539,max_wind_speed,285.0
+Haiti,2018,8618,moment_magnitude,5.9
+Indonesia,2008,10000,moment_magnitude,7.4
+Indonesia,2008,820,moment_magnitude,5.2
+Indonesia,2008,3315,moment_magnitude,7.4
+Indonesia,2008,49653,area,2180.0
+Indonesia,2008,40000,area,810.0
+Indonesia,2008,34000,area,4200.0
+Indonesia,2010,0,vei,4.0
+Indonesia,2010,360557,vei,4.0
+Indonesia,2013,83075,area,1746.0
+Indonesia,2013,53403,moment_magnitude,6.2
+Indonesia,2014,87629,vei,4.0
+Indonesia,2014,200,moment_magnitude,4.8
+Indonesia,2016,750,moment_magnitude,5.5
+Indonesia,2016,346,moment_magnitude,5.9
+Indonesia,2016,91267,moment_magnitude,6.5
+Indonesia,2017,28190,max_wind_speed,65.0
+Indonesia,2017,4222,moment_magnitude,6.5
+Indonesia,2018,660,vei,2.0
+Indonesia,2018,8890,vei,2.0
+Indonesia,2018,178,vei,4.0
+Indonesia,2018,4199,area,3938.29
+Indonesia,2018,3826,moment_magnitude,7.5
+Indonesia,2018,247900,moment_magnitude,7.5
+Indonesia,2018,445343,moment_magnitude,6.4
+India,2008,2100000,area,80590.0
+India,2008,2055925,area,350600.0
+India,2009,2300000,minutes_sustained,110.0
+India,2009,2300000,minutes_sustained,3.0
+India,2010,78000,max_wind_speed,120.0
+India,2013,56400,moment_magnitude,5.8
+India,2013,1042271,mm_of_rain,370.0
+India,2013,26000,max_wind_speed,140.0
+India,2013,1000000,max_wind_speed,260.0
+India,2013,20000,max_wind_speed,130.0
+India,2014,30000,max_wind_speed,215.0
+India,2014,9528,area,49220.0
+India,2014,639271,max_wind_speed,215.0
+India,2015,9400,area,70287.98
+India,2015,10,moment_magnitude,7.5
+India,2015,1801000,mm_of_rain,749.0
+India,2015,1200000,max_wind_speed,800.0
+India,2015,1200000,max_wind_speed,85.0
+India,2015,117500,max_wind_speed,150.0
+India,2015,34000,mm_of_rain,370.0
+India,2015,75,mm_of_rain,160.0
+India,2015,180188,mm_of_rain,944.0
+India,2015,200,area,14179.0
+India,2015,25100,moment_magnitude,7.8
+India,2016,10000,moment_magnitude,6.7
+India,2016,16757,max_wind_speed,150.0
+India,2018,200,max_wind_speed,100.0
+India,2018,249083,max_wind_speed,120.0
+India,2018,400336,max_wind_speed,150.0
+India,2018,3703,minutes_sustained,65.0
+India,2018,3703,minutes_sustained,3.0
+India,2018,31604,max_wind_speed,100.0
+"Iran, Islamic Rep.",2013,1520,moment_magnitude,6.3
+"Iran, Islamic Rep.",2013,1000,moment_magnitude,6.3
+"Iran, Islamic Rep.",2014,12000,moment_magnitude,6.2
+Iran,2017,170000,moment_magnitude,7.3
+Iran,2017,288,area,40807.87
+Iran,2017,20065,moment_magnitude,4.9
+Iran,2017,8000,moment_magnitude,5.6
+Iran,2018,327,area,340197.41
+Iran,2018,1650,moment_magnitude,6.0
+Iran,2018,46609,moment_magnitude,6.3
+Iraq,2008,600,area,3310.0
+Iraq,2017,3933,moment_magnitude,7.3
+Italy,2012,11050,moment_magnitude,4.4
+Italy,2013,1000,moment_magnitude,1.1
+Italy,2013,2737,mm_of_rain,400.0
+Italy,2016,25200,moment_magnitude,6.2
+Italy,2017,49,mm_of_rain,50.0
+Italy,2017,1000,area,27560.36
+Jamaica,2010,0,max_wind_speed,65.0
+Jamaica,2016,3500,max_wind_speed,270.0
+Japan,2009,140000,mm_of_rain,75.0
+Japan,2009,140000,mm_of_rain,326.5
+Japan,2009,453033,mm_of_rain,212.0
+Japan,2009,453033,mm_of_rain,64.0
+Japan,2011,82,mm_of_rain,93.0
+Japan,2011,82,mm_of_rain,66.5
+Japan,2011,492000,moment_magnitude,9.0
+Japan,2011,656,mm_of_rain,129.0
+Japan,2011,656,mm_of_rain,500.0
+Japan,2011,0,mm_of_rain,215.0
+Japan,2011,0,mm_of_rain,1200.0
+Japan,2013,118309,mm_of_rain,165.0
+Japan,2013,118309,mm_of_rain,353.0
+Japan,2013,69,moment_magnitude,5.8
+Japan,2013,520000,mm_of_rain,55.5
+Japan,2013,520000,mm_of_rain,150.0
+Japan,2014,14,mm_of_rain,268.5
+Japan,2014,14,mm_of_rain,180.0
+Japan,2014,570000,mm_of_rain,148.0
+Japan,2014,570000,mm_of_rain,500.0
+Japan,2014,50000,mm_of_rain,129.0
+Japan,2014,50000,mm_of_rain,275.0
+Japan,2014,87327,mm_of_rain,74.0
+Japan,2014,87327,mm_of_rain,100.0
+Japan,2015,180,mm_of_rain,177.0
+Japan,2015,180,mm_of_rain,388.5
+Japan,2015,24,mm_of_rain,150.0
+Japan,2015,24,mm_of_rain,90.0
+Japan,2015,192000,mm_of_rain,155.0
+Japan,2015,192000,mm_of_rain,683.0
+Japan,2015,245459,mm_of_rain,256.0
+Japan,2015,245459,mm_of_rain,337.0
+Japan,2015,43384,mm_of_rain,240.0
+Japan,2015,43384,mm_of_rain,740.0
+Japan,2015,137,vei,2.0
+Japan,2015,118,vei,1.0
+Japan,2015,77,vei,4.0
+Japan,2016,9,vei,5.0
+Japan,2016,4,moment_magnitude,6.3
+Japan,2018,36400,minutes_sustained,140.0
+Japan,2018,36400,minutes_sustained,10.0
+Kiribati,2015,2520,minutes_sustained,250.0
+Kiribati,2015,2520,minutes_sustained,10.0
+St. Kitts and Nevis,2017,33,max_wind_speed,285.0
+Korea,2018,15,minutes_sustained,120.0
+Korea,2018,15,minutes_sustained,10.0
+Lao PDR,2013,8000,minutes_sustained,185.0
+Lao PDR,2013,8000,minutes_sustained,1.0
+St. Lucia,2016,130,max_wind_speed,270.0
+Sri Lanka,2013,115000,minutes_sustained,85.0
+Sri Lanka,2013,115000,minutes_sustained,3.0
+Sri Lanka,2017,4113,mm_of_rain,400.0
+Sri Lanka,2018,7,mm_of_rain,223.0
+Sri Lanka,2018,15842,mm_of_rain,250.0
+Sri Lanka,2018,104,max_wind_speed,150.0
+St. Martin (French part),2017,10582,max_wind_speed,285.0
+Madagascar,2009,4012,minutes_sustained,185.0
+Madagascar,2009,4012,minutes_sustained,10.0
+Mexico,2009,75000,max_wind_speed,250.0
+Mexico,2009,100000,max_wind_speed,165.0
+Mexico,2015,90000,max_wind_speed,345.0
+Mexico,2016,6745,max_wind_speed,140.0
+Mexico,2016,276,max_wind_speed,145.0
+Mexico,2017,400,max_wind_speed,165.0
+Mexico,2018,13000,max_wind_speed,260.0
+Myanmar,2013,78000,minutes_sustained,85.0
+Myanmar,2013,78000,minutes_sustained,3.0
+Myanmar,2014,4905,minutes_sustained,140.0
+Myanmar,2014,4905,minutes_sustained,1.0
+Myanmar,2015,1616761,mm_of_rain,250.0
+Myanmar,2017,276,minutes_sustained,85.0
+Myanmar,2017,276,minutes_sustained,1.0
+Mauritania,2018,445,mm_of_rain,200.0
+Nicaragua,2009,0,max_wind_speed,250.0
+Nepal,2015,2622733,moment_magnitude,7.8
+Nepal,2016,1023,area,1300.0
+Nepal,2018,4,max_wind_speed,90.0
+Nepal,2018,4,mm_of_rain,311.9
+New Zealand,2015,40,max_wind_speed,280.0
+New Zealand,2018,81,max_wind_speed,85.0
+New Zealand,2018,8,max_wind_speed,180.0
+New Zealand,2018,35,minutes_sustained,165.0
+New Zealand,2018,35,minutes_sustained,10.0
+Pakistan,2017,628,mm_of_rain,130.0
+Pakistan,2018,805,mm_of_rain,250.0
+Panama,2016,60,mm_of_rain,101.5
+Panama,2016,573,minutes_sustained,185.0
+Panama,2016,573,minutes_sustained,1.0
+Peru,2014,421,vei,2.0
+Peru,2015,1209,temperature,-15.0
+Peru,2018,41,mm_of_rain,200.0
+Philippines,2011,0,vei,4.0
+Philippines,2011,225694,minutes_sustained,195.0
+Philippines,2011,225694,minutes_sustained,10.0
+Philippines,2011,0,minutes_sustained,75.0
+Philippines,2011,0,minutes_sustained,10.0
+Philippines,2011,227446,max_wind_speed,260.0
+Philippines,2012,187320,moment_magnitude,6.8
+Philippines,2013,64966,minutes_sustained,185.0
+Philippines,2013,64966,minutes_sustained,1.0
+Philippines,2013,4095280,minutes_sustained,315.0
+Philippines,2013,4095280,minutes_sustained,1.0
+Philippines,2013,56172,minutes_sustained,250.0
+Philippines,2013,56172,minutes_sustained,1.0
+Philippines,2014,77431,minutes_sustained,140.0
+Philippines,2014,77431,minutes_sustained,1.0
+Philippines,2018,4,moment_magnitude,6.5
+Philippines,2018,32309,minutes_sustained,250.0
+Philippines,2018,32309,minutes_sustained,1.0
+Palau,2013,1500,minutes_sustained,315.0
+Palau,2013,1500,minutes_sustained,1.0
+Papua New Guinea,2013,20,distance_of_mass_movement,150.0
+Papua New Guinea,2014,225,vei,4.0
+Papua New Guinea,2017,887,vei,2.0
+Puerto Rico,2017,186,max_wind_speed,285.0
+"Korea, Dem. Rep.",2016,107000,minutes_sustained,220.0
+"Korea, Dem. Rep.",2016,107000,minutes_sustained,1.0
+Russian Federation,2016,1400,minutes_sustained,220.0
+Russian Federation,2016,1400,minutes_sustained,1.0
+El Salvador,2009,15000,max_wind_speed,250.0
+El Salvador,2010,15508,max_wind_speed,75.0
+Sint Maarten (Dutch part),2017,12706,max_wind_speed,285.0
+Turks and Caicos Islands,2016,50,max_wind_speed,270.0
+Turks and Caicos Islands,2017,60,max_wind_speed,285.0
+Thailand,2018,6,max_wind_speed,285.0
+Tonga,2011,0,minutes_sustained,185.0
+Tonga,2011,0,minutes_sustained,10.0
+Tonga,2018,5700,minutes_sustained,205.0
+Tonga,2018,5700,minutes_sustained,10.0
+Tunisia,2013,6,moment_magnitude,6.5
+Turkey,2014,478,moment_magnitude,6.0
+"Taiwan, China",2013,3000,minutes_sustained,250.0
+"Taiwan, China",2013,3000,minutes_sustained,1.0
+"Taiwan, China",2014,5388,minutes_sustained,165.0
+"Taiwan, China",2014,5388,minutes_sustained,1.0
+"Taiwan, China",2015,568,minutes_sustained,220.0
+"Taiwan, China",2015,568,minutes_sustained,1.0
+"Taiwan, China",2015,2562,minutes_sustained,220.0
+"Taiwan, China",2015,2562,minutes_sustained,1.0
+"Taiwan, China",2015,12211,minutes_sustained,240.0
+"Taiwan, China",2015,12211,minutes_sustained,1.0
+"Taiwan, China",2015,11800,minutes_sustained,285.0
+"Taiwan, China",2015,11800,minutes_sustained,1.0
+"Taiwan, China",2016,751,moment_magnitude,6.4
+"Taiwan, China",2016,2200,mm_of_water,280.0
+"Taiwan, China",2016,15429,minutes_sustained,215.0
+"Taiwan, China",2016,15429,minutes_sustained,1.0
+"Taiwan, China",2016,6488,minutes_sustained,315.0
+"Taiwan, China",2016,6488,minutes_sustained,1.0
+"Taiwan, China",2016,17396,minutes_sustained,285.0
+"Taiwan, China",2016,17396,minutes_sustained,1.0
+"Taiwan, China",2016,2911,minutes_sustained,215.0
+"Taiwan, China",2016,2911,minutes_sustained,1.0
+"Taiwan, China",2017,12703,minutes_sustained,155.0
+"Taiwan, China",2017,12703,minutes_sustained,1.0
+"Taiwan, China",2017,1,minutes_sustained,175.0
+"Taiwan, China",2017,1,minutes_sustained,10.0
+"Taiwan, China",2017,1909,minutes_sustained,140.0
+"Taiwan, China",2017,1909,minutes_sustained,10.0
+"Taiwan, China",2018,3430,minutes_sustained,270.0
+"Taiwan, China",2018,3430,minutes_sustained,1.0
+Uganda,2016,1147,moment_magnitude,5.9
+United States,2008,20000,max_wind_speed,200.0
+United States,2009,0,minutes_sustained,215.0
+United States,2009,0,minutes_sustained,1.0
+United States,2010,0,max_wind_speed,140.0
+United States,2011,771,minutes_sustained,195.0
+United States,2011,771,minutes_sustained,1.0
+United States,2011,27154,max_wind_speed,195.0
+United States,2014,191,minutes_sustained,285.0
+United States,2014,191,minutes_sustained,1.0
+United States,2014,39,moment_magnitude,6.0
+United States,2015,775,minutes_sustained,260.0
+United States,2015,775,minutes_sustained,1.0
+United States,2015,5374,max_wind_speed,345.0
+United States,2016,875000,max_wind_speed,270.0
+United States,2017,201689,max_wind_speed,285.0
+Uzbekistan,2011,0,moment_magnitude,6.1
+St. Vincent and the Grenadines,2016,288,max_wind_speed,270.0
+"Venezuela, RB",2008,4695,area,61390.0
+"Venezuela, RB",2010,101684,area,180760.0
+British Virgin Islands,2017,6000,max_wind_speed,285.0
+Virgin Islands,2017,393,max_wind_speed,285.0
+Vietnam,2008,2000,area,74590.0
+Vietnam,2008,840,area,39039.0
+Vietnam,2008,820,max_wind_speed,102.0
+Vietnam,2009,108635,max_wind_speed,165.0
+Vietnam,2009,70540,max_wind_speed,140.0
+Vietnam,2010,241705,minutes_sustained,85.0
+Vietnam,2010,241705,minutes_sustained,10.0
+Vietnam,2010,1500,minutes_sustained,150.0
+Vietnam,2010,1500,minutes_sustained,1.0
+Vietnam,2010,0,minutes_sustained,150.0
+Vietnam,2010,0,minutes_sustained,1.0
+Vietnam,2013,106238,minutes_sustained,185.0
+Vietnam,2013,106238,minutes_sustained,1.0
+Vietnam,2013,109600,minutes_sustained,185.0
+Vietnam,2013,109600,minutes_sustained,1.0
+Vietnam,2013,4000,minutes_sustained,250.0
+Vietnam,2013,4000,minutes_sustained,1.0
+Vietnam,2013,800000,minutes_sustained,315.0
+Vietnam,2013,800000,minutes_sustained,1.0
+Vietnam,2014,55000,minutes_sustained,140.0
+Vietnam,2014,55000,minutes_sustained,1.0
+Vietnam,2014,5500,minutes_sustained,260.0
+Vietnam,2014,5500,minutes_sustained,1.0
+Vietnam,2014,5400,minutes_sustained,85.0
+Vietnam,2014,5400,minutes_sustained,10.0
+Vietnam,2015,83,minutes_sustained,85.0
+Vietnam,2015,83,minutes_sustained,10.0
+Vietnam,2015,5836,area,24336.74
+Vietnam,2016,7754,minutes_sustained,75.0
+Vietnam,2016,7754,minutes_sustained,10.0
+Vietnam,2016,7319,minutes_sustained,65.0
+Vietnam,2016,7319,minutes_sustained,10.0
+Vietnam,2016,32437,minutes_sustained,120.0
+Vietnam,2016,32437,minutes_sustained,1.0
+Vietnam,2016,1800,minutes_sustained,150.0
+Vietnam,2016,1800,minutes_sustained,1.0
+Vietnam,2016,7743,area,44341.22
+Vietnam,2016,14440,area,63641.54
+Viet Nam,2017,116525,minutes_sustained,175.0
+Viet Nam,2017,116525,minutes_sustained,1.0
+Viet Nam,2017,35168,minutes_sustained,165.0
+Viet Nam,2017,35168,minutes_sustained,1.0
+Viet Nam,2017,28879,max_wind_speed,65.0
+Viet Nam,2017,630,max_wind_speed,95.0
+Viet Nam,2017,430703,minutes_sustained,155.0
+Viet Nam,2017,430703,minutes_sustained,1.0
+Viet Nam,2018,100000,minutes_sustained,250.0
+Viet Nam,2018,100000,minutes_sustained,1.0
+Viet Nam,2018,22,minutes_sustained,185.0
+Viet Nam,2018,22,minutes_sustained,10.0
+Viet Nam,2018,6354,minutes_sustained,85.0
+Viet Nam,2018,6354,minutes_sustained,10.0
+Vanuatu,2011,0,max_wind_speed,100.0
+Vanuatu,2011,400,minutes_sustained,165.0
+Vanuatu,2011,400,minutes_sustained,10.0
+Vanuatu,2014,149,minutes_sustained,150.0
+Vanuatu,2014,149,minutes_sustained,10.0
+Vanuatu,2015,65000,max_wind_speed,250.0
+Vanuatu,2017,10869,vei,3.0
+Vanuatu,2017,2700,max_wind_speed,215.0
+Vanuatu,2018,100,max_wind_speed,185.0
+Vanuatu,2018,304,vei,2.0
+Samoa,2009,5274,moment_magnitude,8.1
+Samoa,2016,63,minutes_sustained,150.0
+Samoa,2016,63,minutes_sustained,10.0
+Kosovo,2013,100,mm_of_rain,200.0
+Kosovo,2013,900,mm_of_rain,200.0
+Kosovo,2016,10,mm_of_rain,200.0
+"Yemen, Rep.",2008,22000,area,133200.0
+"Yemen, Rep.",2015,43296,minutes_sustained,215.0
+"Yemen, Rep.",2015,43296,minutes_sustained,3.0
+"Yemen, Rep.",2015,39600,minutes_sustained,175.0
+"Yemen, Rep.",2015,39600,minutes_sustained,3.0
+Yemen,2018,13218,minutes_sustained,140.0
+Yemen,2018,13218,minutes_sustained,3.0
+Yemen,2018,5068,minutes_sustained,175.0
+Yemen,2018,5068,minutes_sustained,3.0
+South Africa,2009,20000,area,32700.0
+South Africa,2011,52172,area,124636.0
+South Africa,2014,3525,area,1037639.2
+South Africa,2017,236,area,213686.92
+Zambia,2010,0,area,85510.0
