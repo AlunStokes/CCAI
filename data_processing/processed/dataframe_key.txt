@@ -1,1 +1,1 @@
-country,year,displaced,metric,value,popdensity,gdppercap,gini,pop,longitude,latitude,haq,
+country,year,metric,value,popdensity,gdppercap,gini,pop,longitude,latitude,haq,

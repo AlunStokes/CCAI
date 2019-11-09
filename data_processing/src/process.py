@@ -127,6 +127,7 @@ def read_csv_events(input_path, output_dir):
     f.close()
 
     metrics = process_metrics(scales)
+
     return (events, metrics)
 
 def add_country_data_to_events(events, countries):
@@ -179,11 +180,30 @@ def process_dict_to_tensor(d, metrics):
                 country_vec = np.zeros(len(countries)).tolist()
                 country_vec[e[k]] = 1
                 line = country_vec
+            elif 'metric' in k:
+                metric_vec = np.zeros(len(metrics)).tolist()
+                metric_vec[e[k]] = 1
+                line = line + metric_vec
             else:
                 line.append(e[k])
         data_arr.append(line)
 
     return (np.array(data_arr), country_map, metric_map)
+
+def normailize(X, country_data):
+    new_X = []
+    Y = []
+
+    for x in X:
+        x['haq'] /= 100
+        x['longitude'] /= 90
+        x['latitude'] /= 180
+        x['gini'] /= 100
+        Y.append(x['displaced'] / country_data[x['country']]['pop'][x['year'] - 2008])
+        del x['displaced']
+
+
+    return X, Y
 
 if __name__ == '__main__':
 
@@ -215,6 +235,8 @@ if __name__ == '__main__':
                 countries = combine_dict(countries, read_csv_12_year(os.path.join(raw_dir, raw_file_name), processed_dir), name)
     events = add_country_data_to_events(events, countries)
 
+    events, displaced = normailize(events, countries)
+
     with open(os.path.join(processed_dir, 'dataframe.json'), 'w') as json_file:
         json.dump(events, json_file)
 
@@ -223,7 +245,11 @@ if __name__ == '__main__':
 
     (data_arr, country_map, metric_map) = process_dict_to_tensor(events, metrics)
 
-    np.save(os.path.join(processed_dir, 'data_arr'), data_arr)
+    np.save(os.path.join(processed_dir, 'data_arr_X'), data_arr)
+    displaced = np.array(displaced)
+    np.save(os.path.join(processed_dir, 'data_arr_Y'), displaced)
+    print(data_arr.shape)
+    print(displaced.shape)
 
     with open(os.path.join(processed_dir, 'country_map.json'), 'w') as json_file:
         json.dump(country_map, json_file)

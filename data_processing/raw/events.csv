@@ -347,7 +347,7 @@ AUS,Australia,2018,2018-10-01,Australia: Irvinebankwildfire - North Queensland -
 AUS,Australia,2018,2018-12-24,Australia: Bushfire - Cloudy Bay (Tasmania) - 24/12/2018,Weather related,Wildfire,50,,
 AUS,Australia,2018,2018-11-28,"Autralia: Wildfires - Gracemere, Rockhampton (Queensland) - 28/11/2018",Weather related,Wildfire,8000,,
 AUS,Australia,2018,2018-04-14,Australia: Sydney bushfire - Sydney - 15/04/2018,Weather related,Wildfire,100,,
-AUS,Australia,2018,2018-03-26,Australia: Cyclone Nora - Queensland - 24/03/2018,Weather related,Storm,40,max_wind_speed,185
+AUS,Australia,2018,2018-03-26,Australia: Cyclone Nora - Queensland - 24/03/2018,Weather related,Storm,40,max_wind_speed/mm_of_rain,185/110
 AUS,Australia,2018,2018-03-13,Australia: Bruces Creek Bushfire - Bega Valley- 13/05/2018,Weather related,Wildfire,179,,
 AUS,Australia,2018,2018-07-24,Australia: Strong Winds - Melbourne - 24/07/2018,Weather related,Storm,300,,
 AUS,Australia,2018,2018-03-18,Australia: Bushfires - Victoria - 19/03/2018,Weather related,Wildfire,208,,
@@ -362,7 +362,7 @@ AUT,Austria,2016,2016-07-11,Spittal an der Drau district floods,Weather related,
 AUT,Austria,2016,2016-09-04,Carinthia mudslides,Weather related,Wet mass movement,163,,
 AZE,Azerbaijan,2009,2009-01-01,,Weather related,Flood,200,,
 AZE,Azerbaijan,2010,2010-01-01,,Weather related,Flood,31665,,
-AZE,Azerbaijan,2012,2012-01-01,,Geophysical,Earthquake,36000,,
+AZE,Azerbaijan,2012,2012-01-01,,Geophysical,Earthquake,36000,moment_magnitude,5.6
 AZE,Azerbaijan,2018,2018-01-27,Azerbaijan: Riskof Landslide - Baku - 27/01/2018,Weather related,Wet mass movement,390,,
 BDI,Burundi,2008,2008-09-20,,Weather related,Flood,2770,,
 BDI,Burundi,2008,2008-10-04,,Weather related,Flood,,,
@@ -828,9 +828,9 @@ CHN,China,2009,2009-01-01,,Weather related,Storm,,,
 CHN,China,2009,2009-01-01,,Weather related,Wet mass movement,10000,,
 CHN,China,2009,2009-01-01,,Weather related,Storm,48450,,
 CHN,China,2009,2009-01-01,,Weather related,Flood,56300,,
-CHN,China,2009,2009-01-01,,Geophysical,Earthquake,400000,,
+CHN,China,2009,2009-01-01,,Geophysical,Earthquake,400000,moment_magnitude,5.7
 CHN,China,2009,2009-01-01,,Geophysical,Earthquake,,,
-CHN,China,2009,2009-01-01,,Geophysical,Earthquake,61000,,
+CHN,China,2009,2009-01-01,,Geophysical,Earthquake,61000,moment_magnitude,5.1
 CHN,China,2009,2009-01-01,,Weather related,Wet mass movement,,,
 CHN,China,2009,2009-01-01,Typhoon Morakot (Kiko),Weather related,Storm,1620000,max_wind_speed/minutes_sustained,140/10
 CHN,China,2010,2010-01-01,,Weather related,Wet mass movement,,,
@@ -848,7 +848,7 @@ CHN,China,2010,2010-01-01,,Weather related,Wet mass movement,,,
 CHN,China,2010,2010-01-01,,Weather related,Flood,,,
 CHN,China,2010,2010-01-01,,Geophysical,Earthquake,,,
 CHN,China,2010,2010-01-01,,Geophysical,Earthquake,30000,,
-CHN,China,2010,2010-01-01,,Geophysical,Earthquake,100000,,
+CHN,China,2010,2010-01-01,,Geophysical,Earthquake,100000,moment_magnitude,6.9
 CHN,China,2010,2010-01-01,,Geophysical,Earthquake,500,,
 CHN,China,2010,2010-01-01,,Geophysical,Earthquake,,,
 CHN,China,2010,2010-01-01,,Weather related,Wet mass movement,,,
@@ -939,10 +939,10 @@ CHN,China,2015,2015-04-18,South China floods (April),Weather related,Flood,12000
 CHN,China,2015,2015-05-27,Jiangxi and Guizhou storms,Weather related,Storm,8800,,
 CHN,China,2015,2015-07-20,South-eastern China floods (July),Weather related,Flood,306000,,
 CHN,China,2015,2015-11-01,Hunan floods (November),Weather related,Flood,5900,,
-CHN,China,2015,2015-08-09,Typhoon Soudelor,Weather related,Storm,562000,max_wind_speed,230
+CHN,China,2015,2015-08-09,Typhoon Soudelor,Weather related,Storm,562000,max_wind_speed/mm_of_rain,230/609.6
 CHN,China,2015,2015-09-29,Typhoon Dujuan,Weather related,Storm,559200,max_wind_speed/mm_of_rain,240/90
 CHN,China,2015,2015-05-01,Southern provinces floods,Weather related,Flood,518000,,
-CHN,China,2015,2015-07-11,Typhoon Chan-Hom,Weather related,Storm,1100000,max_wind_speed,220
+CHN,China,2015,2015-07-11,Typhoon Chan-Hom,Weather related,Storm,1100000,max_wind_speed/mm_of_rain,220/388.5
 CHN,China,2015,2015-11-13,Lishui landslide,Weather related,Wet mass movement,81,,
 CHN,China,2015,2015-07-09,Typhoon Linfa,Weather related,Storm,56000,max_wind_speed/minutes_sustained,95/10
 CHN,China,2015,2015-07-21,South and North China storms,Weather related,Storm,8200,,
@@ -971,13 +971,13 @@ CHN,China,2016,2016-06-18,Southern provinces floods (June - 3rd wave),Weather re
 CHN,China,2016,2016-06-23,Jiangsu province hailstorm,Weather related,Storm,24000,,
 CHN,China,2016,2016-04-25,Southern provinces floods (Spring - 4th wave),Weather related,Flood,8100,,
 CHN,China,2016,2016-09-23,Yunnan province floods,Weather related,Flood,200,,
-CHN,China,2016,2016-07-29,Typhoon Nida,Weather related,Storm,69000,,
+CHN,China,2016,2016-07-29,Typhoon Nida,Weather related,Storm,69000,max_wind_speed/mm_of_rain,175/150
 CHN,China,2016,2016-06-01,Central provinces floods,Weather related,Flood,13613,,
 CHN,China,2016,2016-09-23,Litang County earthquake,Geophysical,Earthquake,100,,
 CHN,China,2016,2016-10-06,Zhejiang province floods,Weather related,Flood,1900,,
 CHN,China,2016,2016-06-09,Southern provinces floods (June - 1st wave),Weather related,Flood,16000,,
 CHN,China,2016,2016-07-18,Northeastern provinces floods,Weather related,Flood,552000,,
-CHN,China,2016,2016-10-14,Typhoon Haima,Weather related,Storm,782000,,
+CHN,China,2016,2016-10-14,Typhoon Haima,Weather related,Storm,782000,max_wind_speed/mm_of_rain,215/381
 CHN,China,2016,2016-10-10,Xinjiang snowstorm (October),Weather related,Extreme temperature,300,,
 CHN,China,2016,2016-09-27,Shaanxi Province floods,Weather related,Flood,600,,
 CHN,China,2016,2016-09-05,Xinjiang Autonomous Region floods (September),Weather related,Flood,7800,,
@@ -987,20 +987,20 @@ CHN,China,2016,2016-07-19,Yangtze River floods (2nd wave),Weather related,Flood,
 CHN,China,2016,2016-12-27,Chongqing earthquake,Geophysical,Earthquake,500,,
 CHN,China,2016,2016-09-24,Inner Mongolia storm,Weather related,Storm,300,,
 CHN,China,2016,2016-07-31,Xinjiang Autonomous Region flood (July),Weather related,Flood,300,,
-CHN,China,2016,2016-08-16,Typhoon Lionrock,Weather related,Storm,208200,,
+CHN,China,2016,2016-08-16,Typhoon Lionrock,Weather related,Storm,208200,max_wind_speed/mm_of_rain,111/342
 CHN,China,2016,2016-11-09,Xinjiang snowstorm (November),Weather related,Extreme temperature,100,,
 CHN,China,2016,2016-11-25,Xinjiang earthquake (November),Geophysical,Earthquake,800,,
 CHN,China,2016,2016-12-27,Xinjiang earthquake (December),Geophysical,Earthquake,600,,
 CHN,China,2016,2016-11-01,Bomi County avalanche,Weather related,Wet mass movement,100,,
-CHN,China,2016,2016-10-13,Typhoon Sarika,Weather related,Storm,534000,,
+CHN,China,2016,2016-10-13,Typhoon Sarika,Weather related,Storm,534000,max_wind_speed/mm_of_rain,213/500
 CHN,China,2016,2016-11-02,Yunnan Floods,Weather related,Flood,100,,
 CHN,China,2016,2016-09-01,Southern province floods (Sept - 1st wave),Weather related,Flood,300,,
-CHN,China,2016,2016-09-09,Typhoon Meranti,Weather related,Storm,567000,,
+CHN,China,2016,2016-09-09,Typhoon Meranti,Weather related,Storm,567000,max_wind_speed/mm_of_rain,287.1/299
 CHN,China,2016,2016-05-19,Southeastern provinces floods,Weather related,Flood,64529,,
 CHN,China,2016,2016-10-31,Southeastern provinces floods (November),Weather related,Flood,200,,
 CHN,China,2016,2016-08-15,Tropical Storm Dianmu,Weather related,Storm,56000,,
 CHN,China,2016,2016-09-08,Southern province floods (Sept - 3rd wave),Weather related,Flood,2400,,
-CHN,China,2016,2016-09-11,Typhoon Malakas,Weather related,Storm,51000,,
+CHN,China,2016,2016-09-11,Typhoon Malakas,Weather related,Storm,51000,max_wind_speed/mm_of_rain,213/445
 CHN,China,2016,2016-07-25,Tropical storm Mirinae,Weather related,Storm,68000,,
 CHN,China,2016,2016-07-02,Typhoon Nepartak,Weather related,Storm,500000,,
 CHN,China,2017,2017-08-11,Inner Mongolia and Beijing heavy rains (11-14 Aug),Weather related,Storm,3600,,
@@ -3432,7 +3432,7 @@ JPN,Japan,2016,2016-06-20,Kyushu floods,Weather related,Flood,88230,,
 JPN,Japan,2016,2016-08-17,Typhoon Mindulle,Weather related,Storm,480000,,
 JPN,Japan,2016,2016-08-16,Typhoon Lionrock,Weather related,Storm,31101,,
 JPN,Japan,2016,2016-01-17,East and Northeast Japan Cold Wave,Weather related,Extreme temperature,4,,
-JPN,Japan,2016,2016-09-11,Typhoon Malakas,Weather related,Storm,43834,,
+JPN,Japan,2016,2016-09-11,Typhoon Malakas,Weather related,Storm,43834,max_wind_speed/mm_of_rain,213/445
 JPN,Japan,2016,2016-11-21,Fukushima Earthquake,Geophysical,Earthquake,3000,,
 JPN,Japan,2017,2017-09-07,"Japan, Taiwan, China: Typhoon Talim / Lannie - 7/9/2017",Weather related,Storm,366,,
 JPN,Japan,2017,2017-07-21,Japan: Typhoon Noru - July 2017,Weather related,Storm,6180,,
@@ -4282,7 +4282,7 @@ MYS,Malaysia,2018,2018-05-30,Malaysia: Flood - Johor - 30/5/2018,Weather related
 MYS,Malaysia,2018,2018-05-30,Malaysia: Flood - Sarawak - 30/5/2018,Weather related,Flood,182,,
 NAM,Namibia,2008,2008-01-30,,Weather related,Flood,,,
 NAM,Namibia,2009,2009-01-01,,Weather related,Flood,54581,,
-NAM,Namibia,2010,2010-01-01,,Weather related,Flood,11000,,
+NAM,Namibia,2010,2010-01-01,,Weather related,Flood,11000,area,64630
 NAM,Namibia,2011,2011-01-01,,Weather related,Flood,60000,,
 NAM,Namibia,2012,2012-01-01,,Weather related,Flood,400,,
 NAM,Namibia,2013,2013-01-03,Caprivi region flood,Weather related,Flood,17915,,
@@ -4316,7 +4316,7 @@ NER,Niger,2017,2017-08-26,Niger: Niamey floods - 31/08/2017,Weather related,Floo
 NER,Niger,2017,2017-06-13,Niger: Flood - rainy season - September 2017,Weather related,Flood,185000,,
 NER,Niger,2018,2018-07-01,Niger: Floods - 7 states - July,Weather related,Flood,40387,,
 NGA,Nigeria,2009,2009-01-01,,Weather related,Flood,140000,,
-NGA,Nigeria,2010,2010-01-01,,Weather related,Flood,560000,,
+NGA,Nigeria,2010,2010-01-01,,Weather related,Flood,560000,area,619100
 NGA,Nigeria,2011,2011-01-01,,Weather related,Flood,,,
 NGA,Nigeria,2011,2011-01-01,,Weather related,Flood,500,,
 NGA,Nigeria,2011,2011-01-01,,Weather related,Flood,4000,,
@@ -4332,7 +4332,7 @@ NGA,Nigeria,2014,2014-10-01,Makurdi flood,Weather related,Flood,110,,
 NGA,Nigeria,2014,2014-09-01,Ebonyi river flood,Weather related,Flood,920,,
 NGA,Nigeria,2014,2014-08-01,Lugbe floods,Weather related,Flood,276,,
 NGA,Nigeria,2015,2015-08-11,Floods in the South-eastern and North-western states,Weather related,Flood,2070,,
-NGA,Nigeria,2015,2015-09-07,Zamfara state flood,Weather related,Flood,2000,,
+NGA,Nigeria,2015,2015-09-07,Zamfara state flood,Weather related,Flood,2000,area,186816.02
 NGA,Nigeria,2015,2015-10-01,Cross River floods,Weather related,Flood,5490,,
 NGA,Nigeria,2015,2015-08-01,Floods from heavy rain and failure of Dadin Kowa Dam in Gombe State and Kiri Dam in Adamawa State,Weather related,Flood,90860,,
 NGA,Nigeria,2016,2016-06-12,Ebonyi Floods,Weather related,Flood,5000,,
@@ -4354,7 +4354,7 @@ NGA,Nigeria,2018,2018-05-03,Nigeria: Windstorm - Jigawa State - 03/06/2018,Weath
 NGA,Nigeria,2018,2018-05-17,Nigeria: Rainstorm (Katsina State) - 17/05/2018,Weather related,Storm,2000,,
 NGA,Nigeria,2018,2018-07-13,Nigeria: Flood - Katsina; Ogun - 13/07/2018,Weather related,Flood,4896,,
 NGA,Nigeria,2018,2018-05-22,Nigeria: Windstorm - Jere (Borno State) - May 2018,Weather related,Storm,3000,,
-NIC,Nicaragua,2008,2008-09-24,,Weather related,Flood,3000,,
+NIC,Nicaragua,2008,2008-09-24,,Weather related,Flood,3000,area,34760
 NIC,Nicaragua,2008,2008-05-29,,Weather related,Storm,1390,,
 NIC,Nicaragua,2008,2008-10-18,,Weather related,Flood,13000,,
 NIC,Nicaragua,2008,2008-11-26,,Weather related,Flood,1500,,
@@ -4369,7 +4369,7 @@ NIC,Nicaragua,2011,2011-01-01,,Weather related,Flood,10278,,
 NIC,Nicaragua,2012,2012-01-01,,Geophysical,Volcanic eruption,,,
 NIC,Nicaragua,2013,2013-11-06,Prinzapolka flood,Weather related,Flood,161,,
 NIC,Nicaragua,2014,2014-10-09,"Rivas, Granada, Rio San Juan de Nicaragua and Chinandega floods (General October floods)",Weather related,Flood,32000,,
-NIC,Nicaragua,2014,2014-04-10,Managua Lake/Leon earthquake,Geophysical,Earthquake,1585,,
+NIC,Nicaragua,2014,2014-04-10,Managua Lake/Leon earthquake,Geophysical,Earthquake,1585,moment_magnitude,6.1
 NIC,Nicaragua,2014,2014-10-13,Jiquilillo earthquake (Central America earthquake),Geophysical,Earthquake,500,,
 NIC,Nicaragua,2014,2014-07-13,Southern territories flood,Weather related,Flood,834,,
 NIC,Nicaragua,2015,2015-07-09,Escondido river overflow,Weather related,Flood,404,,
@@ -4399,10 +4399,10 @@ NPL,Nepal,2008,2008-07-01,,Weather related,Flood,70000,,
 NPL,Nepal,2009,2009-01-01,,Weather related,Flood,18300,,
 NPL,Nepal,2010,2010-01-01,,Weather related,Flood,,,
 NPL,Nepal,2010,2010-01-01,,Weather related,Flood,,,
-NPL,Nepal,2011,2011-01-01,,Weather related,Flood,,,
+NPL,Nepal,2011,2011-01-01,,Weather related,Flood,,area,46388
 NPL,Nepal,2011,2011-01-01,,Weather related,Wet mass movement,,,
 NPL,Nepal,2011,2011-01-01,,Weather related,Wet mass movement,,,
-NPL,Nepal,2011,2011-01-01,,Geophysical,Earthquake,46476,,
+NPL,Nepal,2011,2011-01-01,,Geophysical,Earthquake,46476,moment_magnitude,6.9
 NPL,Nepal,2012,2012-01-01,,Weather related,Flood,,,
 NPL,Nepal,2012,2012-01-01,,Weather related,Flood,600,,
 NPL,Nepal,2013,2013-06-01,Monsoon Floods,Weather related,Flood,12474,,
@@ -4412,7 +4412,7 @@ NPL,Nepal,2015,2015-07-29,Kaski landslide,Weather related,Wet mass movement,95,,
 NPL,Nepal,2015,2015-04-25,Gorkha earthquake,Geophysical,Earthquake,2622733,moment_magnitude,7.8
 NPL,Nepal,2016,2016-07-01,Monsoon floods and landslides,Weather related,Flood,30315,,
 NPL,Nepal,2016,2016-03-03,Forest Fires,Weather related,Wildfire,1023,area,"1,300"
-NPL,Nepal,2017,2017-08-11,Nepal : monsoon floods - 35 districts - 11/08/2017,Weather related,Flood,380963,,
+NPL,Nepal,2017,2017-08-11,Nepal : monsoon floods - 35 districts - 11/08/2017,Weather related,Flood,380963,area,64676.5
 NPL,Nepal,2017,2017-12-22,"Nepal : Landslides Okhaldhunga, Khotang,Palpa,Lalitpur,Lalitpur,Dhading, Solukhumbu, Shankhuwasabha, Bajura- 22/09/2017 (year report)",Weather related,Wet mass movement,602,,
 NPL,Nepal,2017,2017-04-14,Nepal : Phidim wildfire - 14/04/2017,Weather related,Wildfire,22,,
 NPL,Nepal,2017,2017-06-30,Nepal : Landslides 15districts- Jul 2017,Weather related,Wet mass movement,120,,
@@ -4573,17 +4573,17 @@ NPL,Nepal,2018,2018-03-12,Nepal: Thunderstorm - Bhumlu Rural Municipality; Kavre
 NPL,Nepal,2018,2018-03-04,Nepal: Storm - Umakunda Rural Municipality; Ramechhap - 04/03/2018,Weather related,Storm,4,,
 NPL,Nepal,2018,2018-07-08,Nepal: Landslide - Hupsekot Rural Municipality; Nawalparasi district - 08/07/2018,Weather related,Wet mass movement,9,,
 NPL,Nepal,2018,2018-07-09,Nepal: Landslides - Gulmi; Panchthar districts - 09/07/2018,Weather related,Wet mass movement,13,,
-NZL,New Zealand,2010,2010-01-01,,Geophysical,Earthquake,250,,
+NZL,New Zealand,2010,2010-01-01,,Geophysical,Earthquake,250,moment_magnitude,7
 NZL,New Zealand,2011,2011-01-01,,Geophysical,Earthquake,2000,,
-NZL,New Zealand,2011,2011-01-01,,Geophysical,Earthquake,300,,
+NZL,New Zealand,2011,2011-01-01,,Geophysical,Earthquake,300,max_wind_speed,110
 NZL,New Zealand,2012,2012-01-01,,Weather related,Storm,450,,
 NZL,New Zealand,2013,2013-04-15,Upper North Island and Nelson Storm,Weather related,Storm,50,,
 NZL,New Zealand,2013,2013-10-16,Wanganui River Burst,Weather related,Flood,160,,
-NZL,New Zealand,2015,2015-06-20,North Island floods,Weather related,Flood,400,,
+NZL,New Zealand,2015,2015-06-20,North Island floods,Weather related,Flood,400,area,8948.6
 NZL,New Zealand,2015,2015-03-13,Cyclone Pam,Weather related,Storm,40,max_wind_speed,280
 NZL,New Zealand,2016,2016-04-17,Coromandel Peninsula,Weather related,Flood,5,,
 NZL,New Zealand,2016,2016-11-14,Wellington floods,Weather related,Flood,30,,
-NZL,New Zealand,2016,2016-11-14,Kaikoura Earthquake,Geophysical,Earthquake,1500,,
+NZL,New Zealand,2016,2016-11-14,Kaikoura Earthquake,Geophysical,Earthquake,1500,moment_magnitude,7.8
 NZL,New Zealand,2016,2016-03-23,South Island Floods,Weather related,Flood,254,,
 NZL,New Zealand,2017,2017-02-13,New Zealand : Hawke's Bay fires- 13/02/2017,Weather related,Wildfire,80,,
 NZL,New Zealand,2017,2017-04-11,New Zealand : Bay of Plenty floods (ex TC Cook) - North Island -Cape Runaway - 11/04/2017,Weather related,Flood,2000,,
@@ -4608,29 +4608,29 @@ OMN,Oman,2010,2010-01-01,Cyclone 'Phet',Weather related,Storm,,,
 OMN,Oman,2011,2011-01-01,,Weather related,Storm,,,
 OMN,Oman,2013,2013-04-01,Shinas flood,Weather related,Flood,350,,
 OMN,Oman,2017,2017-01-24,Oman: flash floods - Batnah - 24/01/2017,Weather related,Flood,200,,
-OMN,Oman,2017,2017-12-16,Oman; UAE: flash floods - 16/12/2017,Weather related,Flood,120,,
+OMN,Oman,2017,2017-12-16,Oman; UAE: flash floods - 16/12/2017,Weather related,Flood,120,area,50430.4
 OMN,Oman,2018,2018-05-23,Yemen; Oman: tropical cyclone Mekunu - Socotra; Dhofar - 24/05/2018,Weather related,Storm,10000,,
-PAK,Pakistan,2008,2008-09-08,,Weather related,Flood,200,,
-PAK,Pakistan,2008,2008-02-08,,Weather related,Flood,82000,,
-PAK,Pakistan,2008,2008-10-29,,Geophysical,Earthquake,7000,,
+PAK,Pakistan,2008,2008-09-08,,Weather related,Flood,200,area,165900
+PAK,Pakistan,2008,2008-02-08,,Weather related,Flood,82000,area,32490
+PAK,Pakistan,2008,2008-10-29,,Geophysical,Earthquake,7000,moment_magnitude,6.4
 PAK,Pakistan,2009,2009-01-01,,Weather related,Flood,,,
 PAK,Pakistan,2009,2009-01-01,,Weather related,Flood,,,
 PAK,Pakistan,2009,2009-01-01,,Weather related,Flood,84290,,
-PAK,Pakistan,2010,2010-01-01,Cyclone 'Phet',Weather related,Storm,60000,,
+PAK,Pakistan,2010,2010-01-01,Cyclone 'Phet',Weather related,Storm,60000,max_wind_speed/lowest_pressure,230/964
 PAK,Pakistan,2010,2010-01-01,,Weather related,Flood,11000000,,
 PAK,Pakistan,2010,2010-01-01,,Weather related,Wet mass movement,,,
 PAK,Pakistan,2010,2010-01-01,,Weather related,Flood,,,
 PAK,Pakistan,2010,2010-01-01,,Weather related,Flood,,,
 PAK,Pakistan,2010,2010-01-01,,Weather related,Wet mass movement,,,
 PAK,Pakistan,2010,2010-01-01,,Weather related,Flood,,,
-PAK,Pakistan,2011,2011-01-01,,Weather related,Flood,300000,,
-PAK,Pakistan,2011,2011-01-01,,Geophysical,Earthquake,,,
+PAK,Pakistan,2011,2011-01-01,,Weather related,Flood,300000,area,32667
+PAK,Pakistan,2011,2011-01-01,,Geophysical,Earthquake,,moment_magnitude,7.2
 PAK,Pakistan,2012,2012-01-01,,Weather related,Flood,1856570,,
-PAK,Pakistan,2013,2013-09-24,Baluchistan earthquakes (September),Geophysical,Earthquake,205619,,
+PAK,Pakistan,2013,2013-09-24,Baluchistan earthquakes (September),Geophysical,Earthquake,205619,moment_magnitude,7.7
 PAK,Pakistan,2013,2013-07-01,Monsoon floods,Weather related,Flood,123817,,
-PAK,Pakistan,2013,2013-04-16,Iran earthquakes cause Pakistan displacement(April),Geophysical,Earthquake,78000,,
+PAK,Pakistan,2013,2013-04-16,Iran earthquakes cause Pakistan displacement(April),Geophysical,Earthquake,78000,moment_magnitude,7.7
 PAK,Pakistan,2014,2014-03-19,Attock district hailstorm,Weather related,Storm,81,,
-PAK,Pakistan,2014,2014-09-01,Loralai district flood,Weather related,Flood,466,,
+PAK,Pakistan,2014,2014-09-01,Loralai district flood,Weather related,Flood,466,area,253686
 PAK,Pakistan,2014,2014-05-19,Balochistan May floods,Weather related,Flood,516,,
 PAK,Pakistan,2014,2014-08-14,Mirpur district flood,Weather related,Flood,25,,
 PAK,Pakistan,2014,2014-06-04,Bahawalnagar flash flood,Weather related,Flood,144,,
@@ -4651,7 +4651,7 @@ PAK,Pakistan,2014,2014-09-20,Bahawalpur September flood,Weather related,Flood,69
 PAK,Pakistan,2014,2014-04-05,Attock district flood,Weather related,Flood,31,,
 PAK,Pakistan,2014,2014-09-24,Badin flood caused by heavy rains,Weather related,Flood,113,,
 PAK,Pakistan,2014,2014-08-29,Floods caused by rains in the Sindh province,Weather related,Flood,1266,,
-PAK,Pakistan,2015,2015-10-26,Northern Afghanistan earthquake,Geophysical,Earthquake,665812,,
+PAK,Pakistan,2015,2015-10-26,Northern Afghanistan earthquake,Geophysical,Earthquake,665812,moment_magnitude,7.5
 PAK,Pakistan,2015,2015-08-01,Floods in the North and Central regions,Weather related,Flood,330000,,
 PAK,Pakistan,2015,2015-06-03,Khudzar district flash flood,Weather related,Flood,1240,,
 PAK,Pakistan,2015,2015-07-15,Chitral G.L.O.F.,Geophysical,Wet mass movement,4049,,
@@ -4686,28 +4686,28 @@ PAN,Panama,2013,2013-05-15,Colon storm and gale,Weather related,Storm,1504,,
 PAN,Panama,2013,2013-06-19,Guayabalito gale,Weather related,Storm,7,,
 PAN,Panama,2014,2014-01-01,Chiriqui flood,Weather related,Flood,116,,
 PAN,Panama,2014,2014-11-25,Panama City flood,Weather related,Flood,3,,
-PAN,Panama,2014,2014-08-17,Chiriquí Viejo river overflown,Weather related,Flood,200,,
+PAN,Panama,2014,2014-08-17,Chiriquí Viejo river overflown,Weather related,Flood,200,area,22658.51
 PAN,Panama,2015,2015-09-22,Panama and Santiago city floods,Weather related,Flood,100,,
 PAN,Panama,2016,2016-05-09,Panama City Flood,Weather related,Flood,60,mm_of_rain,101.5
 PAN,Panama,2016,2016-10-18,"Los Santos, Veraguas, Panmá Oeste, and Darién Floods",Weather related,Flood,396,,
 PAN,Panama,2016,2016-09-04,Chiriquí Province Flood,Weather related,Flood,25,,
 PAN,Panama,2016,2016-11-21,Hurricane Otto,Weather related,Storm,573,max_wind_speed/minutes_sustained,185/1
 PAN,Panama,2017,2017-10-05,"Costa Rica ; Honduras, Nicaragua ;Panama; United States: Tropical storm Nate - 05/10/2017",Weather related,Storm,302,,
-PER,Peru,2008,2008-04-02,,Weather related,Flood,45000,,
+PER,Peru,2008,2008-04-02,,Weather related,Flood,45000,area,456900
 PER,Peru,2009,2009-01-01,,Weather related,Wet mass movement,,,
-PER,Peru,2009,2009-01-01,,Weather related,Flood,45825,,
-PER,Peru,2009,2009-01-01,,Weather related,Extreme temperature,,,
+PER,Peru,2009,2009-01-01,,Weather related,Flood,45825,area,135300
+PER,Peru,2009,2009-01-01,,Weather related,Extreme temperature,,temperature,0
 PER,Peru,2009,2009-01-01,,Weather related,Wet mass movement,150,,
 PER,Peru,2010,2010-01-01,,Weather related,Wet mass movement,1000,,
 PER,Peru,2010,2010-01-01,,Weather related,Extreme temperature,,,
-PER,Peru,2010,2010-01-01,,Weather related,Flood,9000,,
+PER,Peru,2010,2010-01-01,,Weather related,Flood,9000,area,305800
 PER,Peru,2011,2011-01-01,,Weather related,Storm,,,
-PER,Peru,2011,2011-01-01,,Geophysical,Earthquake,1705,,
+PER,Peru,2011,2011-01-01,,Geophysical,Earthquake,1705,moment_magnitude,6.9
 PER,Peru,2011,2011-01-01,,Weather related,Flood,1042,,
 PER,Peru,2011,2011-01-01,,Weather related,Extreme temperature,,,
 PER,Peru,2011,2011-01-01,,Weather related,Flood,,,
 PER,Peru,2012,2012-01-01,,Weather related,Flood,138422,,
-PER,Peru,2012,2012-01-01,,Geophysical,Earthquake,13332,,
+PER,Peru,2012,2012-01-01,,Geophysical,Earthquake,13332,moment_magnitude,6.4
 PER,Peru,2012,2012-01-01,,Weather related,Flood,135,,
 PER,Peru,2012,2012-01-01,,Weather related,Flood,1576,,
 PER,Peru,2012,2012-01-01,,Weather related,Flood,31,,
@@ -4717,7 +4717,7 @@ PER,Peru,2013,2013-03-05,Huallago river overflooding caused by heavy rains,Weath
 PER,Peru,2013,2013-08-24,"Apurimac, Ayacucho, Cusco, Hauancavelica and Puno regions cold wave",Weather related,Extreme temperature,4268,,
 PER,Peru,2013,2013-02-08,Arequipa floods which also triggered landslides,Weather related,Flood,16627,,
 PER,Peru,2013,2013-08-24,Peru snowfall,Weather related,Storm,5453,,
-PER,Peru,2013,2013-09-25,Caravelì earthquake,Geophysical,Earthquake,1302,,
+PER,Peru,2013,2013-09-25,Caravelì earthquake,Geophysical,Earthquake,1302,moment_magnitude,7
 PER,Peru,2014,2014-01-01,Huampal and Pozuzo rivers overflown,Weather related,Flood,111,,
 PER,Peru,2014,2014-12-09,San Martin floods,Weather related,Flood,362,,
 PER,Peru,2014,2014-03-01,Tauli river overflown,Weather related,Flood,18,,
@@ -4733,7 +4733,7 @@ PER,Peru,2015,2015-03-23,Huarochiri landslide,Weather related,Wet mass movement,
 PER,Peru,2016,2016-01-01,Country-wide rains (January - May),Weather related,Flood,12138,,
 PER,Peru,2016,2016-10-11,Peru Forest Fires,Weather related,Wildfire,2126,,
 PER,Peru,2016,2016-12-15,Puno region earthquake (mid-December),Geophysical,Earthquake,29,,
-PER,Peru,2016,2016-12-01,Puno region earthquake (early December),Geophysical,Earthquake,2149,,
+PER,Peru,2016,2016-12-01,Puno region earthquake (early December),Geophysical,Earthquake,2149,moment_magnitude,6.3
 PER,Peru,2016,2016-01-25,"Gale in San Martin, Cusco, Amazonas",Weather related,Storm,531,,
 PER,Peru,2016,2016-09-09,Loreto Ground Shaking,Geophysical,Earthquake,4,,
 PER,Peru,2016,2016-12-22,Country-wide rains (December),Weather related,Flood,13,,
@@ -4754,7 +4754,7 @@ PER,Peru,2018,2018-09-21,Peru: Fire - Ayacucho - 21/09/2018,Weather related,Wild
 PER,Peru,2018,2018-01-08,Peru: flood - Lima - January 2018,Weather related,Flood,403,,
 PER,Peru,2018,2018-12-23,Peru: Landslide - Apurimac - 23/12/2018,Weather related,Wet mass movement,4,,
 PER,Peru,2018,2018-07-21,Peru: flood - La Libertad - 21/07/2018,Weather related,Flood,27,,
-PER,Peru,2018,2018-01-14,"Peru: earthquake - Arequipa, Ayacucho - 14/01/2018",Geophysical,Earthquake,3703,,
+PER,Peru,2018,2018-01-14,"Peru: earthquake - Arequipa, Ayacucho - 14/01/2018",Geophysical,Earthquake,3703,moment_magnitude,7.1
 PER,Peru,2018,2018-04-04,Peru: riverine flood - Cusco - 04/04/2018,Weather related,Flood,18,,
 PER,Peru,2018,2018-10-20,Peru: Fire - Ancash - 20/10/2018,Weather related,Wildfire,39,,
 PER,Peru,2018,2018-01-25,Peru: flood - La Libertad - January 2018,Weather related,Flood,30,,
@@ -4775,40 +4775,40 @@ PER,Peru,2018,2018-12-18,Peru: Landslide - Pasco - 18/12/2018,Weather related,We
 PER,Peru,2018,2018-04-23,Peru: riverine flood - Loreto - 23/04/2018,Weather related,Flood,18,,
 PER,Peru,2018,2018-11-13,Peru: Riverine Flood - Pacota,Weather related,Flood,98,,
 PHL,Philippines,2008,2008-04-09,,Weather related,Flood,350000,,
-PHL,Philippines,2008,2008-12-02,,Weather related,Flood,205974,,
+PHL,Philippines,2008,2008-12-02,,Weather related,Flood,205974,area,21800
 PHL,Philippines,2008,2008-06-11,,Weather related,Storm,1185,,
 PHL,Philippines,2008,2008-09-22,,Weather related,Storm,5215,,
 PHL,Philippines,2008,2008-07-28,,Weather related,Storm,444,,
 PHL,Philippines,2008,2008-01-12,,Weather related,Flood,51222,,
-PHL,Philippines,2008,2008-08-22,,Weather related,Storm,3530,,
-PHL,Philippines,2008,2008-11-21,,Weather related,Flood,30000,,
+PHL,Philippines,2008,2008-08-22,,Weather related,Storm,3530,max_wind_speed,150
+PHL,Philippines,2008,2008-11-21,,Weather related,Flood,30000,area,21770
 PHL,Philippines,2008,2008-07-18,,Weather related,Storm,3080,,
-PHL,Philippines,2008,2008-05-18,,Weather related,Storm,54705,,
+PHL,Philippines,2008,2008-05-18,,Weather related,Storm,54705,max_wind_speed,95
 PHL,Philippines,2008,2008-06-09,,Weather related,Wet mass movement,12124,,
 PHL,Philippines,2008,2008-09-29,,Weather related,Storm,,,
 PHL,Philippines,2008,2008-01-01,,Weather related,Storm,2039155,,
-PHL,Philippines,2009,2009-01-01,Tropical Storm 'Soudelor' (Gorio),Weather related,Storm,80655,,
+PHL,Philippines,2009,2009-01-01,Tropical Storm 'Soudelor' (Gorio),Weather related,Storm,80655,max_wind_speed/lowest_pressure,285/900
 PHL,Philippines,2009,2009-01-01,,Weather related,Flood,,,
 PHL,Philippines,2009,2009-01-01,,Weather related,Flood,,,
 PHL,Philippines,2009,2009-01-01,,Weather related,Wet mass movement,,,
 PHL,Philippines,2009,2009-01-01,,Weather related,Flood,16070,,
 PHL,Philippines,2009,2009-01-01,,Weather related,Flood,200000,,
-PHL,Philippines,2009,2009-01-01,Tropical Storm 'Auring',Weather related,Storm,200000,,
-PHL,Philippines,2009,2009-01-01,Typhoon'Emong' (Chanom),Weather related,Storm,117220,,
-PHL,Philippines,2009,2009-01-01,Tropical storm 'Mirinae' (Santi),Weather related,Storm,115000,,
-PHL,Philippines,2009,2009-01-01,Typhoon 'Dante' (Kujira),Weather related,Storm,54718,,
-PHL,Philippines,2009,2009-01-01,Tropical depression 'Maring' (Mujigae),Weather related,Storm,41000,,
-PHL,Philippines,2009,2009-01-01,Goni (Jolina),Weather related,Storm,19590,,
-PHL,Philippines,2009,2009-01-01,Typhoon Morakot (Kiko),Weather related,Storm,34982,,
+PHL,Philippines,2009,2009-01-01,Tropical Storm 'Auring',Weather related,Storm,200000,max_wind_speed/lowest_pressure,55/1000
+PHL,Philippines,2009,2009-01-01,Typhoon'Emong' (Chanom),Weather related,Storm,117220,max_wind_speed/lowest_pressure,55/1004
+PHL,Philippines,2009,2009-01-01,Tropical storm 'Mirinae' (Santi),Weather related,Storm,115000,max_wind_speed/lowest_pressure,165/955
+PHL,Philippines,2009,2009-01-01,Typhoon 'Dante' (Kujira),Weather related,Storm,54718,max_wind_speed/lowest_pressure,215/940
+PHL,Philippines,2009,2009-01-01,Tropical depression 'Maring' (Mujigae),Weather related,Storm,41000,max_wind_speed/lowest_pressure,75/990
+PHL,Philippines,2009,2009-01-01,Goni (Jolina),Weather related,Storm,19590,max_wind_speed/lowest_pressure,75/988
+PHL,Philippines,2009,2009-01-01,Typhoon Morakot (Kiko),Weather related,Storm,34982,max_wind_speed/lowest_pressure,150/945
 PHL,Philippines,2009,2009-01-01,,Weather related,Flood,,,
-PHL,Philippines,2009,2009-01-01,Tropical Storm 'Isang' (Molave),Weather related,Storm,7265,,
-PHL,Philippines,2009,2009-01-01,Tropical storm Labuyo (Dujuan),Weather related,Storm,1529,,
-PHL,Philippines,2009,2009-01-01,Tropical Depression Nando,Weather related,Storm,,,
+PHL,Philippines,2009,2009-01-01,Tropical Storm 'Isang' (Molave),Weather related,Storm,7265,max_wind_speed/lowest_pressure,120/975
+PHL,Philippines,2009,2009-01-01,Tropical storm Labuyo (Dujuan),Weather related,Storm,1529,max_wind_speed/lowest_pressure,95/980
+PHL,Philippines,2009,2009-01-01,Tropical Depression Nando,Weather related,Storm,,max_wind_speed/lowest_pressure,120/975
 PHL,Philippines,2009,2009-01-01,,Geophysical,Earthquake,10,,
-PHL,Philippines,2009,2009-01-01,Tropical storm 'Ondoy' (Ketsana),Weather related,Storm,561242,,
-PHL,Philippines,2009,2009-01-01,Typhoon 'Pepeng' (Parma),Weather related,Storm,500000,,
-PHL,Philippines,2009,2009-01-01,Tropical depression 'Urduja',Weather related,Storm,,,
-PHL,Philippines,2009,2009-01-01,Topical Storm 'Feria' (Nangka),Weather related,Storm,63021,,
+PHL,Philippines,2009,2009-01-01,Tropical storm 'Ondoy' (Ketsana),Weather related,Storm,561242,max_wind_speed/lowest_pressure,150/960
+PHL,Philippines,2009,2009-01-01,Typhoon 'Pepeng' (Parma),Weather related,Storm,500000,max_wind_speed/lowest_pressure,185/930
+PHL,Philippines,2009,2009-01-01,Tropical depression 'Urduja',Weather related,Storm,,max_wind_speed/lowest_pressure,55/1002
+PHL,Philippines,2009,2009-01-01,Topical Storm 'Feria' (Nangka),Weather related,Storm,63021,max_wind_speed/lowest_pressure,75/994
 PHL,Philippines,2009,2009-01-01,,Weather related,Storm,100,,
 PHL,Philippines,2009,2009-01-01,,Weather related,Flood,,,
 PHL,Philippines,2009,2009-01-01,,Weather related,Flood,,,
@@ -4818,8 +4818,8 @@ PHL,Philippines,2010,2010-01-01,,Weather related,Flood,40000,,
 PHL,Philippines,2010,2010-01-01,,Weather related,Flood,33000,,
 PHL,Philippines,2010,2010-01-01,,Weather related,Flood,,,
 PHL,Philippines,2010,2010-01-01,,Weather related,Flood,383969,,
-PHL,Philippines,2010,2010-01-01,Typhoon Megi (Juan),Weather related,Storm,150240,,
-PHL,Philippines,2010,2010-01-01,Typhoon Conson (Basyang),Weather related,Storm,137445,,
+PHL,Philippines,2010,2010-01-01,Typhoon Megi (Juan),Weather related,Storm,150240,max_wind_speed/lowest_pressure,230/885
+PHL,Philippines,2010,2010-01-01,Typhoon Conson (Basyang),Weather related,Storm,137445,max_wind_speed/lowest_pressure,130/970
 PHL,Philippines,2010,2010-01-01,,Weather related,Flood,80000,,
 PHL,Philippines,2010,2010-01-01,,Weather related,Flood,67900,,
 PHL,Philippines,2010,2010-01-01,,Weather related,Flood,47632,,
@@ -4828,32 +4828,32 @@ PHL,Philippines,2010,2010-01-01,,Weather related,Flood,20000,,
 PHL,Philippines,2010,2010-01-01,,Weather related,Flood,1215,,
 PHL,Philippines,2010,2010-01-01,,Weather related,Flood,590,,
 PHL,Philippines,2010,2010-01-01,,Weather related,Flood,,,
-PHL,Philippines,2010,2010-01-01,Tropical storm Ester (Dianmu),Weather related,Storm,,,
+PHL,Philippines,2010,2010-01-01,Tropical storm Ester (Dianmu),Weather related,Storm,,max_wind_speed/lowest_pressure,95/985
 PHL,Philippines,2010,2010-01-01,,Weather related,Wet mass movement,,,
 PHL,Philippines,2010,2010-01-01,Bulusan,Geophysical,Volcanic eruption,,,
 PHL,Philippines,2011,2011-01-01,Bulusan,Geophysical,Volcanic eruption,2000,,
-PHL,Philippines,2011,2011-01-01,Topical storm Juaning (Nock-ten),Weather related,Storm,150952,,
+PHL,Philippines,2011,2011-01-01,Topical storm Juaning (Nock-ten),Weather related,Storm,150952,max_wind_speed/lowest_pressure,95/985
 PHL,Philippines,2011,2011-01-01,,Weather related,Flood,,,
-PHL,Philippines,2011,2011-01-01,Typhoon 'Kabayan' (Muifa),Weather related,Storm,14000,,
+PHL,Philippines,2011,2011-01-01,Typhoon 'Kabayan' (Muifa),Weather related,Storm,14000,max_wind_speed/lowest_pressure,175/930
 PHL,Philippines,2011,2011-01-01,,Weather related,Flood,,,
-PHL,Philippines,2011,2011-01-01,Typhoon Bebeng (Aere),Weather related,Storm,90535,,
+PHL,Philippines,2011,2011-01-01,Typhoon Bebeng (Aere),Weather related,Storm,90535,max_wind_speed/lowest_pressure,75/992
 PHL,Philippines,2011,2011-01-01,,Weather related,Flood,28,,
-PHL,Philippines,2011,2011-01-01,Typhoon Pedring (Nesat),Weather related,Storm,168000,,
+PHL,Philippines,2011,2011-01-01,Typhoon Pedring (Nesat),Weather related,Storm,168000,max_wind_speed/lowest_pressure,150/950
 PHL,Philippines,2011,2011-01-01,,Weather related,Flood,,,
 PHL,Philippines,2011,2011-01-01,,Weather related,Flood,72000,,
-PHL,Philippines,2011,2011-01-01,Topical storm 'Meari' (Falcon),Weather related,Storm,212655,,
+PHL,Philippines,2011,2011-01-01,Topical storm 'Meari' (Falcon),Weather related,Storm,212655,max_wind_speed/lowest_pressure,110/975
 PHL,Philippines,2011,2011-01-01,Taal volcano,Geophysical,Volcanic eruption,,vei,4
-PHL,Philippines,2011,2011-01-01,Tropical Storm Ramon (Banyan),Weather related,Storm,18403,,
+PHL,Philippines,2011,2011-01-01,Tropical Storm Ramon (Banyan),Weather related,Storm,18403,max_wind_speed/lowest_pressure,65/1002
 PHL,Philippines,2011,2011-01-01,,Geophysical,Earthquake,,,
 PHL,Philippines,2011,2011-01-01,,Weather related,Flood,2345,,
 PHL,Philippines,2011,2011-01-01,,Weather related,Flood,6088,,
 PHL,Philippines,2011,2011-01-01,,Weather related,Flood,9107,,
 PHL,Philippines,2011,2011-01-01,,Weather related,Flood,3979,,
-PHL,Philippines,2011,2011-01-01,Tropical storm Washi (Sendong),Weather related,Storm,441037,,
+PHL,Philippines,2011,2011-01-01,Tropical storm Washi (Sendong),Weather related,Storm,441037,max_wind_speed/lowest_pressure,95/992
 PHL,Philippines,2011,2011-01-01,,Weather related,Wet mass movement,,,
 PHL,Philippines,2011,2011-01-01,,Weather related,Flood,,,
 PHL,Philippines,2011,2011-01-01,,Weather related,Wet mass movement,,,
-PHL,Philippines,2011,2011-01-01,Tropical storm 'Dodong' (Sarika),Weather related,Storm,,,
+PHL,Philippines,2011,2011-01-01,Tropical storm 'Dodong' (Sarika),Weather related,Storm,,max_wind_speed/lowest_pressure,75/996
 PHL,Philippines,2011,2011-01-01,,Weather related,Flood,25000,,
 PHL,Philippines,2011,2011-01-01,Typhoon Chedeng (Songda),Weather related,Storm,225694,max_wind_speed/minutes_sustained,195/10
 PHL,Philippines,2011,2011-01-01,Tropical Storm Haima (Egay),Weather related,Storm,,max_wind_speed/minutes_sustained,75/10
@@ -4861,7 +4861,7 @@ PHL,Philippines,2011,2011-01-01,Typhoon Mina (Nanmadol),Weather related,Storm,22
 PHL,Philippines,2011,2011-01-01,,Weather related,Flood,672131,,
 PHL,Philippines,2011,2011-01-01,,Weather related,Flood,14138,,
 PHL,Philippines,2011,2011-01-01,,Weather related,Flood,,,
-PHL,Philippines,2011,2011-01-01,Typhoon Quiel (Nalgae),Weather related,Storm,143703,,
+PHL,Philippines,2011,2011-01-01,Typhoon Quiel (Nalgae),Weather related,Storm,143703,max_wind_speed/lowest_pressure,175/935
 PHL,Philippines,2011,2011-01-01,,Weather related,Flood,,,
 PHL,Philippines,2011,2011-01-01,,Weather related,Wet mass movement,,,
 PHL,Philippines,2012,2012-01-01,,Weather related,Storm,1931970,,
@@ -4872,85 +4872,85 @@ PHL,Philippines,2012,2012-01-01,,Weather related,Storm,59993,,
 PHL,Philippines,2012,2012-01-01,,Weather related,Storm,71428,,
 PHL,Philippines,2012,2012-01-01,,Weather related,Flood,,,
 PHL,Philippines,2012,2012-01-01,,Geophysical,Earthquake,,,
-PHL,Philippines,2013,2013-01-06,Tropical storm Auring causing flash floods,Weather related,Storm,9918,,
-PHL,Philippines,2013,2013-06-27,Tropical storm Rumbia (l.n. Gorio),Weather related,Storm,220,,
+PHL,Philippines,2013,2013-01-06,Tropical storm Auring causing flash floods,Weather related,Storm,9918,max_wind_speed/lowest_pressure,95/990
+PHL,Philippines,2013,2013-06-27,Tropical storm Rumbia (l.n. Gorio),Weather related,Storm,220,max_wind_speed/lowest_pressure,95/985
 PHL,Philippines,2013,2013-05-24,Intertropical Convergence Zone (ITCZ),Weather related,Flood,3487,,
 PHL,Philippines,2013,2013-12-11,Casigura landslide,Weather related,Wet mass movement,53,,
 PHL,Philippines,2013,2013-10-04,Intertropical Convergence Zone Effects,Weather related,Storm,123548,,
 PHL,Philippines,2013,2013-02-17,New Corella landslide,Weather related,Wet mass movement,702,,
-PHL,Philippines,2013,2013-08-18,Typhoon Trami (Local Name: Maring),Weather related,Storm,1538878,,
+PHL,Philippines,2013,2013-08-18,Typhoon Trami (Local Name: Maring),Weather related,Storm,1538878,max_wind_speed/lowest_pressure,110/965
 PHL,Philippines,2013,2013-08-18,Tropical storm Wutip (l.n. Paolo) enhancing Southwest monsoon,Weather related,Storm,64966,max_wind_speed/minutes_sustained,185/1
 PHL,Philippines,2013,2013-02-23,Davao del Sur Landslide,Weather related,Wet mass movement,103,,
 PHL,Philippines,2013,2013-05-29,Zamboanga del Sur tornado,Weather related,Storm,40,,
 PHL,Philippines,2013,2013-11-04,Iloilo Tornado,Weather related,Storm,148,,
-PHL,Philippines,2013,2013-10-08,Typhoon Nari (Local Name. Santi),Weather related,Storm,405965,,
+PHL,Philippines,2013,2013-10-08,Typhoon Nari (Local Name. Santi),Weather related,Storm,405965,max_wind_speed/lowest_pressure,140/965
 PHL,Philippines,2013,2013-11-08,Typhoon Haiyan (Local Name: Yolanda),Weather related,Storm,4095280,max_wind_speed/minutes_sustained,315/1
 PHL,Philippines,2013,2013-01-31,Zamboanga del Norte flood,Weather related,Flood,9465,,
 PHL,Philippines,2013,2013-11-05,Palawan flood,Weather related,Flood,27,,
-PHL,Philippines,2013,2013-08-09,Typhoon Utor (Local Name: Labuyo),Weather related,Storm,129169,,
+PHL,Philippines,2013,2013-08-09,Typhoon Utor (Local Name: Labuyo),Weather related,Storm,129169,max_wind_speed/lowest_pressure,195/925
 PHL,Philippines,2013,2013-06-16,Southwest monsoon and low pressure area (LPA),Weather related,Storm,835,,
 PHL,Philippines,2013,2013-05-03,Paniqui tornado,Weather related,Storm,1075,,
-PHL,Philippines,2013,2013-10-15,Bohol Earthquake,Geophysical,Earthquake,348507,,
-PHL,Philippines,2013,2013-01-08,Tropical depression Bising causing flash floods and landlsides,Weather related,Storm,7880,,
+PHL,Philippines,2013,2013-10-15,Bohol Earthquake,Geophysical,Earthquake,348507,moment_magnitude,7.2
+PHL,Philippines,2013,2013-01-08,Tropical depression Bising causing flash floods and landlsides,Weather related,Storm,7880,max_wind_speed/lowest_pressure,55/1002
 PHL,Philippines,2013,2013-09-16,Typhoon Usagi (l.n. Odette),Weather related,Storm,56172,max_wind_speed/minutes_sustained,250/1
-PHL,Philippines,2013,2013-02-18,Tropical depression Shanshan (Local Name: Crising),Weather related,Storm,223134,,
+PHL,Philippines,2013,2013-02-18,Tropical depression Shanshan (Local Name: Crising),Weather related,Storm,223134,max_wind_speed/lowest_pressure,65/1002
 PHL,Philippines,2013,2013-04-27,Passi city tornado,Weather related,Storm,45,,
 PHL,Philippines,2013,2013-06-01,Carmen earthquake,Geophysical,Earthquake,2578,,
 PHL,Philippines,2014,2014-09-19,Mayon volcano,Geophysical,Volcanic eruption,50000,,
-PHL,Philippines,2014,2014-01-17,Tropical storm Lingling (local name: Agaton),Weather related,Storm,400000,,
+PHL,Philippines,2014,2014-01-17,Tropical storm Lingling (local name: Agaton),Weather related,Storm,400000,max_wind_speed/lowest_pressure,65/1002
 PHL,Philippines,2014,2014-03-19,Flood following Caloy depression,Weather related,Flood,1650,,
 PHL,Philippines,2014,2014-08-30,"Mindanao, North Cotabato and Maguindanao province flood",Weather related,Flood,729,,
-PHL,Philippines,2014,2014-07-15,Typhoon Rammasun (local name: Glenda),Weather related,Storm,2994054,,
+PHL,Philippines,2014,2014-07-15,Typhoon Rammasun (local name: Glenda),Weather related,Storm,2994054,max_wind_speed/lowest_pressure,165/935
 PHL,Philippines,2014,2014-09-12,Typhoon Kalmaegi (local name: Luis),Weather related,Storm,77431,max_wind_speed/minutes_sustained,140/1
 PHL,Philippines,2014,2014-11-26,Floods caused by tropical storm Sinlaku (local name: Queenie),Weather related,Flood,7276,,
-PHL,Philippines,2014,2014-12-29,Tropical storm Jangmi (local name: Seniang),Weather related,Storm,155671,,
-PHL,Philippines,2014,2014-09-19,Tropical storm Fung-Wong (local name: Mario),Weather related,Storm,206368,,
-PHL,Philippines,2014,2014-01-30,Tropical storm Kajiki (local name: Basyang),Weather related,Storm,18131,,
-PHL,Philippines,2014,2014-12-06,Typhoon Hagupit (local name: Ruby),Weather related,Storm,1823176,,
-PHL,Philippines,2014,2014-08-05,Southwest monsoon Habagat enhanced by Typhoon Halong (local name: José),Weather related,Storm,6495,,
+PHL,Philippines,2014,2014-12-29,Tropical storm Jangmi (local name: Seniang),Weather related,Storm,155671,max_wind_speed/lowest_pressure,75/996
+PHL,Philippines,2014,2014-09-19,Tropical storm Fung-Wong (local name: Mario),Weather related,Storm,206368,max_wind_speed/lowest_pressure,85/985
+PHL,Philippines,2014,2014-01-30,Tropical storm Kajiki (local name: Basyang),Weather related,Storm,18131,max_wind_speed/lowest_pressure,65/1000
+PHL,Philippines,2014,2014-12-06,Typhoon Hagupit (local name: Ruby),Weather related,Storm,1823176,max_wind_speed/lowest_pressure,215/905
+PHL,Philippines,2014,2014-08-05,Southwest monsoon Habagat enhanced by Typhoon Halong (local name: José),Weather related,Storm,6495,max_wind_speed/lowest_pressure,195/920
 PHL,Philippines,2014,2014-10-07,Intertropical Convergence Zone (ITCZ),Weather related,Storm,46000,,
-PHL,Philippines,2015,2015-12-14,Typhoon Melor (local name: Nona),Weather related,Storm,742991,,
+PHL,Philippines,2015,2015-12-14,Typhoon Melor (local name: Nona),Weather related,Storm,742991,max_wind_speed/lowest_pressure,175/935
 PHL,Philippines,2015,2015-12-20,Northeast Monsoon,Weather related,Storm,4792,,
-PHL,Philippines,2015,2015-05-10,TyphoonNoul (local name: Dodong),Weather related,Storm,3803,,
+PHL,Philippines,2015,2015-05-10,TyphoonNoul (local name: Dodong),Weather related,Storm,3803,max_wind_speed/lowest_pressure,205/920
 PHL,Philippines,2015,2015-07-30,Effects of Inter-Tropical Convergence Zone,Weather related,Storm,915,,
-PHL,Philippines,2015,2015-07-04,Storm Linfa (local name: Egay),Weather related,Storm,45336,,
-PHL,Philippines,2015,2015-12-16,Tropical depression Onyok,Weather related,Storm,18481,,
+PHL,Philippines,2015,2015-07-04,Storm Linfa (local name: Egay),Weather related,Storm,45336,max_wind_speed/lowest_pressure,95/980
+PHL,Philippines,2015,2015-12-16,Tropical depression Onyok,Weather related,Storm,18481,max_wind_speed/lowest_pressure,55/1002
 PHL,Philippines,2015,2015-06-23,Mindanao floods (Jun-Jul),Weather related,Flood,3800,,
 PHL,Philippines,2015,2015-07-07,Southwest Monsoon,Weather related,Storm,5476,,
-PHL,Philippines,2015,2015-04-04,Typhoon Chedeng (local name: Maysak),Weather related,Storm,2761,,
-PHL,Philippines,2015,2015-08-18,Typhoon Goni (local name: Ineng),Weather related,Storm,318359,,
-PHL,Philippines,2015,2015-10-01,Typhoon Mujigae (local name: Kabayan),Weather related,Storm,21561,,
-PHL,Philippines,2015,2015-01-15,Tropical Cyclone Mekkhala (local name: Amang),Weather related,Storm,114591,,
+PHL,Philippines,2015,2015-04-04,Typhoon Chedeng (local name: Maysak),Weather related,Storm,2761,max_wind_speed/lowest_pressure,195/910
+PHL,Philippines,2015,2015-08-18,Typhoon Goni (local name: Ineng),Weather related,Storm,318359,max_wind_speed/lowest_pressure,185/930
+PHL,Philippines,2015,2015-10-01,Typhoon Mujigae (local name: Kabayan),Weather related,Storm,21561,max_wind_speed/lowest_pressure,155/950
+PHL,Philippines,2015,2015-01-15,Tropical Cyclone Mekkhala (local name: Amang),Weather related,Storm,114591,max_wind_speed/lowest_pressure,110/975
 PHL,Philippines,2015,2015-05-06,Mt Bulusan eruption,Geophysical,Volcanic activity,567,,
-PHL,Philippines,2015,2015-10-14,Typhoon Koppu (local name: Lando),Weather related,Storm,937725,,
-PHL,Philippines,2016,2016-10-13,Typhoon Sarika,Weather related,Storm,207832,,
+PHL,Philippines,2015,2015-10-14,Typhoon Koppu (local name: Lando),Weather related,Storm,937725,max_wind_speed/lowest_pressure,185/925
+PHL,Philippines,2016,2016-10-13,Typhoon Sarika,Weather related,Storm,207832,max_wind_speed/lowest_pressure,175/935
 PHL,Philippines,2016,2016-04-25,Strong Wind,Weather related,Storm,300,,
 PHL,Philippines,2016,2016-12-13,Flash Flood - M'lang,Weather related,Flood,88,,
 PHL,Philippines,2016,2016-06-27,Flash Flood - Matalam,Weather related,Flood,2130,,
-PHL,Philippines,2016,2016-09-09,Typhoon Meranti,Weather related,Storm,16684,,
+PHL,Philippines,2016,2016-09-09,Typhoon Meranti,Weather related,Storm,16684,max_wind_speed/lowest_pressure,220/890
 PHL,Philippines,2016,2016-08-08,Southwest monsoon/ habagat season floods,Weather related,Flood,527994,,
-PHL,Philippines,2016,2016-11-23,Tropical Cyclone Tokage (local name: Marce),Weather related,Storm,76554,,
-PHL,Philippines,2016,2016-10-14,Typhoon Haima,Weather related,Storm,2376723,,
+PHL,Philippines,2016,2016-11-23,Tropical Cyclone Tokage (local name: Marce),Weather related,Storm,76554,max_wind_speed/lowest_pressure,95/992
+PHL,Philippines,2016,2016-10-14,Typhoon Haima,Weather related,Storm,2376723,max_wind_speed/lowest_pressure,215/900
 PHL,Philippines,2016,2016-06-24,Flooding - Valencia City,Weather related,Flood,136,,
 PHL,Philippines,2016,2016-11-05,Flash Flood - Kalamansig,Weather related,Flood,343,,
 PHL,Philippines,2016,2016-08-06,Flooding - Sultan Mastura,Weather related,Flood,1450,,
-PHL,Philippines,2016,2016-09-22,Typhoon Megi,Weather related,Storm,2555,,
+PHL,Philippines,2016,2016-09-22,Typhoon Megi,Weather related,Storm,2555,max_wind_speed/lowest_pressure,155/945
 PHL,Philippines,2016,2016-12-30,Region II Monsoon Rains,Geophysical,Dry mass movement,70,,
-PHL,Philippines,2016,2016-07-02,Typhoon Nepartak,Weather related,Storm,22246,,
+PHL,Philippines,2016,2016-07-02,Typhoon Nepartak,Weather related,Storm,22246,max_wind_speed/lowest_pressure,205/900
 PHL,Philippines,2016,2016-11-06,Sultan Kudarat Flash Flood,Weather related,Flood,630,,
 PHL,Philippines,2016,2016-04-02,Forest and Grass Fire,Weather related,Wildfire,94,,
 PHL,Philippines,2016,2016-12-08,Flash Flood - Zamboanga del Norte,Weather related,Flood,12639,,
 PHL,Philippines,2016,2016-12-16,"Eastern, Northern, and Western Samar Flash Flood",Weather related,Flood,79962,,
-PHL,Philippines,2016,2016-07-29,Typhoon Nida,Weather related,Storm,8427,,
+PHL,Philippines,2016,2016-07-29,Typhoon Nida,Weather related,Storm,8427,max_wind_speed/lowest_pressure,110/975
 PHL,Philippines,2016,2016-07-28,Sinkhole - Polomolok,Weather related,Wet mass movement,616,,
 PHL,Philippines,2016,2016-09-25,Marikina Landslide,Geophysical,Dry mass movement,50,,
 PHL,Philippines,2016,2016-10-11,Flash Flood - Barangay Sumbakil,Weather related,Flood,13,,
 PHL,Philippines,2016,2016-12-16,Cold Front - Eastern Visayas,Weather related,Extreme temperature,66,,
-PHL,Philippines,2016,2016-12-23,Typhoon Nock-Ten (locally known as: Nina),Weather related,Storm,2592251,,
-PHL,Philippines,2017,2017-12-22,"Philippines, Vietnam: Typhoon Vinta / Tembin - December 2017",Weather related,Storm,434504,,
+PHL,Philippines,2016,2016-12-23,Typhoon Nock-Ten (locally known as: Nina),Weather related,Storm,2592251,max_wind_speed/lowest_pressure,195/915
+PHL,Philippines,2017,2017-12-22,"Philippines, Vietnam: Typhoon Vinta / Tembin - December 2017",Weather related,Storm,434504,max_wind_speed/lowest_pressure,130/970
 PHL,Philippines,2017,2017-10-18,Philippines: Continuous Rain - CARAGA - 18/10/2017,Weather related,Storm,79,,
 PHL,Philippines,2017,2017-10-02,Philippines: Flashflood - South Cotabato - 2/10/2017,Weather related,Flood,27,,
-PHL,Philippines,2017,2017-09-22,"Philippines: Floods - Negros Occidental, Western Visayas - 22/9/2017",Weather related,Flood,8000,,
+PHL,Philippines,2017,2017-09-22,"Philippines: Floods - Negros Occidental, Western Visayas - 22/9/2017",Weather related,Flood,8000,area,10299.67
 PHL,Philippines,2017,2017-06-03,Sultan Kudarat Floods,Weather related,Flood,11370,,
 PHL,Philippines,2017,2017-10-05,"Philippines: Landslide - Davao City, Region XI - 6/10/2017",Geophysical,Dry mass movement,190,,
 PHL,Philippines,2017,2017-01-03,Victoria and Oriental Mindoro Floods,Weather related,Flood,393,,
@@ -4958,45 +4958,45 @@ PHL,Philippines,2017,2017-09-11,Philippines: Flood - Davao City - 11/9/2017,Weat
 PHL,Philippines,2017,2017-06-15,Negros Occidental Tornado,Weather related,Storm,240,,
 PHL,Philippines,2017,2017-04-12,Lanao del Sur Earthquake - 12/4/2017,Geophysical,Earthquake,231,,
 PHL,Philippines,2017,2017-11-05,"Philippines: Floods - Isabela, Cagayan - 5/11/2017",Weather related,Flood,34930,,
-PHL,Philippines,2017,2017-07-06,Leyte earthquake (6 July),Geophysical,Earthquake,15865,,
-PHL,Philippines,2017,2017-04-08,Mabini and Batangas Earthquake,Geophysical,Earthquake,29889,,
-PHL,Philippines,2017,2017-11-09,Philippines: Tropical Depression Haikui / Salome - 9/11/2017,Weather related,Storm,2252,,
+PHL,Philippines,2017,2017-07-06,Leyte earthquake (6 July),Geophysical,Earthquake,15865,moment_magnitude,6.5
+PHL,Philippines,2017,2017-04-08,Mabini and Batangas Earthquake,Geophysical,Earthquake,29889,moment_magnitude,5.9
+PHL,Philippines,2017,2017-11-09,Philippines: Tropical Depression Haikui / Salome - 9/11/2017,Weather related,Storm,2252,max_wind_speed/lowest_pressure,75/980
 PHL,Philippines,2017,2017-04-26,"Rosales, Pangasinan Tornado",Weather related,Storm,135,,
-PHL,Philippines,2017,2017-12-11,"Malaysia, Philippines: Tropical Depression Urduja / Kai-Tak - 12/12/2017",Weather related,Storm,763921,,
+PHL,Philippines,2017,2017-12-11,"Malaysia, Philippines: Tropical Depression Urduja / Kai-Tak - 12/12/2017",Weather related,Storm,763921,max_wind_speed/lowest_pressure,75/994
 PHL,Philippines,2017,2017-05-13,Philippines: Flash Floods - Glan/Sarangani - 13/5/2017,Weather related,Flood,135,,
 PHL,Philippines,2017,2017-07-06,Leyte landslide (6 July),Geophysical,Dry mass movement,900,,
-PHL,Philippines,2017,2017-04-14,Tropical Depression Crising,Weather related,Storm,6813,,
+PHL,Philippines,2017,2017-04-14,Tropical Depression Crising,Weather related,Storm,6813,max_wind_speed/lowest_pressure,55/1009
 PHL,Philippines,2017,2017-10-15,"Philippines: Storm Surge -Region IX, Sulu and Tawi-Tawi (ARMM) - 15/10/2017",Weather related,Storm,11032,,
 PHL,Philippines,2017,2017-07-27,Philippines - Flash Flood - Zamboanga Sibugay Province - 27/7/2017,Weather related,Flood,15471,,
-PHL,Philippines,2017,2017-07-25,"China, Taiwan, Philippines: Typhoon Nesat (Gorio) / Tropical Depression Haitang / Southwest Monsoon - 25/7/2017",Weather related,Storm,1849,,
+PHL,Philippines,2017,2017-07-25,"China, Taiwan, Philippines: Typhoon Nesat (Gorio) / Tropical Depression Haitang / Southwest Monsoon - 25/7/2017",Weather related,Storm,1849,max_wind_speed/lowest_pressure,150/960
 PHL,Philippines,2017,2017-10-27,Philippines: Landslide - Boljoon - 27/10/2017,Geophysical,Dry mass movement,185,,
-PHL,Philippines,2017,2017-10-15,Japan; Philippines: Typhoon Lan (Paolo) - 15/10/2017,Weather related,Storm,130384,,
+PHL,Philippines,2017,2017-10-15,Japan; Philippines: Typhoon Lan (Paolo) - 15/10/2017,Weather related,Storm,130384,max_wind_speed/lowest_pressure,185/915
 PHL,Philippines,2017,2017-05-29,Palawan Landslide,Geophysical,Dry mass movement,221,,
 PHL,Philippines,2017,2017-04-29,"Philippines: Earthquake - Glan, Sarangani - 29/4/2017",Geophysical,Earthquake,18,,
-PHL,Philippines,2017,2017-02-10,Philippines: Earthquake - Surigao City (CARAGA) - 10/2/2017,Geophysical,Earthquake,54735,,
+PHL,Philippines,2017,2017-02-10,Philippines: Earthquake - Surigao City (CARAGA) - 10/2/2017,Geophysical,Earthquake,54735,moment_magnitude,6.7
 PHL,Philippines,2017,2017-10-15,Philippines: Floods - Region IX - 15/10/2017,Weather related,Flood,34705,,
-PHL,Philippines,2017,2017-08-24,Typhoon Pakhar - 24/8/2017,Weather related,Storm,8201,,
-PHL,Philippines,2017,2017-09-11,"China, Malaysia, Philippines, Thailand, VietNam: Typhoon Doksuri - 11/9/2017",Weather related,Storm,40966,,
-PHL,Philippines,2017,2017-01-07,"Philippines: Tropical depression Auring - Caraga, Region VII - 07/01/2017",Weather related,Storm,43071,,
+PHL,Philippines,2017,2017-08-24,Typhoon Pakhar - 24/8/2017,Weather related,Storm,8201,max_wind_speed/lowest_pressure,100/985
+PHL,Philippines,2017,2017-09-11,"China, Malaysia, Philippines, Thailand, VietNam: Typhoon Doksuri - 11/9/2017",Weather related,Storm,40966,max_wind_speed/lowest_pressure,150/955
+PHL,Philippines,2017,2017-01-07,"Philippines: Tropical depression Auring - Caraga, Region VII - 07/01/2017",Weather related,Storm,43071,max_wind_speed/lowest_pressure,55/1002
 PHL,Philippines,2017,2017-05-17,Polomolok Flash floods,Weather related,Flood,150,,
 PHL,Philippines,2017,2017-06-03,North Cotabato Floods,Weather related,Flood,23815,,
 PHL,Philippines,2017,2017-03-28,General Santos City Flash Flood,Weather related,Flood,5259,,
-PHL,Philippines,2017,2017-10-11,Hong-Kong/Taiwan/China; Philippines - Typhoon Khanun (Odette) - 11/10/2017,Weather related,Storm,6392,,
+PHL,Philippines,2017,2017-10-11,Hong-Kong/Taiwan/China; Philippines - Typhoon Khanun (Odette) - 11/10/2017,Weather related,Storm,6392,max_wind_speed/lowest_pressure,140/955
 PHL,Philippines,2017,2017-01-15,Philippines: floods - Visayas; Mindanao - 15/01/2017,Weather related,Flood,518485,,
 PHL,Philippines,2017,2017-07-15,Philippines: Flood - Cotabato City - 15/7/2017,Weather related,Flood,2550,,
 PHL,Philippines,2017,2017-08-23,Philippines: Earthquake - Leyte - 23/8/2017,Geophysical,Earthquake,5,,
 PHL,Philippines,2017,2017-09-24,Philippines: Earthquake - Lanao del Sur - 24/9/2017,Geophysical,Earthquake,237,,
 PHL,Philippines,2017,2017-05-05,Philippines: Floods - Maguindanao - 5/5/2017,Weather related,Flood,320925,,
 PHL,Philippines,2018,2018-10-23,Philippines: Flood - Datu Montawal (Maguindanao) - 23/10/2018,Weather related,Flood,13925,,
-PHL,Philippines,2018,2018-09-07,"China, Guam, Northern Mariana Islands, Philippines, Thailand: Typhoon Mangkhut - 7/9/2018",Weather related,Storm,1570804,,
-PHL,Philippines,2018,2018-10-24,"Guam, Northern Mariana Islands, Philippines: Super Typhoon Yutu - 24/10/2018",Weather related,Storm,438691,,
-PHL,Philippines,2018,2018-07-15,"Cambodia, Laos, Thailand, Philippines, Vietnam: Southwest Monsoon (Habagat) / Tropical Cyclone Son-Tinh / HENRY / JOSIE - 15/7/2018",Weather related,Storm,902312,,
+PHL,Philippines,2018,2018-09-07,"China, Guam, Northern Mariana Islands, Philippines, Thailand: Typhoon Mangkhut - 7/9/2018",Weather related,Storm,1570804,max_wind_speed/lowest_pressure,205/905
+PHL,Philippines,2018,2018-10-24,"Guam, Northern Mariana Islands, Philippines: Super Typhoon Yutu - 24/10/2018",Weather related,Storm,438691,max_wind_speed/lowest_pressure,215/900
+PHL,Philippines,2018,2018-07-15,"Cambodia, Laos, Thailand, Philippines, Vietnam: Southwest Monsoon (Habagat) / Tropical Cyclone Son-Tinh / HENRY / JOSIE - 15/7/2018",Weather related,Storm,902312,max_wind_speed/lowest_pressure,75/994
 PHL,Philippines,2018,2018-01-13,Philippines: Volcano (Mayon) - Albay (Region V) - 13/1/2018,Geophysical,Volcanic eruption,91055,,
 PHL,Philippines,2018,2018-03-15,Philippines: Earthquake - Bukidnon (North Mindanao) - 15/3/2018,Geophysical,Earthquake,147,,
 PHL,Philippines,2018,2018-09-08,Philippines: Earthquake - Manay Davao Oriental - 8/9/2018,Geophysical,Earthquake,4,moment_magnitude,6.5
-PHL,Philippines,2018,2018-12-28,Philippines: Tropical Depression Usman - 28/12/2018,Weather related,Storm,97688,,
+PHL,Philippines,2018,2018-12-28,Philippines: Tropical Depression Usman - 28/12/2018,Weather related,Storm,97688,max_wind_speed/lowest_pressure,55/1000
 PHL,Philippines,2018,2018-11-13,"VietNam, Philippines: Tropical Cyclone 33W / Tropical Storm Usagi / Tropical Depression Samuel - 13/11/2018",Weather related,Storm,32309,max_wind_speed/minutes_sustained,250/1
-PHL,Philippines,2018,2018-02-11,Philippines: Tropical Storm Basyang / Sanba - 11/2/2018,Weather related,Storm,148538,,
+PHL,Philippines,2018,2018-02-11,Philippines: Tropical Storm Basyang / Sanba - 11/2/2018,Weather related,Storm,148538,max_wind_speed/lowest_pressure,65/1000
 PHL,Philippines,2018,2018-11-27,Philippines: Landslide - Jipapad (Eastern Samar) - 27/11/2018,Weather related,Wet mass movement,351,,
 PHL,Philippines,2018,2018-06-02,Philippines: Flooding - Maguindanao (ARMM) - 2/6/2018,Weather related,Flood,199710,,
 PHL,Philippines,2018,2018-11-27,Philippines: Landslide - Eastern Samar - 27/11/2018,Weather related,Wet mass movement,351,,
@@ -5004,15 +5004,15 @@ PHL,Philippines,2018,2018-01-14,"Philippines: Cold Front - Region VI, VIII, X, X
 PHL,Philippines,2018,2018-01-15,Philippines: Landslide - Capiz (Region VI) - 15/1/2018,Weather related,Wet mass movement,170,,
 PHL,Philippines,2018,2018-02-03,Philippines: Flash Flood - Polomok (South Cotabato) - 3/2/2018,Weather related,Flood,260,,
 PHL,Philippines,2018,2018-09-20,Philippines: Landslide - Naga - Cebu (Region VII) - 20/9/2018,Weather related,Wet mass movement,7358,,
-PHL,Philippines,2018,2018-08-25,"Philippines: Southwest Monsoon (Enhanced by TD Luis) - Region 1, CAR - 25/8/2018",Weather related,Storm,7746,,
-PHL,Philippines,2018,2018-06-05,"Philippines: Southwest Monsoon (incl. Tropical Depression ""Domeng"" / Maliksi) - 5/6/2018",Weather related,Storm,1548,,
+PHL,Philippines,2018,2018-08-25,"Philippines: Southwest Monsoon (Enhanced by TD Luis) - Region 1, CAR - 25/8/2018",Weather related,Storm,7746,max_wind_speed/lowest_pressure,55/996
+PHL,Philippines,2018,2018-06-05,"Philippines: Southwest Monsoon (incl. Tropical Depression ""Domeng"" / Maliksi) - 5/6/2018",Weather related,Storm,1548,max_wind_speed/lowest_pressure,110/970
 PHL,Philippines,2018,2018-04-30,Philippines: Tornado/Whirlwind - Valencia City (Bukidnon) - 30/4/2018,Weather related,Storm,73,,
 PHL,Philippines,2018,2018-12-25,"Philippines: Rogue Wave - General Santos, South Cotabato (Region XII) - 25/12/2018",Weather related,Wet mass movement,169,,
-PHL,Philippines,2018,2018-01-01,Philippines: Tropical Depression Agaton - 1/1/2018,Weather related,Storm,47089,,
+PHL,Philippines,2018,2018-01-01,Philippines: Tropical Depression Agaton - 1/1/2018,Weather related,Storm,47089,max_wind_speed/lowest_pressure,65/1002
 PHL,Philippines,2018,2018-07-13,Philippines: Flood - Sultan Kudarat - 13/7/2018,Weather related,Flood,14700,,
 PHL,Philippines,2018,2018-06-30,"Philippines: Flash Flood - Kabacan, North Cotabato (Region XII) - 30/6/2018",Weather related,Flood,16584,,
 PHL,Philippines,2018,2018-07-12,Philippines: Southwest Monsoon (Habagat) - Mindanao - 12/7/2018,Weather related,Storm,420,,
-PHL,Philippines,2018,2018-08-12,"Philippines: Southwest Monsoon (TS Karding-Yagi / TS LEEPI / TD RUMBIA / TS SOULIK / Typhoon CIMARON) - NCR, Region I, Region III, CALABARZON, CAR - 12/8/2018",Weather related,Storm,183503,,
+PHL,Philippines,2018,2018-08-12,"Philippines: Southwest Monsoon (TS Karding-Yagi / TS LEEPI / TD RUMBIA / TS SOULIK / Typhoon CIMARON) - NCR, Region I, Region III, CALABARZON, CAR - 12/8/2018",Weather related,Storm,183503,max_wind_speed/lowest_pressure,75/990
 PLW,Palau,2012,2012-01-01,,Weather related,Storm,151,,
 PLW,Palau,2013,2013-07-11,Typhoon Haiyan,Weather related,Storm,1500,max_wind_speed/minutes_sustained,315/1
 PNG,Papua New Guinea,2008,2008-08-12,,Weather related,Flood,75000,,
@@ -5041,16 +5041,16 @@ PNG,Papua New Guinea,2016,2016-01-03,Jiwaka province floods,Weather related,Floo
 PNG,Papua New Guinea,2016,2016-10-14,October Floods,Weather related,Flood,510,,
 PNG,Papua New Guinea,2017,2017-01-05,Papua New Guinea : Eastern Highlands Floods - 05/01/2017,Weather related,Flood,500,,
 PNG,Papua New Guinea,2017,2017-04-16,Papua New Guinea : Manam Volcanic activity -16/04/2017,Geophysical,Volcanic eruption,887,vei,2
-PNG,Papua New Guinea,2018,2018-02-26,Papua New Guinea: Earthquake - Southern Highlands - 26/02/2018,Geophysical,Earthquake,58292,,
+PNG,Papua New Guinea,2018,2018-02-26,Papua New Guinea: Earthquake - Southern Highlands - 26/02/2018,Geophysical,Earthquake,58292,moment_magnitude,7.5
 PNG,Papua New Guinea,2018,2018-01-05,Papua New Guinea: Volcanic Activity - Kadovar Island - 5/1/2018,Geophysical,Volcanic eruption,736,,
 PNG,Papua New Guinea,2018,2018-08-25,Papua New Guinea: Volcanic Eruption (Manam) - Manam Island - 25/8/2018,Geophysical,Volcanic eruption,2000,,
 POL,Poland,2009,2009-01-01,,Weather related,Flood,,,
-POL,Poland,2009,2009-01-01,,Weather related,Storm,,,
+POL,Poland,2009,2009-01-01,,Weather related,Storm,,max_wind_speed,130
 POL,Poland,2010,2010-01-01,,Weather related,Flood,,,
-POL,Poland,2010,2010-01-01,,Weather related,Extreme temperature,,,
+POL,Poland,2010,2010-01-01,,Weather related,Extreme temperature,,temperature,-35
 POL,Poland,2010,2010-01-01,,Weather related,Flood,30000,,
 PRI,Puerto Rico,2017,2017-08-27,15 countries - Hurricane Irma - 27/08/2017,Weather related,Storm,186,max_wind_speed,285
-PRI,Puerto Rico,2017,2017-09-16,4 countries - Hurricane Maria - 16/09/2017,Weather related,Storm,86220,,
+PRI,Puerto Rico,2017,2017-09-16,4 countries - Hurricane Maria - 16/09/2017,Weather related,Storm,86220,max_wind_speed,240
 PRI,Puerto Rico,2018,2018-07-10,Dominican Republic and Puerto Rico: Tropical Storm Beryl - 10/07/2018,Weather related,Storm,400,,
 PRK,"Korea, Dem. Rep.",2010,2010-01-01,,Weather related,Flood,,,
 PRK,"Korea, Dem. Rep.",2010,2010-01-01,Typhoon Kompasu,Weather related,Storm,,,
@@ -5066,26 +5066,26 @@ PRK,"Korea, Dem. Rep.",2016,2016-08-29,North Hamgyong floods / Typhoon Lionrock,
 PRK,Dem. People's Rep. Korea,2018,2018-08-29,DPR Korea: Heavy Rain - North and South Hwanghae Provinces - 28/8/2018,Weather related,Storm,10683,,
 PRK,Dem. People's Rep. Korea,2018,2018-08-15,"China, DPR Korea: Tropical Storm Soulik - 24/8/2018",Weather related,Storm,58143,,
 PRT,Portugal,2008,2008-02-18,,Weather related,Flood,38,,
-PRT,Portugal,2010,2010-01-01,,Weather related,Flood,,,
-PRT,Portugal,2010,2010-01-01,Xynthia,Weather related,Storm,,,
+PRT,Portugal,2010,2010-01-01,,Weather related,Flood,,area,483
+PRT,Portugal,2010,2010-01-01,Xynthia,Weather related,Storm,,max_wind_speed,140
 PRT,Portugal,2015,2015-09-04,Azores islands riverine flood,Weather related,Flood,10,,
 PRT,Portugal,2016,2016-09-09,Algarve forest fires,Weather related,Wildfire,30,,
 PRT,Portugal,2016,2016-01-11,"Douro, Mondego and Tâmega River Floods",Weather related,Flood,10,,
 PRT,Portugal,2016,2016-08-08,Northern Portugal forest fires (August),Weather related,Wildfire,1000,,
 PRT,Portugal,2016,2016-02-11,"Minho, Lima, Cávado, Ave, Vouga, Douro and Mondego River Floods",Weather related,Flood,12,,
-PRT,Portugal,2017,2017-10-16,Portugal: Wildfire - Braga; Lamaçães - 16/10/2017,Weather related,Wildfire,6000,,
+PRT,Portugal,2017,2017-10-16,Portugal: Wildfire - Braga; Lamaçães - 16/10/2017,Weather related,Wildfire,6000,area,2240
 PRT,Portugal,2017,2017-08-16,Portugal: Forest fire - Santarem - 16/08/2017,Weather related,Wildfire,133,,
-PRT,Portugal,2017,2017-06-17,Portugal: Forest fires - Leiria; Coimbra; Castelo Branco - 17/06/2017,Weather related,Wildfire,500,,
+PRT,Portugal,2017,2017-06-17,Portugal: Forest fires - Leiria; Coimbra; Castelo Branco - 17/06/2017,Weather related,Wildfire,500,area,300
 PRT,Portugal,2017,2017-07-20,Portugal: Forest fire -Sertã (Castelo Branco) - 20/07/2017,Weather related,Wildfire,158,,
 PRT,Portugal,2018,2018-08-03,Portugal: forest fire - Monchique - 03/08/2018,Weather related,Wildfire,299,,
 PRT,Portugal,2018,2018-10-07,Portugal: forest fire - Sintra-Cascais Natural Park - 07/10/2018,Weather related,Wildfire,47,,
-PRT,Portugal,2018,2018-10-13,Portugal: Hurricane Leslie - 13/10/2018,Weather related,Storm,61,,
-PRY,Paraguay,2008,2008-07-08,,Weather related,Storm,60,,
+PRT,Portugal,2018,2018-10-13,Portugal: Hurricane Leslie - 13/10/2018,Weather related,Storm,61,max_wind_speed,176
+PRY,Paraguay,2008,2008-07-08,,Weather related,Storm,60,max_wind_speed,80
 PRY,Paraguay,2009,2009-01-01,,Weather related,Storm,,,
-PRY,Paraguay,2009,2009-01-01,,Weather related,Flood,,,
-PRY,Paraguay,2010,2010-01-01,,Weather related,Extreme temperature,,,
+PRY,Paraguay,2009,2009-01-01,,Weather related,Flood,,area,163300
+PRY,Paraguay,2010,2010-01-01,,Weather related,Extreme temperature,,temperature,0
 PRY,Paraguay,2012,2012-01-01,,Weather related,Flood,,,
-PRY,Paraguay,2013,2013-06-24,Parana river floods,Weather related,Flood,28000,,
+PRY,Paraguay,2013,2013-06-24,Parana river floods,Weather related,Flood,28000,area,131222.52
 PRY,Paraguay,2014,2014-06-01,Parana river flood,Weather related,Flood,83565,,
 PRY,Paraguay,2015,2015-12-15,Flooding in the Southern Cone,Weather related,Flood,130000,,
 PRY,Paraguay,2015,2015-07-14,Floods in Asuncion,Weather related,Flood,36000,,
@@ -5095,7 +5095,7 @@ PRY,Paraguay,2016,2016-08-17,"Itapúa, Caaguazú, and Caazapá Hailstorm",Weathe
 PRY,Paraguay,2017,2017-04-09,Paraguay: Storm - Misiones - 09/04/2017,Weather related,Storm,162,,
 PRY,Paraguay,2017,2017-04-10,Paraguay and Paraná Rivers Floods,Weather related,Flood,4488,,
 PRY,Paraguay,2017,2017-08-26,Paraguay: Storm- Boquerón; Alto Paraguay; Presidente Hayes- 26/08/2017,Weather related,Storm,599,,
-PRY,Paraguay,2018,2018-01-23,Paraguay: flood - Ñeembucú - 23/01/2018,Weather related,Flood,450,,
+PRY,Paraguay,2018,2018-01-23,Paraguay: flood - Ñeembucú - 23/01/2018,Weather related,Flood,450,area,2924.11
 PRY,Paraguay,2018,2018-02-01,"Paraguay: Pilcomayo river - Boquerón, Presidente Hayes - 01/02/2018",Weather related,Flood,635,,
 PRY,Paraguay,2018,2018-02-22,Paraguay: Apa river - Amambay - 22/02/2018,Weather related,Flood,315,,
 PRY,Paraguay,2018,2018-10-29,Paraguay: Floods - Asunción - 30/10/2018,Weather related,Flood,10000,,
@@ -5108,20 +5108,20 @@ PSE,West Bank and Gaza,2014,2014-11-27,Gaza and Sheikh Radwan floods,Weather rel
 PSE,West Bank and Gaza,2015,2015-01-06,Winter storm Huda,Weather related,Storm,10000,,
 PSE,West Bank and Gaza,2016,2016-01-20,Floods in Gaza,Weather related,Flood,510,,
 PSE,Palestine,2017,2017-07-16,Palestine: wildfire - West Bank - 16/07/2017,Weather related,Wildfire,77,,
-PYF,French Polynesia,2010,2010-01-01,Cyclone 'Oli',Weather related,Storm,3500,,
+PYF,French Polynesia,2010,2010-01-01,Cyclone 'Oli',Weather related,Storm,3500,max_wind_speed,260
 PYF,French Polynesia,2017,2017-01-22,Tahiti and Moorea Floods,Weather related,Flood,1140,,
 ROU,Romania,2008,2008-08-01,,Weather related,Flood,10520,,
-ROU,Romania,2009,2009-01-01,,Weather related,Extreme temperature,,,
+ROU,Romania,2009,2009-01-01,,Weather related,Extreme temperature,,temperature,-31
 ROU,Romania,2009,2009-01-01,,Weather related,Flood,,,
-ROU,Romania,2010,2010-01-01,,Weather related,Extreme temperature,,,
+ROU,Romania,2010,2010-01-01,,Weather related,Extreme temperature,,temperature,-34
 ROU,Romania,2010,2010-01-01,,Weather related,Flood,,,
 ROU,Romania,2014,2014-04-01,Southern Romania flood,Weather related,Flood,235,,
 ROU,Romania,2014,2014-07-28,Romania summer flood,Weather related,Flood,2000,,
 ROU,Romania,2015,2015-05-01,Floods in the North-western regions,Weather related,Flood,157,,
-ROU,Romania,2016,2016-10-11,Floods in South Eastern Europe,Weather related,Flood,1200,,
+ROU,Romania,2016,2016-10-11,Floods in South Eastern Europe,Weather related,Flood,1200,area,57182.5
 ROU,Romania,2016,2016-05-25,June Flood in central and eastern Romania,Weather related,Flood,280,,
 ROU,Romania,2018,2018-06-27,"Romania: Floods - Trifesti, Iași , Neamt, Covasna, Bacau, Botosani - 29/06/2018",Weather related,Flood,906,,
-ROU,Romania,2018,2018-03-14,"Romania: flood - Căpeni, Covasna County -Transylvania region - 15/03/2018",Weather related,Flood,300,,
+ROU,Romania,2018,2018-03-14,"Romania: flood - Căpeni, Covasna County -Transylvania region - 15/03/2018",Weather related,Flood,300,area,24192.62
 RUS,Russian Federation,2010,2010-01-01,,Weather related,Wildfire,1200,,
 RUS,Russian Federation,2010,2010-01-01,,Weather related,Extreme temperature,,,
 RUS,Russian Federation,2010,2010-01-01,,Weather related,Extreme temperature,,,
@@ -5141,7 +5141,7 @@ RUS,Russian Federation,2012,2012-01-01,,Weather related,Wildfire,1226,,
 RUS,Russian Federation,2013,2013-04-01,Central and Volga districts flood,Weather related,Flood,215,,
 RUS,Russian Federation,2013,2013-05-06,Sahka Republic Floods,Weather related,Flood,190,,
 RUS,Russian Federation,2013,2013-08-10,Russia August Amur River Flooding,Weather related,Flood,28793,,
-RUS,Russian Federation,2014,2014-05-29,Siberia flood,Weather related,Flood,22545,,
+RUS,Russian Federation,2014,2014-05-29,Siberia flood,Weather related,Flood,22545,area,1829701
 RUS,Russian Federation,2014,2014-03-01,Amur Oblast flood,Weather related,Flood,312,,
 RUS,Russian Federation,2015,2015-04-12,Siberia fires,Weather related,Wildfire,6600,,
 RUS,Russian Federation,2016,2016-08-14,Moscow Floods,Weather related,Flood,200,,
@@ -5149,22 +5149,22 @@ RUS,Russian Federation,2016,2016-08-16,Typhoon Lionrock,Weather related,Storm,14
 RUS,Russian Federation,2016,2016-05-10,Amur Region Fire,Weather related,Wildfire,27,,
 RUS,Russian Federation,2016,2016-06-04,Northern Caucasus floods,Weather related,Flood,1,,
 RUS,Russian Federation,2016,2016-06-30,Rostov-on-Don Floods,Weather related,Flood,3,,
-RUS,Russian Federation,2016,2016-04-12,Central and northern Russia ice jam floods,Weather related,Flood,2000,,
+RUS,Russian Federation,2016,2016-04-12,Central and northern Russia ice jam floods,Weather related,Flood,2000,area,1834048.3
 RUS,Russia,2017,2017-08-07,Russian Federation: floods - Primorskye; Khabarkovsk - 07/08/2017,Weather related,Flood,436,,
 RUS,Russia,2017,2017-04-28,Russian Federation: forest fires - Irkutsk; Buryatia; Krasnoyarsk - 28/04/2017,Weather related,Wildfire,1220,,
 RUS,Russia,2017,2017-05-24,Russian Federation: floods - Stavropol - 24/05/2017,Weather related,Flood,3600,,
 RUS,Russia,2017,2017-05-10,Russian Federation: floods - Tyumen - 10/05/2017,Weather related,Flood,643,,
 RUS,Russia,2018,2018-10-24,Russian Federation: flood - Krasnodar - 24/10/2018,Weather related,Flood,360,,
-RUS,Russia,2018,2018-03-27,Russian Federation: ice jam floods - Altai; Tuva; Khakassia - 27/03/2018,Weather related,Flood,1506,,
+RUS,Russia,2018,2018-03-27,Russian Federation: ice jam floods - Altai; Tuva; Khakassia - 27/03/2018,Weather related,Flood,1506,area,172029.58
 RUS,Russia,2018,2018-05-10,Russian Federation: flood - Yakutia - 10/05/2018,Weather related,Flood,734,,
 RUS,Russia,2018,2018-04-15,Russian Federation: flood - Voronezh - 15/04/2018,Weather related,Flood,59,,
 RUS,Russia,2018,2018-07-10,Russian Federation: flood - Trans-Baikal (Zabaykalsky Kray) - 10/07/2018,Weather related,Flood,757,,
 RUS,Russia,2018,2018-08-23,Russia: flood - Primorsky - 23/08/2018,Weather related,Flood,158,,
-RWA,Rwanda,2008,2008-01-10,,Weather related,Flood,5000,,
+RWA,Rwanda,2008,2008-01-10,,Weather related,Flood,5000,area,11140
 RWA,Rwanda,2010,2010-01-01,,Weather related,Wet mass movement,5920,,
 RWA,Rwanda,2010,2010-01-01,,Weather related,Wet mass movement,,,
 RWA,Rwanda,2011,2011-01-01,,Weather related,Flood,1860,,
-RWA,Rwanda,2012,2012-01-01,,Weather related,Flood,3225,,
+RWA,Rwanda,2012,2012-01-01,,Weather related,Flood,3225,area,43617.54
 RWA,Rwanda,2013,2013-04-01,,Weather related,Storm,115,,
 RWA,Rwanda,2013,2013-02-07,Kirehe district storm,Weather related,Storm,731,,
 RWA,Rwanda,2013,2013-04-01,Nyabihu flood,Weather related,Flood,180,,
@@ -5183,26 +5183,26 @@ RWA,Rwanda,2017,2017-05-01,Rwanda: Landslides - May 2017,Weather related,Wet mas
 RWA,Rwanda,2017,2017-04-01,Rwanda: Storm - Gatsibo - 01/04/2017,Weather related,Storm,675,,
 RWA,Rwanda,2017,2017-01-01,Rwanda: Storm - Nyarugenge; Kicukiro; Kamonyi; Rusizi; Muhanga - 01/01/2017,Weather related,Storm,200,,
 RWA,Rwanda,2018,2018-01-01,Rwanda: Rainy season - January - 2018,Weather related,Storm,47295,,
-SAU,Saudi Arabia,2009,2009-01-01,,Weather related,Flood,10000,,
+SAU,Saudi Arabia,2009,2009-01-01,,Weather related,Flood,10000,area,114600
 SAU,Saudi Arabia,2010,2010-01-01,,Weather related,Flood,,,
 SAU,Saudi Arabia,2010,2010-01-01,,Weather related,Flood,,,
-SAU,Saudi Arabia,2011,2011-01-01,,Weather related,Flood,,,
-SAU,Saudi Arabia,2012,2012-01-01,,Weather related,Flood,,,
+SAU,Saudi Arabia,2011,2011-01-01,,Weather related,Flood,,area,30361
+SAU,Saudi Arabia,2012,2012-01-01,,Weather related,Flood,,area,233126
 SAU,Saudi Arabia,2013,2013-05-05,"Riyadh Region, Al-Taef province, Al-Baha province",Weather related,Flood,4700,,
 SAU,Saudi Arabia,2016,2016-11-28,Floods in Saudi Arabia,Weather related,Flood,120,,
 SAU,Saudi Arabia,2016,2016-08-03,Heavy rains in Jazan,Weather related,Flood,160,,
-SAU,Saudi Arabia,2017,2017-11-21,Saudi Arabia: Flood - 5 provinces - 21/11/2017,Weather related,Flood,55,,
+SAU,Saudi Arabia,2017,2017-11-21,Saudi Arabia: Flood - 5 provinces - 21/11/2017,Weather related,Flood,55,area,181054.82
 SAU,Saudi Arabia,2017,2017-02-14,Saudi Arabia: Flood - Asir; Jizan - 14/02/2017,Weather related,Flood,45,,
 SAU,Saudi Arabia,2018,2018-11-23,Saudi Arabia: dam breakdown flood - Al Laith - 23/11/2018,Weather related,Flood,45,,
 SAU,Saudi Arabia,2018,2018-10-10,Saudi Arabia: flash floods - coutrywide - 10/10/2018,Weather related,Flood,2001,,
 SDN,Sudan,2008,2008-11-24,,Weather related,Flood,7500,,
 SDN,Sudan,2008,2008-08-01,,Weather related,Flood,39000,,
-SDN,Sudan,2009,2009-01-01,,Weather related,Flood,80000,,
+SDN,Sudan,2009,2009-01-01,,Weather related,Flood,80000,area,59850
 SDN,Sudan,2010,2010-01-01,,Weather related,Flood,10000,,
 SDN,Sudan,2010,2010-01-01,,Weather related,Flood,10000,,
 SDN,Sudan,2011,2011-08-01,Annual Floods,Weather related,Flood,18804,,
 SDN,Sudan,2012,2012-01-01,,Weather related,Flood,84000,,
-SDN,Sudan,2013,2013-08-01,Sudan Rainy Season Floods,Weather related,Flood,283646,,
+SDN,Sudan,2013,2013-08-01,Sudan Rainy Season Floods,Weather related,Flood,283646,area,645399.78
 SDN,Sudan,2014,2014-08-10,Sudan rainy season flooding,Weather related,Flood,154000,,
 SDN,Sudan,2014,2014-07-25,Severe floods in Sudan (July),Weather related,Flood,33000,,
 SDN,Sudan,2015,2015-08-02,Floods in Darfur refugee camps,Weather related,Flood,3575,,
@@ -5215,22 +5215,22 @@ SEN,Senegal,2009,2009-01-01,,Weather related,Flood,264000,,
 SEN,Senegal,2010,2010-01-01,,Weather related,Flood,2140,,
 SEN,Senegal,2010,2010-01-01,,Weather related,Flood,5662,,
 SEN,Senegal,2011,2011-01-01,,Weather related,Flood,1640,,
-SEN,Senegal,2012,2012-01-01,,Weather related,Flood,20000,,
+SEN,Senegal,2012,2012-01-01,,Weather related,Flood,20000,area,79242
 SEN,Senegal,2013,2013-08-01,Sahel Flood,Weather related,Flood,13300,,
 SEN,Senegal,2016,2016-07-24,Kaffrine region floods,Weather related,Flood,12900,,
 SEN,Senegal,2016,2016-09-04,St. Louis storm,Weather related,Storm,11292,,
 SEN,Senegal,2017,2017-08-19,Senegal: Wet mass movement - Saint-Louis (19/08/2017),Weather related,Wet mass movement,628,,
 SEN,Senegal,2018,2018-01-01,Senegal: Drought - 01/01/2018,Weather related,Drought,2,,
-SLB,Solomon Islands,2009,2009-01-01,,Weather related,Flood,,,
+SLB,Solomon Islands,2009,2009-01-01,,Weather related,Flood,,area,118000
 SLB,Solomon Islands,2010,2010-01-01,Cyclone 'Ului',Weather related,Storm,5000,,
-SLB,Solomon Islands,2010,2010-01-01,,Geophysical,Earthquake,2850,,
+SLB,Solomon Islands,2010,2010-01-01,,Geophysical,Earthquake,2850,moment_magnitude,7.1
 SLB,Solomon Islands,2010,2010-01-01,,Weather related,Flood,,,
 SLB,Solomon Islands,2011,2011-01-01,,Geophysical,Earthquake,,,
 SLB,Solomon Islands,2011,2011-01-01,Tropical Cyclone 'Yasi',Weather related,Storm,,,
 SLB,Solomon Islands,2012,2012-01-01,,Weather related,Flood,47,,
 SLB,Solomon Islands,2012,2012-01-01,,Weather related,Storm,1000,,
-SLB,Solomon Islands,2013,2013-06-02,Solomon Islands Tsunami,Geophysical,Earthquake,3500,,
-SLB,Solomon Islands,2014,2014-04-03,Honiara floods,Weather related,Flood,9000,,
+SLB,Solomon Islands,2013,2013-06-02,Solomon Islands Tsunami,Geophysical,Earthquake,3500,moment_magnitude,8
+SLB,Solomon Islands,2014,2014-04-03,Honiara floods,Weather related,Flood,9000,area,5480.75
 SLB,Solomon Islands,2015,2015-03-09,Cyclone Pam,Weather related,Storm,1000,,
 SLB,Solomon Islands,2016,2016-12-09,Makira Earthquake,Geophysical,Earthquake,1328,,
 SLB,Solomon Islands,2017,2017-12-05,"Solomon Islands: Floods, Guadalcanal Province - 05/12/2018",Weather related,Flood,575,,
@@ -5260,10 +5260,10 @@ SLV,El Salvador,2016,2016-07-01,Usulutan and Sonsonate flood,Weather related,Flo
 SLV,El Salvador,2016,2016-09-24,Tejutepeque-Cinquera Landslide,Weather related,Wet mass movement,4,,
 SLV,El Salvador,2017,2017-06-13,"La Paz, La Libertad, Sonsonate, Morazán and Chalatenango Floods",Weather related,Flood,389,,
 SLV,El Salvador,2018,2018-11-17,El Salvador: Earthquake - Apaneca - 17/11/2018,Geophysical,Earthquake,75,,
-SLV,El Salvador,2018,2018-05-06,"El Salvador: earthquake - Intipuca, La Union; Chirilagua, San Miguel - 06/05/2018",Geophysical,Earthquake,2499,,
+SLV,El Salvador,2018,2018-05-06,"El Salvador: earthquake - Intipuca, La Union; Chirilagua, San Miguel - 06/05/2018",Geophysical,Earthquake,2499,moment_magnitude,5.6
 SLV,El Salvador,2018,2018-05-15,El Salvador: Rainy season - 4 departments- May 2018,Weather related,Flood,8,,
 SLV,El Salvador,2018,2018-10-05,"Guatemala, Honduras, Nicaragua, Costa Rica, El Salvador: Floods - 05/10/2018",Weather related,Flood,2073,,
-SOM,Somalia,2008,2008-03-11,,Weather related,Flood,12000,,
+SOM,Somalia,2008,2008-03-11,,Weather related,Flood,12000,area,111900
 SOM,Somalia,2009,2009-01-01,,Weather related,Flood,,,
 SOM,Somalia,2010,2010-01-01,,Weather related,Flood,5000,,
 SOM,Somalia,2010,2010-01-01,,Weather related,Flood,200,,
@@ -5274,7 +5274,7 @@ SOM,Somalia,2013,2013-08-01,August Flooding Somalia,Weather related,Flood,4800,,
 SOM,Somalia,2014,2014-05-24,Lower Juba flood,Weather related,Flood,6000,,
 SOM,Somalia,2014,2014-04-01,Gedo region flood,Weather related,Flood,7050,,
 SOM,Somalia,2014,2014-10-09,Berbera flash floods,Weather related,Flood,840,,
-SOM,Somalia,2014,2014-10-24,Shabelle river floods,Weather related,Flood,21000,,
+SOM,Somalia,2014,2014-10-24,Shabelle river floods,Weather related,Flood,21000,area,42365
 SOM,Somalia,2014,2014-05-01,Middle Shabelle region flood,Weather related,Flood,1175,,
 SOM,Somalia,2015,2015-05-01,Shabeellaha Dhexe floods,Weather related,Flood,6815,,
 SOM,Somalia,2015,2015-05-01,Mudug and Lower Juba floods,Weather related,Flood,2350,,
@@ -5297,7 +5297,7 @@ SOM,Somalia,2018,2018-01-01,Somalia: Drought - 01/01/2018,Weather related,Drough
 SOM,Somalia,2018,2018-05-19,"Djibouti, Ethiopia, Somalia, Yemen: Tropical Cyclone Sagar - 19/05/2018",Weather related,Storm,8876,,
 SRB,Serbia,2009,2009-01-01,,Weather related,Extreme temperature,,,
 SRB,Serbia,2009,2009-01-01,,Weather related,Flood,,,
-SRB,Serbia,2010,2010-01-01,,Geophysical,Earthquake,1470,,
+SRB,Serbia,2010,2010-01-01,,Geophysical,Earthquake,1470,moment_magnitude,5.5
 SRB,Serbia,2010,2010-01-01,,Weather related,Extreme temperature,,,
 SRB,Serbia,2010,2010-01-01,,Weather related,Flood,,,
 SRB,Serbia,2010,2010-01-01,,Weather related,Extreme temperature,,,
@@ -5369,10 +5369,10 @@ SYR,Syria,2018,2018-12-03,Syria: Flood - Al-Hasakah 03/12/2018,Weather related,F
 SYR,Syria,2018,2018-02-17,Syria: Flood - Al Hasakeh - 17/02/2018,Weather related,Flood,11,,
 TCA,Turks and Caicos Islands,2016,2016-09-28,Hurricane Matthew,Weather related,Storm,50,max_wind_speed,270
 TCA,Turks and Caicos Islands,2017,2017-08-27,15 countries - Hurricane Irma - 27/08/2017,Weather related,Storm,60,max_wind_speed,285
-TCD,Chad,2008,2008-07-20,,Weather related,Flood,10000,,
+TCD,Chad,2008,2008-07-20,,Weather related,Flood,10000,area,61820
 TCD,Chad,2009,2009-01-01,,Weather related,Flood,4895,,
 TCD,Chad,2009,2009-01-01,,Weather related,Flood,900,,
-TCD,Chad,2010,2010-01-01,,Weather related,Flood,70000,,
+TCD,Chad,2010,2010-01-01,,Weather related,Flood,70000,area,38021
 TCD,Chad,2012,2012-01-01,,Weather related,Flood,500000,,
 TCD,Chad,2013,2013-08-15,August Floods,Weather related,Flood,77581,,
 TCD,Chad,2013,2013-08-15,camp Mile flood,Weather related,Flood,10618,,
@@ -5380,27 +5380,27 @@ TCD,Chad,2014,2014-05-25,Zafaye temporary camp flooding,Weather related,Flood,88
 TCD,Chad,2014,2014-08-14,Flooding in the Salamat region,Weather related,Flood,1016,,
 TCD,Chad,2016,2016-05-01,Rainy season floods,Weather related,Storm,5650,,
 TCD,Chad,2018,2018-08-13,Chad: Flash flood - Bourkou-Yala - 13/08/2018,Weather related,Flood,2000,,
-TGO,Togo,2008,2008-01-07,,Weather related,Flood,2000,,
+TGO,Togo,2008,2008-01-07,,Weather related,Flood,2000,area,66960
 TGO,Togo,2010,2010-01-01,,Weather related,Flood,50000,,
 TGO,Togo,2010,2010-01-01,,Weather related,Flood,,,
 TGO,Togo,2013,2013-08-14,,Weather related,Flood,117,,
 TGO,Togo,2015,2015-06-02,Lome floods,Weather related,Flood,5000,,
 TGO,Togo,2017,2017-06-18,Togo: Flood - Lome - 18/06/2017,Weather related,Flood,50,,
-THA,Thailand,2008,2008-11-20,,Weather related,Flood,200000,,
+THA,Thailand,2008,2008-11-20,,Weather related,Flood,200000,area,15650
 THA,Thailand,2008,2008-11-09,,Weather related,Flood,1680,,
 THA,Thailand,2008,2008-02-05,,Weather related,Storm,1000,,
-THA,Thailand,2009,2009-01-01,,Weather related,Flood,68000,,
+THA,Thailand,2009,2009-01-01,,Weather related,Flood,68000,area,35580
 THA,Thailand,2010,2010-01-01,,Weather related,Flood,1000000,,
 THA,Thailand,2011,2011-01-01,,Weather related,Flood,84000,,
 THA,Thailand,2011,2011-01-01,Topical storm Juaning (Nock-ten),Weather related,Storm,60965,,
-THA,Thailand,2011,2011-01-01,,Geophysical,Earthquake,,,
+THA,Thailand,2011,2011-01-01,,Geophysical,Earthquake,,moment_magnitude,6.8
 THA,Thailand,2011,2011-01-01,,Weather related,Flood,1500000,,
-THA,Thailand,2012,2012-01-01,,Weather related,Flood,3000,,
+THA,Thailand,2012,2012-01-01,,Weather related,Flood,3000,area,44011
 THA,Thailand,2012,2012-01-01,,Weather related,Storm,400,,
 THA,Thailand,2013,2013-04-17,Nakhon Si Thammarat province storm,Weather related,Storm,22,,
 THA,Thailand,2013,2013-10-09,Burinam,Weather related,Flood,1920,,
 THA,Thailand,2013,2013-04-17,Surin province storm,Weather related,Storm,224,,
-THA,Thailand,2013,2013-11-20,Monsoon causing floods in Southern Thailand,Weather related,Flood,9828,,
+THA,Thailand,2013,2013-11-20,Monsoon causing floods in Southern Thailand,Weather related,Flood,9828,area,38676
 THA,Thailand,2013,2013-09-23,Central Thailand floods caused by typhoon Wutip,Weather related,Flood,700,,
 THA,Thailand,2013,2013-04-02,Nong Bua Lamphu province storm,Weather related,Storm,492,,
 THA,Thailand,2013,2013-09-11,Trat province tropical storm,Weather related,Storm,96,,
@@ -5425,13 +5425,13 @@ THA,Thailand,2016,2016-12-30,Southern Floods (2nd wave),Weather related,Flood,75
 THA,Thailand,2016,2016-05-09,Central and Northern storms,Weather related,Storm,960,,
 THA,Thailand,2016,2016-04-12,Chiang Rai wildfire,Weather related,Wildfire,182,,
 THA,Thailand,2016,2016-08-10,Northern provinces floods - THAILAND,Weather related,Flood,4800,,
-THA,Thailand,2016,2016-12-01,Southern Floods (1st wave),Weather related,Flood,57000,,
+THA,Thailand,2016,2016-12-01,Southern Floods (1st wave),Weather related,Flood,57000,area,67395.39
 THA,Thailand,2016,2016-06-06,Southern storm,Weather related,Storm,138,,
 THA,Thailand,2016,2016-11-01,Western floods,Weather related,Flood,35,,
 THA,Thailand,2016,2016-04-20,Central and Northeast Storms,Weather related,Storm,1132,,
 THA,Thailand,2016,2016-04-05,Northern Hailstorm,Weather related,Storm,352,,
 THA,Thailand,2016,2016-08-29,September Flooding (first wave),Weather related,Flood,200,,
-THA,Thailand,2016,2016-01-24,Northern provinces cold wave,Weather related,Extreme temperature,288,,
+THA,Thailand,2016,2016-01-24,Northern provinces cold wave,Weather related,Extreme temperature,288,temperature,8.6
 THA,Thailand,2016,2016-09-11,Typhoon Rai,Weather related,Storm,1532,,
 THA,Thailand,2016,2016-09-19,Central and northern floods,Weather related,Flood,17722,,
 THA,Thailand,2016,2016-07-18,Nakhon Pathom storm,Weather related,Storm,480,,
@@ -5464,21 +5464,21 @@ THA,Thailand,2018,2018-04-06,Thailand: Hailstorms - Khon Kaen - 6/4/2018,Weather
 THA,Thailand,2018,2018-04-12,Thailand: Strong Wind - Nakhon Ratchasima - 12/4/2018,Weather related,Storm,64,,
 THA,Thailand,2018,2018-04-23,"Thailand: Storm - Yala, Nong Khai - 23/4/2018",Weather related,Storm,726,,
 THA,Thailand,2018,2018-06-05,Thailand: Storm - Phuket - 5/6/2018,Weather related,Storm,45,,
-TJK,Tajikistan,2008,2008-01-01,,Weather related,Extreme temperature,,,
-TJK,Tajikistan,2009,2009-01-01,,Weather related,Flood,,,
-TJK,Tajikistan,2010,2010-01-01,,Geophysical,Earthquake,1134,,
+TJK,Tajikistan,2008,2008-01-01,,Weather related,Extreme temperature,,temperature,-15
+TJK,Tajikistan,2009,2009-01-01,,Weather related,Flood,,area,62470
+TJK,Tajikistan,2010,2010-01-01,,Geophysical,Earthquake,1134,moment_magnitude,5.3
 TJK,Tajikistan,2010,2010-01-01,,Weather related,Flood,25,,
 TJK,Tajikistan,2010,2010-01-01,,Weather related,Flood,850,,
-TJK,Tajikistan,2011,2011-01-01,,Geophysical,Earthquake,,,
+TJK,Tajikistan,2011,2011-01-01,,Geophysical,Earthquake,,moment_magnitude,6.1
 TJK,Tajikistan,2011,2011-01-01,,Weather related,Flood,,,
 TJK,Tajikistan,2012,2012-01-01,,Weather related,Flood,390,,
-TJK,Tajikistan,2012,2012-01-01,,Geophysical,Earthquake,6000,,
+TJK,Tajikistan,2012,2012-01-01,,Geophysical,Earthquake,6000,moment_magnitude,5.7
 TJK,Tajikistan,2013,2013-11-10,Rudaki and Vahdat Earthquake,Geophysical,Earthquake,655,,
 TJK,Tajikistan,2014,2014-04-11,Floods and mudslides in the south of Tajikistan,Weather related,Flood,37,,
 TJK,Tajikistan,2014,2014-05-10,Khatlon province flash floods and mudslides,Weather related,Wet mass movement,425,,
-TJK,Tajikistan,2015,2015-12-07,Murghob earthquake,Geophysical,Earthquake,1469,,
+TJK,Tajikistan,2015,2015-12-07,Murghob earthquake,Geophysical,Earthquake,1469,moment_magnitude,7.2
 TJK,Tajikistan,2015,2015-07-01,Gorno-Badakhshan and Rasht valley floods,Weather related,Flood,10000,,
-TJK,Tajikistan,2016,2016-07-01,Rasht District Earthquake,Geophysical,Earthquake,30,,
+TJK,Tajikistan,2016,2016-07-01,Rasht District Earthquake,Geophysical,Earthquake,30,moment_magnitude,5.4
 TJK,Tajikistan,2016,2016-08-28,Tojikobod District Floods/Landslides,Weather related,Flood,2350,,
 TJK,Tajikistan,2017,2017-04-13,"Asht, Darvoz, Laksh, Roshtkala and Rasht floods",Weather related,Flood,3691,,
 TJK,Tajikistan,2017,2017-06-26,Rasht valley mudflows,Weather related,Wet mass movement,974,,
@@ -5571,7 +5571,7 @@ TLS,Timor-Leste,2014,2014-08-09,Fire in Aldeia perdidu (Comoro suco) in Dom Alei
 TLS,Timor-Leste,2014,2014-09-21,Fire in Uluk Lolo (Lour suco) in Zumalai sub-district of Covalima,Weather related,Wildfire,11,,
 TLS,Timor-Leste,2014,2014-03-27,Fire in Aldeia Selihasan (Betano suco) in Same sub-district of Manufahi,Weather related,Wildfire,5,,
 TLS,Timor-Leste,2015,2015-01-05,Ermera landslide and gale,Geophysical,Mass movement,39,,
-TLS,Timor-Leste,2015,2015-03-11,Becora landslide,Geophysical,Earthquake,11,,
+TLS,Timor-Leste,2015,2015-03-11,Becora landslide,Geophysical,Earthquake,11,moment_magnitude,6.3
 TLS,Timor-Leste,2015,2015-02-12,Dili landslide and gale,Geophysical,Mass movement,28,,
 TLS,Timor-Leste,2015,2015-01-28,Costa gale,Weather related,Storm,6,,
 TLS,Timor-Leste,2015,2015-12-26,Poetete landslide,Weather related,Wet Mass Movement,6,,
@@ -5586,7 +5586,7 @@ TLS,Timor-Leste,2015,2015-02-12,Poetete gale,Weather related,Storm,6,,
 TLS,Timor-Leste,2015,2015-03-28,Lour gale,Weather related,Storm,6,,
 TLS,Timor-Leste,2016,2016-02-02,Dili Flood,Weather related,Flood,34,,
 TLS,Timor-Leste,2016,2016-01-07,Lospalos and Baucau storm,Weather related,Storm,78,,
-TON,Tonga,2009,2009-01-01,,Geophysical,Earthquake,,,
+TON,Tonga,2009,2009-01-01,,Geophysical,Earthquake,,moment_magnitude,8.1
 TON,Tonga,2011,2011-01-01,Tropical cyclone Wilma,Weather related,Storm,,max_wind_speed/minutes_sustained,185/10
 TON,Tonga,2011,2011-01-01,,Geophysical,Earthquake,,,
 TON,Tonga,2012,2012-01-01,,Weather related,Storm,400,,
@@ -5626,14 +5626,14 @@ TUR,Turkey,2018,2018-04-24,Earthquake: Turkey - Adiyaman - 24/04/2018,Geophysica
 TUR,Turkey,2018,2018-08-09,Turkey: Floods -Ordu - 09/08/2018,Weather related,Flood,500,,
 TUR,Turkey,2018,2018-08-12,Turkey: Landslide risk evacuations - Çaybaşı district (ORDU)- 12/08/2018,Weather related,Wet mass movement,78,,
 TUV,Tuvalu,2015,2015-03-10,Cyclone Pam,Weather related,Storm,5435,,
-TWN,"Taiwan, China",2009,2009-01-01,Typhoon Morakot (Kiko),Weather related,Storm,24950,,
-TWN,"Taiwan, China",2010,2010-01-01,,Geophysical,Earthquake,,,
+TWN,"Taiwan, China",2009,2009-01-01,Typhoon Morakot (Kiko),Weather related,Storm,24950,max_wind_speed,148
+TWN,"Taiwan, China",2010,2010-01-01,,Geophysical,Earthquake,,moment_magnitude,6.3
 TWN,"Taiwan, China",2010,2010-01-01,Typhoon Fanapi,Weather related,Storm,,,
 TWN,"Taiwan, China",2010,2010-01-01,Typhoon Megi (Juan),Weather related,Storm,,,
 TWN,"Taiwan, China",2012,2012-01-01,,Weather related,Storm,6000,,
 TWN,"Taiwan, China",2013,2013-08-20,Typhoon Trami,Weather related,Storm,6171,,
 TWN,"Taiwan, China",2013,2013-08-29,Severe Tropical Storm Kong-Rey (Nando),Weather related,Storm,2627,,
-TWN,"Taiwan, China",2013,2013-07-13,Typhoon Soulik,Weather related,Storm,10124,,
+TWN,"Taiwan, China",2013,2013-07-13,Typhoon Soulik,Weather related,Storm,10124,max_wind_speed,220
 TWN,"Taiwan, China",2013,2013-10-07,Typhoon Fitow,Weather related,Storm,224,,
 TWN,"Taiwan, China",2013,2013-09-21,Typhoon Usagi,Weather related,Storm,3000,max_wind_speed/minutes_sustained,250/1
 TWN,"Taiwan, China",2014,2014-09-21,Tropical storm Fung-Wong,Weather related,Storm,4000,,
@@ -5655,7 +5655,7 @@ TWN,"Taiwan, China",2017,2017-10-11,Hong-Kong/Taiwan/China; Philippines - Typhoo
 TWN,"Taiwan, China",2018,2018-07-03,"China, Taiwan: Typhoon Maria - 3/7/2018",Weather related,Storm,3430,max_wind_speed/minutes_sustained,270/1
 TWN,"Taiwan, China",2018,2018-08-22,Taiwan: Tropical Depression 24W (Luis) - 22/8/2018,Weather related,Storm,8492,,
 TWN,"Taiwan, China",2018,2018-08-23,Taiwan: Storm - Taiwan - 23/8/2018,Weather related,Storm,6000,,
-TWN,"Taiwan, China",2018,2018-02-06,Taiwan: Earthquake - Hualien - 6/2/2018,Geophysical,Earthquake,830,,
+TWN,"Taiwan, China",2018,2018-02-06,Taiwan: Earthquake - Hualien - 6/2/2018,Geophysical,Earthquake,830,moment_magnitude,6.4
 TZA,Tanzania,2008,2008-10-01,,Weather related,Flood,442,,
 TZA,Tanzania,2008,2008-03-17,,Weather related,Flood,2000,,
 TZA,Tanzania,2009,2009-01-01,,Weather related,Flood,10599,,
@@ -5670,14 +5670,14 @@ TZA,Tanzania,2014,2014-02-06,Tanga flash floods,Weather related,Flood,400,,
 TZA,Tanzania,2014,2014-04-11,Dar Es Salaam flood,Weather related,Flood,2000,,
 TZA,Tanzania,2015,2015-03-03,Shinyanga region hailstorm,Weather related,Storm,3500,,
 TZA,Tanzania,2016,2016-02-07,Country-wide floods,Weather related,Flood,7410,,
-TZA,Tanzania,2016,2016-01-17,Dodoma Region floods,Weather related,Flood,1379,,
-TZA,Tanzania,2016,2016-09-10,Kagera Region Earthquake,Geophysical,Earthquake,10153,,
+TZA,Tanzania,2016,2016-01-17,Dodoma Region floods,Weather related,Flood,1379,area,182022.09
+TZA,Tanzania,2016,2016-09-10,Kagera Region Earthquake,Geophysical,Earthquake,10153,moment_magnitude,5.9
 TZA,Tanzania,2016,2016-04-01,"Floods in northeastern, southwestern and central regions",Weather related,Flood,17000,,
 TZA,Tanzania,2017,2017-05-14,Tanzania: Storm - Tanga - May 2017,Weather related,Storm,200,,
 TZA,Tanzania,2017,2017-04-07,Tanzania: Flash flood - Musoma - 07/04/2017,Weather related,Flood,150,,
 TZA,Tanzania,2017,2017-03-10,Tanzania: Storm - Lindi - 10/03/2017,Weather related,Storm,1225,,
 TZA,Tanzania,2017,2017-10-25,Tanzania: Floods - Dar Es Salaam - 25/10/2017,Weather related,Flood,343,,
-TZA,Tanzania,2018,2018-04-12,Tanzania: Flood - Dar es Salaam; Arusha; Zanzibar; Kilimanjaro; Tanga; Manyara; Tabora; Pwani; Mwanza; Morogoro; Dodoma; Mbeya; Rukwa; Mtwara; Shinyanga; Geita - 12/04/2018,Weather related,Flood,13923,,
+TZA,Tanzania,2018,2018-04-12,Tanzania: Flood - Dar es Salaam; Arusha; Zanzibar; Kilimanjaro; Tanga; Manyara; Tabora; Pwani; Mwanza; Morogoro; Dodoma; Mbeya; Rukwa; Mtwara; Shinyanga; Geita - 12/04/2018,Weather related,Flood,13923,area,37319.62
 TZA,Tanzania,2018,2018-01-09,Tanzania: Storm - Dodoma - 09/01/2018,Weather related,Storm,2563,,
 TZA,Tanzania,2018,2018-05-06,Tanzania: Flood - Kilimanjaro - 06/05/2018,Weather related,Flood,720,,
 TZA,Tanzania,2018,2018-05-30,Tanzania: Flood - Marwa; Ruvu Mferejini; Ruvu Jiungeni; Kilimanjaro Region - 30/05/2018,Weather related,Flood,5700,,
@@ -5720,7 +5720,7 @@ UKR,Ukraine,2010,2010-01-01,,Weather related,Flood,,,
 UKR,Ukraine,2012,2012-01-01,,Weather related,Extreme temperature,,,
 UKR,Ukraine,2013,2013-09-12,Ukraine September flood,Weather related,Flood,600,,
 UKR,Ukraine,2016,2016-10-11,Odessa region floods,Weather related,Flood,126,,
-URY,Uruguay,2009,2009-01-01,,Weather related,Flood,,,
+URY,Uruguay,2009,2009-01-01,,Weather related,Flood,,area,43490
 URY,Uruguay,2010,2010-01-01,,Weather related,Extreme temperature,,,
 URY,Uruguay,2013,2013-09-17,Extra-tropical cyclone,Weather related,Storm,1000,,
 URY,Uruguay,2014,2014-09-15,Yi river overflown,Weather related,Flood,4590,,
@@ -5878,7 +5878,7 @@ USA,United States,2014,2014-09-08,Heavy rainfall in Arizona,Weather related,Floo
 USA,United States,2014,2014-09-07,Tropical storm Iselle,Weather related,Storm,150,,
 USA,United States,2014,2014-09-05,Bridge Fire,Weather related,Wildfire,1300,,
 USA,United States,2014,2014-08-05,Rowena fire,Weather related,Wildfire,735,,
-USA,United States,2015,2015-05-06,"Floods in Cleveland, Grady, and Oklahoma Counties",Weather related,Storm,1461,,
+USA,United States,2015,2015-05-06,"Floods in Cleveland, Grady, and Oklahoma Counties",Weather related,Storm,1461,max_wind_speed,130
 USA,United States,2015,2015-05-20,Southern plains severe weather,Weather related,Storm,29,,
 USA,United States,2015,2015-06-28,Sleepy Hollow Fire,Weather related,Wildfire,30,,
 USA,United States,2015,2015-08-12,Canyon Creek Complex,Weather related,Wildfire,600,,
@@ -5969,7 +5969,7 @@ USA,United States,2016,2016-08-23,Iowa floods,Weather related,Flood,151,,
 USA,United States,2016,2016-05-22,Texas floods (2nd wave),Weather related,Flood,4640,,
 USA,United States,2016,2016-11-28,Tennessee wildfires,Weather related,Wildfire,4597,,
 USA,United States,2017,2017-01-23,United States :Santa Clarita - Floods - California- 23/01/2017,Weather related,Flood,273,,
-USA,United States,2017,2017-12-04,"United States :Southern California Wildfires (Thomas, Creek, Rye, Skirball, Lilac)- California - 04/12/2017",Weather related,Wildfire,203700,,
+USA,United States,2017,2017-12-04,"United States :Southern California Wildfires (Thomas, Creek, Rye, Skirball, Lilac)- California - 04/12/2017",Weather related,Wildfire,203700,area,1101.5
 USA,United States,2017,2017-06-23,United States :Goodwin Fire - Arizona - 23/06/2017,Weather related,Wildfire,10000,,
 USA,United States,2017,2017-07-17,United States of America : Oil Well Fire - Nevada- 17/07/2017,Weather related,Wildfire,1000,,
 USA,United States,2017,2017-07-14,United States of America: Cold Springs Fire – Nevada - 14/072017,Weather related,Wildfire,200,,
@@ -5995,7 +5995,7 @@ USA,United States,2017,2017-10-23,United States : North Carolina Tornado - 26/10
 USA,United States,2017,2017-05-02,United States : Arkansas floods - 02/05/2017,Weather related,Flood,300,,
 USA,United States,2017,2017-09-25,United States: Cascade Fire -California -25/09/2017,Weather related,Wildfire,286,,
 USA,United States,2017,2017-02-12,United States :Oroville Dam release flood - California - 12/02/2017,Weather related,Flood,190000,,
-USA,United States,2017,2017-08-25,United States: Tropical cyclone Harvey - Texas ; Louisiana - 25/08/2017,Weather related,Storm,848000,,
+USA,United States,2017,2017-08-25,United States: Tropical cyclone Harvey - Texas ; Louisiana - 25/08/2017,Weather related,Storm,848000,max_wind_speed,215
 USA,United States,2017,2017-08-25,United States: Strawberry fire - Montana - August 2017,Weather related,Wildfire,87,,
 USA,United States,2017,2017-07-25,United States : Preacher Fire - Nevada - 25/07/2017,Weather related,Wildfire,1350,,
 USA,United States,2017,2017-08-28,United States: Wildfire - Highway 200 - Montana - 28-08-2017,Weather related,Wildfire,100,,

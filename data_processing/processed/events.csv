@@ -34,7 +34,9 @@ Australia,2015,180,minutes_sustained,10.0
 Australia,2015,800,max_wind_speed,230.0
 Australia,2015,400,minutes_sustained,165.0
 Australia,2015,400,minutes_sustained,10.0
-Australia,2018,40,max_wind_speed,185.0
+Australia,2018,40,mm_of_rain,185.0
+Australia,2018,40,mm_of_rain,110.0
+Azerbaijan,2012,36000,moment_magnitude,5.6
 Belgium,2010,0,max_wind_speed,228.0
 Bangladesh,2009,842000,max_wind_speed,120.0
 Bangladesh,2009,0,max_wind_speed,95.0
@@ -115,6 +117,8 @@ China,2009,162757,mm_of_rain,110.0
 China,2009,162757,mm_of_rain,150.0
 China,2009,115000,minutes_sustained,185.0
 China,2009,115000,minutes_sustained,10.0
+China,2009,400000,moment_magnitude,5.7
+China,2009,61000,moment_magnitude,5.1
 China,2009,1620000,minutes_sustained,140.0
 China,2009,1620000,minutes_sustained,10.0
 China,2010,128000,minutes_sustained,175.0
@@ -123,6 +127,7 @@ China,2010,186000,minutes_sustained,220.0
 China,2010,186000,minutes_sustained,10.0
 China,2010,0,minutes_sustained,130.0
 China,2010,0,minutes_sustained,10.0
+China,2010,100000,moment_magnitude,6.9
 China,2011,5000,moment_magnitude,6.9
 China,2011,300000,minutes_sustained,150.0
 China,2011,300000,minutes_sustained,10.0
@@ -165,10 +170,12 @@ China,2015,1251,minutes_sustained,155.0
 China,2015,1251,minutes_sustained,10.0
 China,2015,40000,minutes_sustained,85.0
 China,2015,40000,minutes_sustained,10.0
-China,2015,562000,max_wind_speed,230.0
+China,2015,562000,mm_of_rain,230.0
+China,2015,562000,mm_of_rain,609.6
 China,2015,559200,mm_of_rain,240.0
 China,2015,559200,mm_of_rain,90.0
-China,2015,1100000,max_wind_speed,220.0
+China,2015,1100000,mm_of_rain,220.0
+China,2015,1100000,mm_of_rain,388.5
 China,2015,56000,minutes_sustained,95.0
 China,2015,56000,minutes_sustained,10.0
 China,2015,9000,moment_magnitude,6.4
@@ -183,6 +190,18 @@ China,2016,1990000,mm_of_rain,570.0
 China,2016,6800,moment_magnitude,4.8
 China,2016,90,moment_magnitude,6.4
 China,2016,477000,area,197079.53
+China,2016,69000,mm_of_rain,175.0
+China,2016,69000,mm_of_rain,150.0
+China,2016,782000,mm_of_rain,215.0
+China,2016,782000,mm_of_rain,381.0
+China,2016,208200,mm_of_rain,111.0
+China,2016,208200,mm_of_rain,342.0
+China,2016,534000,mm_of_rain,213.0
+China,2016,534000,mm_of_rain,500.0
+China,2016,567000,mm_of_rain,287.1
+China,2016,567000,mm_of_rain,299.0
+China,2016,51000,mm_of_rain,213.0
+China,2016,51000,mm_of_rain,445.0
 China,2017,60300,area,283444.21
 China,2017,410841,minutes_sustained,140.0
 China,2017,410841,minutes_sustained,10.0
@@ -441,6 +460,8 @@ Japan,2015,118,vei,1.0
 Japan,2015,77,vei,4.0
 Japan,2016,9,vei,5.0
 Japan,2016,4,moment_magnitude,6.3
+Japan,2016,43834,mm_of_rain,213.0
+Japan,2016,43834,mm_of_rain,445.0
 Japan,2018,36400,minutes_sustained,140.0
 Japan,2018,36400,minutes_sustained,10.0
 Kiribati,2015,2520,minutes_sustained,250.0
@@ -475,64 +496,322 @@ Myanmar,2015,1616761,mm_of_rain,250.0
 Myanmar,2017,276,minutes_sustained,85.0
 Myanmar,2017,276,minutes_sustained,1.0
 Mauritania,2018,445,mm_of_rain,200.0
+Namibia,2010,11000,area,64630.0
+Nigeria,2010,560000,area,619100.0
+Nigeria,2015,2000,area,186816.02
+Nicaragua,2008,3000,area,34760.0
 Nicaragua,2009,0,max_wind_speed,250.0
+Nicaragua,2014,1585,moment_magnitude,6.1
+Nepal,2011,0,area,46388.0
+Nepal,2011,46476,moment_magnitude,6.9
 Nepal,2015,2622733,moment_magnitude,7.8
 Nepal,2016,1023,area,1300.0
+Nepal,2017,380963,area,64676.5
 Nepal,2018,4,max_wind_speed,90.0
 Nepal,2018,4,mm_of_rain,311.9
+New Zealand,2010,250,moment_magnitude,7.0
+New Zealand,2011,300,max_wind_speed,110.0
+New Zealand,2015,400,area,8948.6
 New Zealand,2015,40,max_wind_speed,280.0
+New Zealand,2016,1500,moment_magnitude,7.8
 New Zealand,2018,81,max_wind_speed,85.0
 New Zealand,2018,8,max_wind_speed,180.0
 New Zealand,2018,35,minutes_sustained,165.0
 New Zealand,2018,35,minutes_sustained,10.0
+Oman,2017,120,area,50430.4
+Pakistan,2008,200,area,165900.0
+Pakistan,2008,82000,area,32490.0
+Pakistan,2008,7000,moment_magnitude,6.4
+Pakistan,2010,60000,lowest_pressure,230.0
+Pakistan,2010,60000,lowest_pressure,964.0
+Pakistan,2011,300000,area,32667.0
+Pakistan,2011,0,moment_magnitude,7.2
+Pakistan,2013,205619,moment_magnitude,7.7
+Pakistan,2013,78000,moment_magnitude,7.7
+Pakistan,2014,466,area,253686.0
+Pakistan,2015,665812,moment_magnitude,7.5
 Pakistan,2017,628,mm_of_rain,130.0
 Pakistan,2018,805,mm_of_rain,250.0
+Panama,2014,200,area,22658.51
 Panama,2016,60,mm_of_rain,101.5
 Panama,2016,573,minutes_sustained,185.0
 Panama,2016,573,minutes_sustained,1.0
+Peru,2008,45000,area,456900.0
+Peru,2009,45825,area,135300.0
+Peru,2009,0,temperature,0.0
+Peru,2010,9000,area,305800.0
+Peru,2011,1705,moment_magnitude,6.9
+Peru,2012,13332,moment_magnitude,6.4
+Peru,2013,1302,moment_magnitude,7.0
 Peru,2014,421,vei,2.0
 Peru,2015,1209,temperature,-15.0
+Peru,2016,2149,moment_magnitude,6.3
 Peru,2018,41,mm_of_rain,200.0
+Peru,2018,3703,moment_magnitude,7.1
+Philippines,2008,205974,area,21800.0
+Philippines,2008,3530,max_wind_speed,150.0
+Philippines,2008,30000,area,21770.0
+Philippines,2008,54705,max_wind_speed,95.0
+Philippines,2009,80655,lowest_pressure,285.0
+Philippines,2009,80655,lowest_pressure,900.0
+Philippines,2009,200000,lowest_pressure,55.0
+Philippines,2009,200000,lowest_pressure,1000.0
+Philippines,2009,117220,lowest_pressure,55.0
+Philippines,2009,117220,lowest_pressure,1004.0
+Philippines,2009,115000,lowest_pressure,165.0
+Philippines,2009,115000,lowest_pressure,955.0
+Philippines,2009,54718,lowest_pressure,215.0
+Philippines,2009,54718,lowest_pressure,940.0
+Philippines,2009,41000,lowest_pressure,75.0
+Philippines,2009,41000,lowest_pressure,990.0
+Philippines,2009,19590,lowest_pressure,75.0
+Philippines,2009,19590,lowest_pressure,988.0
+Philippines,2009,34982,lowest_pressure,150.0
+Philippines,2009,34982,lowest_pressure,945.0
+Philippines,2009,7265,lowest_pressure,120.0
+Philippines,2009,7265,lowest_pressure,975.0
+Philippines,2009,1529,lowest_pressure,95.0
+Philippines,2009,1529,lowest_pressure,980.0
+Philippines,2009,0,lowest_pressure,120.0
+Philippines,2009,0,lowest_pressure,975.0
+Philippines,2009,561242,lowest_pressure,150.0
+Philippines,2009,561242,lowest_pressure,960.0
+Philippines,2009,500000,lowest_pressure,185.0
+Philippines,2009,500000,lowest_pressure,930.0
+Philippines,2009,0,lowest_pressure,55.0
+Philippines,2009,0,lowest_pressure,1002.0
+Philippines,2009,63021,lowest_pressure,75.0
+Philippines,2009,63021,lowest_pressure,994.0
+Philippines,2010,150240,lowest_pressure,230.0
+Philippines,2010,150240,lowest_pressure,885.0
+Philippines,2010,137445,lowest_pressure,130.0
+Philippines,2010,137445,lowest_pressure,970.0
+Philippines,2010,0,lowest_pressure,95.0
+Philippines,2010,0,lowest_pressure,985.0
+Philippines,2011,150952,lowest_pressure,95.0
+Philippines,2011,150952,lowest_pressure,985.0
+Philippines,2011,14000,lowest_pressure,175.0
+Philippines,2011,14000,lowest_pressure,930.0
+Philippines,2011,90535,lowest_pressure,75.0
+Philippines,2011,90535,lowest_pressure,992.0
+Philippines,2011,168000,lowest_pressure,150.0
+Philippines,2011,168000,lowest_pressure,950.0
+Philippines,2011,212655,lowest_pressure,110.0
+Philippines,2011,212655,lowest_pressure,975.0
 Philippines,2011,0,vei,4.0
+Philippines,2011,18403,lowest_pressure,65.0
+Philippines,2011,18403,lowest_pressure,1002.0
+Philippines,2011,441037,lowest_pressure,95.0
+Philippines,2011,441037,lowest_pressure,992.0
+Philippines,2011,0,lowest_pressure,75.0
+Philippines,2011,0,lowest_pressure,996.0
 Philippines,2011,225694,minutes_sustained,195.0
 Philippines,2011,225694,minutes_sustained,10.0
 Philippines,2011,0,minutes_sustained,75.0
 Philippines,2011,0,minutes_sustained,10.0
 Philippines,2011,227446,max_wind_speed,260.0
+Philippines,2011,143703,lowest_pressure,175.0
+Philippines,2011,143703,lowest_pressure,935.0
 Philippines,2012,187320,moment_magnitude,6.8
+Philippines,2013,9918,lowest_pressure,95.0
+Philippines,2013,9918,lowest_pressure,990.0
+Philippines,2013,220,lowest_pressure,95.0
+Philippines,2013,220,lowest_pressure,985.0
+Philippines,2013,1538878,lowest_pressure,110.0
+Philippines,2013,1538878,lowest_pressure,965.0
 Philippines,2013,64966,minutes_sustained,185.0
 Philippines,2013,64966,minutes_sustained,1.0
+Philippines,2013,405965,lowest_pressure,140.0
+Philippines,2013,405965,lowest_pressure,965.0
 Philippines,2013,4095280,minutes_sustained,315.0
 Philippines,2013,4095280,minutes_sustained,1.0
+Philippines,2013,129169,lowest_pressure,195.0
+Philippines,2013,129169,lowest_pressure,925.0
+Philippines,2013,348507,moment_magnitude,7.2
+Philippines,2013,7880,lowest_pressure,55.0
+Philippines,2013,7880,lowest_pressure,1002.0
 Philippines,2013,56172,minutes_sustained,250.0
 Philippines,2013,56172,minutes_sustained,1.0
+Philippines,2013,223134,lowest_pressure,65.0
+Philippines,2013,223134,lowest_pressure,1002.0
+Philippines,2014,400000,lowest_pressure,65.0
+Philippines,2014,400000,lowest_pressure,1002.0
+Philippines,2014,2994054,lowest_pressure,165.0
+Philippines,2014,2994054,lowest_pressure,935.0
 Philippines,2014,77431,minutes_sustained,140.0
 Philippines,2014,77431,minutes_sustained,1.0
+Philippines,2014,155671,lowest_pressure,75.0
+Philippines,2014,155671,lowest_pressure,996.0
+Philippines,2014,206368,lowest_pressure,85.0
+Philippines,2014,206368,lowest_pressure,985.0
+Philippines,2014,18131,lowest_pressure,65.0
+Philippines,2014,18131,lowest_pressure,1000.0
+Philippines,2014,1823176,lowest_pressure,215.0
+Philippines,2014,1823176,lowest_pressure,905.0
+Philippines,2014,6495,lowest_pressure,195.0
+Philippines,2014,6495,lowest_pressure,920.0
+Philippines,2015,742991,lowest_pressure,175.0
+Philippines,2015,742991,lowest_pressure,935.0
+Philippines,2015,3803,lowest_pressure,205.0
+Philippines,2015,3803,lowest_pressure,920.0
+Philippines,2015,45336,lowest_pressure,95.0
+Philippines,2015,45336,lowest_pressure,980.0
+Philippines,2015,18481,lowest_pressure,55.0
+Philippines,2015,18481,lowest_pressure,1002.0
+Philippines,2015,2761,lowest_pressure,195.0
+Philippines,2015,2761,lowest_pressure,910.0
+Philippines,2015,318359,lowest_pressure,185.0
+Philippines,2015,318359,lowest_pressure,930.0
+Philippines,2015,21561,lowest_pressure,155.0
+Philippines,2015,21561,lowest_pressure,950.0
+Philippines,2015,114591,lowest_pressure,110.0
+Philippines,2015,114591,lowest_pressure,975.0
+Philippines,2015,937725,lowest_pressure,185.0
+Philippines,2015,937725,lowest_pressure,925.0
+Philippines,2016,207832,lowest_pressure,175.0
+Philippines,2016,207832,lowest_pressure,935.0
+Philippines,2016,16684,lowest_pressure,220.0
+Philippines,2016,16684,lowest_pressure,890.0
+Philippines,2016,76554,lowest_pressure,95.0
+Philippines,2016,76554,lowest_pressure,992.0
+Philippines,2016,2376723,lowest_pressure,215.0
+Philippines,2016,2376723,lowest_pressure,900.0
+Philippines,2016,2555,lowest_pressure,155.0
+Philippines,2016,2555,lowest_pressure,945.0
+Philippines,2016,22246,lowest_pressure,205.0
+Philippines,2016,22246,lowest_pressure,900.0
+Philippines,2016,8427,lowest_pressure,110.0
+Philippines,2016,8427,lowest_pressure,975.0
+Philippines,2016,2592251,lowest_pressure,195.0
+Philippines,2016,2592251,lowest_pressure,915.0
+Philippines,2017,434504,lowest_pressure,130.0
+Philippines,2017,434504,lowest_pressure,970.0
+Philippines,2017,8000,area,10299.67
+Philippines,2017,15865,moment_magnitude,6.5
+Philippines,2017,29889,moment_magnitude,5.9
+Philippines,2017,2252,lowest_pressure,75.0
+Philippines,2017,2252,lowest_pressure,980.0
+Philippines,2017,763921,lowest_pressure,75.0
+Philippines,2017,763921,lowest_pressure,994.0
+Philippines,2017,6813,lowest_pressure,55.0
+Philippines,2017,6813,lowest_pressure,1009.0
+Philippines,2017,1849,lowest_pressure,150.0
+Philippines,2017,1849,lowest_pressure,960.0
+Philippines,2017,130384,lowest_pressure,185.0
+Philippines,2017,130384,lowest_pressure,915.0
+Philippines,2017,54735,moment_magnitude,6.7
+Philippines,2017,8201,lowest_pressure,100.0
+Philippines,2017,8201,lowest_pressure,985.0
+Philippines,2017,40966,lowest_pressure,150.0
+Philippines,2017,40966,lowest_pressure,955.0
+Philippines,2017,43071,lowest_pressure,55.0
+Philippines,2017,43071,lowest_pressure,1002.0
+Philippines,2017,6392,lowest_pressure,140.0
+Philippines,2017,6392,lowest_pressure,955.0
+Philippines,2018,1570804,lowest_pressure,205.0
+Philippines,2018,1570804,lowest_pressure,905.0
+Philippines,2018,438691,lowest_pressure,215.0
+Philippines,2018,438691,lowest_pressure,900.0
+Philippines,2018,902312,lowest_pressure,75.0
+Philippines,2018,902312,lowest_pressure,994.0
 Philippines,2018,4,moment_magnitude,6.5
+Philippines,2018,97688,lowest_pressure,55.0
+Philippines,2018,97688,lowest_pressure,1000.0
 Philippines,2018,32309,minutes_sustained,250.0
 Philippines,2018,32309,minutes_sustained,1.0
+Philippines,2018,148538,lowest_pressure,65.0
+Philippines,2018,148538,lowest_pressure,1000.0
+Philippines,2018,7746,lowest_pressure,55.0
+Philippines,2018,7746,lowest_pressure,996.0
+Philippines,2018,1548,lowest_pressure,110.0
+Philippines,2018,1548,lowest_pressure,970.0
+Philippines,2018,47089,lowest_pressure,65.0
+Philippines,2018,47089,lowest_pressure,1002.0
+Philippines,2018,183503,lowest_pressure,75.0
+Philippines,2018,183503,lowest_pressure,990.0
 Palau,2013,1500,minutes_sustained,315.0
 Palau,2013,1500,minutes_sustained,1.0
 Papua New Guinea,2013,20,distance_of_mass_movement,150.0
 Papua New Guinea,2014,225,vei,4.0
 Papua New Guinea,2017,887,vei,2.0
+Papua New Guinea,2018,58292,moment_magnitude,7.5
+Poland,2009,0,max_wind_speed,130.0
+Poland,2010,0,temperature,-35.0
 Puerto Rico,2017,186,max_wind_speed,285.0
+Puerto Rico,2017,86220,max_wind_speed,240.0
 "Korea, Dem. Rep.",2016,107000,minutes_sustained,220.0
 "Korea, Dem. Rep.",2016,107000,minutes_sustained,1.0
+Portugal,2010,0,area,483.0
+Portugal,2010,0,max_wind_speed,140.0
+Portugal,2017,6000,area,2240.0
+Portugal,2017,500,area,300.0
+Portugal,2018,61,max_wind_speed,176.0
+Paraguay,2008,60,max_wind_speed,80.0
+Paraguay,2009,0,area,163300.0
+Paraguay,2010,0,temperature,0.0
+Paraguay,2013,28000,area,131222.52
+Paraguay,2018,450,area,2924.11
+French Polynesia,2010,3500,max_wind_speed,260.0
+Romania,2009,0,temperature,-31.0
+Romania,2010,0,temperature,-34.0
+Romania,2016,1200,area,57182.5
+Romania,2018,300,area,24192.62
+Russian Federation,2014,22545,area,1829701.0
 Russian Federation,2016,1400,minutes_sustained,220.0
 Russian Federation,2016,1400,minutes_sustained,1.0
+Russian Federation,2016,2000,area,1834048.3
+Russia,2018,1506,area,172029.58
+Rwanda,2008,5000,area,11140.0
+Rwanda,2012,3225,area,43617.54
+Saudi Arabia,2009,10000,area,114600.0
+Saudi Arabia,2011,0,area,30361.0
+Saudi Arabia,2012,0,area,233126.0
+Saudi Arabia,2017,55,area,181054.82
+Sudan,2009,80000,area,59850.0
+Sudan,2013,283646,area,645399.78
+Senegal,2012,20000,area,79242.0
+Solomon Islands,2009,0,area,118000.0
+Solomon Islands,2010,2850,moment_magnitude,7.1
+Solomon Islands,2013,3500,moment_magnitude,8.0
+Solomon Islands,2014,9000,area,5480.75
 El Salvador,2009,15000,max_wind_speed,250.0
 El Salvador,2010,15508,max_wind_speed,75.0
+El Salvador,2018,2499,moment_magnitude,5.6
+Somalia,2008,12000,area,111900.0
+Somalia,2014,21000,area,42365.0
+Serbia,2010,1470,moment_magnitude,5.5
 Sint Maarten (Dutch part),2017,12706,max_wind_speed,285.0
 Turks and Caicos Islands,2016,50,max_wind_speed,270.0
 Turks and Caicos Islands,2017,60,max_wind_speed,285.0
+Chad,2008,10000,area,61820.0
+Chad,2010,70000,area,38021.0
+Togo,2008,2000,area,66960.0
+Thailand,2008,200000,area,15650.0
+Thailand,2009,68000,area,35580.0
+Thailand,2011,0,moment_magnitude,6.8
+Thailand,2012,3000,area,44011.0
+Thailand,2013,9828,area,38676.0
+Thailand,2016,57000,area,67395.39
+Thailand,2016,288,temperature,8.6
 Thailand,2018,6,max_wind_speed,285.0
+Tajikistan,2008,0,temperature,-15.0
+Tajikistan,2009,0,area,62470.0
+Tajikistan,2010,1134,moment_magnitude,5.3
+Tajikistan,2011,0,moment_magnitude,6.1
+Tajikistan,2012,6000,moment_magnitude,5.7
+Tajikistan,2015,1469,moment_magnitude,7.2
+Tajikistan,2016,30,moment_magnitude,5.4
+Timor-Leste,2015,11,moment_magnitude,6.3
+Tonga,2009,0,moment_magnitude,8.1
 Tonga,2011,0,minutes_sustained,185.0
 Tonga,2011,0,minutes_sustained,10.0
 Tonga,2018,5700,minutes_sustained,205.0
 Tonga,2018,5700,minutes_sustained,10.0
 Tunisia,2013,6,moment_magnitude,6.5
 Turkey,2014,478,moment_magnitude,6.0
+"Taiwan, China",2009,24950,max_wind_speed,148.0
+"Taiwan, China",2010,0,moment_magnitude,6.3
+"Taiwan, China",2013,10124,max_wind_speed,220.0
 "Taiwan, China",2013,3000,minutes_sustained,250.0
 "Taiwan, China",2013,3000,minutes_sustained,1.0
 "Taiwan, China",2014,5388,minutes_sustained,165.0
@@ -563,7 +842,12 @@ Turkey,2014,478,moment_magnitude,6.0
 "Taiwan, China",2017,1909,minutes_sustained,10.0
 "Taiwan, China",2018,3430,minutes_sustained,270.0
 "Taiwan, China",2018,3430,minutes_sustained,1.0
+"Taiwan, China",2018,830,moment_magnitude,6.4
+Tanzania,2016,1379,area,182022.09
+Tanzania,2016,10153,moment_magnitude,5.9
+Tanzania,2018,13923,area,37319.62
 Uganda,2016,1147,moment_magnitude,5.9
+Uruguay,2009,0,area,43490.0
 United States,2008,20000,max_wind_speed,200.0
 United States,2009,0,minutes_sustained,215.0
 United States,2009,0,minutes_sustained,1.0
@@ -574,10 +858,13 @@ United States,2011,27154,max_wind_speed,195.0
 United States,2014,191,minutes_sustained,285.0
 United States,2014,191,minutes_sustained,1.0
 United States,2014,39,moment_magnitude,6.0
+United States,2015,1461,max_wind_speed,130.0
 United States,2015,775,minutes_sustained,260.0
 United States,2015,775,minutes_sustained,1.0
 United States,2015,5374,max_wind_speed,345.0
 United States,2016,875000,max_wind_speed,270.0
+United States,2017,203700,area,1101.5
+United States,2017,848000,max_wind_speed,215.0
 United States,2017,201689,max_wind_speed,285.0
 Uzbekistan,2011,0,moment_magnitude,6.1
 St. Vincent and the Grenadines,2016,288,max_wind_speed,270.0
