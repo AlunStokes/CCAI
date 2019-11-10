@@ -6,6 +6,13 @@ import os
 from utilities import lin_interp, process_metrics
 import json
 
+def dict_with(dict_list, key, value):
+    new_list = []
+    for d in dict_list:
+        if d[key] == value:
+            new_list.append(d)
+    return new_list
+
 def has_non_empty(l, empty_char=''):
     for i in l:
         if i != empty_char:
@@ -86,6 +93,7 @@ def read_csv_events(input_path, output_dir):
                     data1 = {}
                     data1['country'] = row[1]
                     data1['year'] = int(row[2])
+                    data1['disaster'] = row[6]
                     data1['displaced'] = int(row[7]) if row[7] != '' else 0
                     data1['metric'] = row[8].replace(' ', '').split('/')[1]
                     data1['value'] = float(row[9].replace(',', '').split('/')[0])
@@ -93,6 +101,7 @@ def read_csv_events(input_path, output_dir):
                     data2 = {}
                     data2['country'] = row[1]
                     data2['year'] = int(row[2])
+                    data2['disaster'] = row[6]
                     data2['displaced'] = int(row[7]) if row[7] != '' else 0
                     data2['metric'] = row[8].replace(' ', '').split('/')[1]
                     data2['value'] = float(row[9].replace(',', '').split('/')[1])
@@ -107,6 +116,7 @@ def read_csv_events(input_path, output_dir):
                     data = {}
                     data['country'] = row[1]
                     data['year'] = int(row[2])
+                    data['disaster'] = row[6]
                     data['displaced'] = int(row[7]) if row[7] != '' else 0
                     data['metric'] = row[8].replace(' ', '')
                     data['value'] = float(row[9].replace(',', ''))
@@ -194,14 +204,45 @@ def normailize(X, country_data):
     new_X = []
     Y = []
 
+    disasters = {}
+    max_values = {}
+    for x in X:
+        if x['metric'] in disasters:
+            disasters[x['metric']].append(x['value'])
+        else:
+            disasters[x['metric']] = [x['value']]
+        for k in x.keys():
+            if k not in max_values:
+                max_values[k] = x[k]
+            else:
+                if max_values[k] < x[k]:
+                    max_values[k] = x[k]
+
+    max_disasters = {}
+    for d in disasters:
+        max_disasters[d] = np.max(np.absolute(disasters[d]))
+
     for x in X:
         x['haq'] /= 100
-        x['longitude'] /= 90
-        x['latitude'] /= 180
+        x['longitude'] /= 180
+        x['latitude'] /= 90
         x['gini'] /= 100
-        Y.append(x['displaced'] / country_data[x['country']]['pop'][x['year'] - 2008])
-        del x['displaced']
+        x['displaced'] /= country_data[x['country']]['pop'][x['year'] - 2008]
+        x['value'] /= max_disasters[x['metric']]
 
+
+        for k in x.keys():
+            if k in ['popdensity', 'pop', 'gdppercap']:
+                x[k] /= max_values[k]
+
+        #Y.append(x['displaced'] / country_data[x['country']]['pop'][x['year'] - 2008])
+        #e = np.floor(np.log10(x['displaced']))
+        #n = x['displaced'] / 10**e
+        Y.append(x['displaced'])
+        #Y.append(x['displaced'] / max_values['displaced'])
+        del x['displaced']
+        del x['year']
+        del x['disaster']
 
     return X, Y
 
@@ -234,6 +275,17 @@ if __name__ == '__main__':
             else:
                 countries = combine_dict(countries, read_csv_12_year(os.path.join(raw_dir, raw_file_name), processed_dir), name)
     events = add_country_data_to_events(events, countries)
+
+    #Check num disasters of each type
+    '''disasters = []
+    for e in events:
+        if e['disaster'] not in disasters:
+            disasters.append(e['disaster'])
+
+    for d in disasters:
+        print(d)
+        print(len(dict_with(events, 'disaster', d)))
+    exit()'''
 
     events, displaced = normailize(events, countries)
 
